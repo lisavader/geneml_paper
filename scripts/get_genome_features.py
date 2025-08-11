@@ -92,7 +92,7 @@ def main(gff_file, output):
         features = add_intergenic(features)
         features = add_introns(features)
     with open(output, 'w') as stream:
-        header = ["record","feature","start","end","strand","parent"]
+        header = ["record","feature","id","start","end","strand","parent"]
         stream.write('\t'.join(header)+'\n')
         for record, feature_list in features_by_record.items():
             for feature in feature_list:
