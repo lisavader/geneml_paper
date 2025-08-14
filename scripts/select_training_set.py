@@ -4,7 +4,6 @@ import statistics
 
 from collections import defaultdict
 from dataclasses import dataclass
-from ete3 import NCBITaxa
 
 
 @dataclass
@@ -107,16 +106,6 @@ def main(summary, boost_gc, stats, paths):
             genera.append(genus)
             for genome in best_genomes:
                 selected_genomes.append(genome)
-
-    phylum_counter = defaultdict(int)
-    for taxids in NCBITaxa().get_name_translator(genera).values():
-        lineage = NCBITaxa().get_rank(NCBITaxa().get_lineage(taxids[0]))
-        for taxid, rank in lineage.items():
-            if rank == "phylum":
-                phylum_counter[taxid] += 1
-                if taxid == 6040:
-                    print(taxids)
-    print(phylum_counter)
 
     if stats:
         with open(stats, "w", encoding="utf-8") as s:
