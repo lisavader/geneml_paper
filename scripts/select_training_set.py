@@ -38,6 +38,7 @@ class GenomeInfo:
             "genome" : "genomic.fna.gz",
             "gff" : "genomic.gff.gz",
             "protein" : "protein.faa.gz",
+            "rna" : "rna.fna.gz",
         }
         try:
             ext = file_extensions[file_type]
@@ -139,8 +140,8 @@ if __name__ == "__main__":
                         help="Output genome stats")
     parser.add_argument("--paths", type=str, nargs='?', default=None,
                         help="Output NCBI download paths")
-    parser.add_argument("--file_types", type=str, nargs='?', default="all",
+    parser.add_argument("--file_types", type=str, nargs='?', default="genome",
                         help="Which download paths to generate, comma separated. \
-                            Choose from 'genome', 'gff', 'protein', 'all'. (default: %(default)s)")
+                            Choose from 'genome', 'gff', 'protein', 'rna', 'all'. (default: %(default)s)")
     args = parser.parse_args()
     main(**vars(args))
