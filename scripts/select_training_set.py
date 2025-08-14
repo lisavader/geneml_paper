@@ -33,12 +33,18 @@ class GenomeInfo:
         split_id = "/".join([numbers[:3],numbers[3:6],numbers[6:9]])
         return "/".join(["https://ftp.ncbi.nlm.nih.gov/genomes/all", prefix, split_id, self.full_name])
 
-    def get_genome_path(self):
-        file_name = "_".join([self.full_name, "genomic.fna.gz"])
-        return "/".join([self.download_path, file_name])
+    def get_path(self, file_type):
+        file_extensions = {
+            "genome" : "genomic.fna.gz",
+            "gff" : "genomic.gff.gz",
+            "protein" : "protein.faa.gz",
+        }
+        try:
+            ext = file_extensions[file_type]
+        except KeyError:
+            raise ValueError(f"Unknown file type: {file_type}")
 
-    def get_gff_path(self):
-        file_name = "_".join([self.full_name, "genomic.gff.gz"])
+        file_name = "_".join([self.full_name, ext])
         return "/".join([self.download_path, file_name])
 
     def write_stats(self):
@@ -76,7 +82,7 @@ def select_best(genomes, boost_gc=False):
                 selected.append(genome)
     return selected
 
-def main(summary, boost_gc, stats, paths):
+def main(summary, boost_gc, stats, paths, file_types):
     genomes_by_genus = defaultdict(list)
     selected_genomes = []
     with open(summary, 'r') as stream_in:
@@ -116,8 +122,12 @@ def main(summary, boost_gc, stats, paths):
     if paths:
         with open(paths, "w", encoding="utf-8") as s:
             for genome in selected_genomes:
-                s.write(genome.get_genome_path()+"\n")
-                s.write(genome.get_gff_path()+"\n")
+                if file_types == "all":
+                    files = ["genome", "gff", "protein"]
+                else:
+                    files = file_types.split(',')
+                for file_type in files:
+                    s.write(genome.get_path(file_type)+"\n")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -128,6 +138,9 @@ if __name__ == "__main__":
     parser.add_argument("--stats", type=str, nargs='?', default=None,
                         help="Output genome stats")
     parser.add_argument("--paths", type=str, nargs='?', default=None,
-                        help="Output genome download paths")
+                        help="Output NCBI download paths")
+    parser.add_argument("--file_types", type=str, nargs='?', default="all",
+                        help="Which download paths to generate, comma separated. \
+                            Choose from 'genome', 'gff', 'protein', 'all'. (default: %(default)s)")
     args = parser.parse_args()
     main(**vars(args))
