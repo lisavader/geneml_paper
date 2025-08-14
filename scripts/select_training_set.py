@@ -35,10 +35,11 @@ class GenomeInfo:
 
     def get_path(self, file_type):
         file_extensions = {
+            "cds" : "cds_from_genomic.fna.gz",
             "genome" : "genomic.fna.gz",
             "gff" : "genomic.gff.gz",
             "protein" : "protein.faa.gz",
-            "rna" : "rna.fna.gz",
+            "rna" : "rna_from_genomic.fna.gz",
         }
         try:
             ext = file_extensions[file_type]
@@ -124,7 +125,7 @@ def main(summary, boost_gc, stats, paths, file_types):
         with open(paths, "w", encoding="utf-8") as s:
             for genome in selected_genomes:
                 if file_types == "all":
-                    files = ["genome", "gff", "protein"]
+                    files = ["cds", "genome", "gff", "protein", "rna"]
                 else:
                     files = file_types.split(',')
                 for file_type in files:
