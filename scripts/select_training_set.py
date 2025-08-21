@@ -84,13 +84,18 @@ def select_best(genomes, boost_gc=False):
                 selected.append(genome)
     return selected
 
-def main(summary, boost_gc, stats, paths, file_types):
+def main(summary, boost_gc, stats, paths, file_types, exclude_species):
     genomes_by_genus = defaultdict(list)
     selected_genomes = []
+    species_list = exclude_species.split(',')
     with open(summary, 'r') as stream_in:
         data = json.load(stream_in)
         for report in data["reports"]:
             accession = report["accession"]
+            species = report["organism"]["organism_name"]
+            if any(s in species for s in species_list):
+                print(f"Skipped {accession} of species {species}")
+                continue
             assembly_name = report["assembly_info"]["assembly_name"]
             assembly_name = assembly_name.replace(",","").replace(" ","_").replace("__","_")
             scaffold_n50 = report["assembly_stats"]["scaffold_n50"]
@@ -103,7 +108,7 @@ def main(summary, boost_gc, stats, paths, file_types):
             except KeyError:
                 warnings = []
             genome_stats = GenomeInfo(accession, assembly_name, int(scaffolds), int(scaffold_n50), int(genome_size), int(genes), float(gc_content), warnings)
-            genus = report["organism"]["organism_name"].split(" ")[0].strip("[]")
+            genus = species.split(" ")[0].strip("[]")
             genomes_by_genus[genus].append(genome_stats)
 
     genera = []
@@ -144,5 +149,7 @@ if __name__ == "__main__":
     parser.add_argument("--file_types", type=str, nargs='?', default="genome",
                         help="Which download paths to generate, comma separated. \
                             Choose from 'genome', 'gff', 'protein', 'rna', 'all'. (default: %(default)s)")
+    parser.add_argument("--exclude-species", type=str, nargs='?', default="",
+                        help="Species names to exclude from dataset, comma separated")
     args = parser.parse_args()
     main(**vars(args))
