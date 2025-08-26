@@ -13,9 +13,9 @@ def parse_gff3(filename):
             start, end = int(start), int(end)
             assert end >= start
 
-            feature_id = re.search("(?<=ID=).+?(?=;)", attributes).group(0)
+            feature_id = re.search("(?<=ID=).+?(?=;|$)", attributes).group(0)
             try:
-                parent = re.search("(?<=Parent=).+?(?=;)", attributes).group(0)
+                parent = re.search("(?<=Parent=).+?(?=;|$)", attributes).group(0)
             except AttributeError:
                 parent = None
 
