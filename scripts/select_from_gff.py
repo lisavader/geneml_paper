@@ -1,26 +1,17 @@
 import argparse
 import re
 
-FEATURE_ORDER = {
-        "gene" : 0,
-        "mRNA" : 1,
-        "CDS" : 2,
-    }
-
 def parse_gff3(filename):
-    features = []
+    lines_by_id = {}
     with open(filename, 'r') as stream:
         for line in stream:
             if line.startswith("#") or not line.strip():
                 continue
             record, source, feature, start, end, score, strand, phase, attributes = line.strip().split("\t")
-            if not feature in ["gene","mRNA","CDS"]:
+            if feature != "CDS":
                 continue
 
-            start, end = int(start), int(end)
-            assert end >= start
-
-            feature_id = re.search("(?<=ID=).+?(?=;|$)", attributes).group(0)
+            feature_id = re.search("(?<=ID=cds-).+?(?=;|$)", attributes).group(0)
             try:
                 parent = re.search("(?<=Parent=).+?(?=;|$)", attributes).group(0)
             except AttributeError:
