@@ -87,7 +87,9 @@ def select_best(genomes, boost_gc=False):
 def main(summary, boost_gc, stats, paths, file_types, exclude_species):
     genomes_by_genus = defaultdict(list)
     selected_genomes = []
-    species_list = exclude_species.split(',')
+    species_list = []
+    if exclude_species:
+        species_list = exclude_species.split(',')
     with open(summary, 'r') as stream_in:
         data = json.load(stream_in)
         for report in data["reports"]:
