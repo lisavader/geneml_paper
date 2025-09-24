@@ -150,7 +150,7 @@ if __name__ == "__main__":
                         help="Output NCBI download paths")
     parser.add_argument("--file_types", type=str, nargs='?', default="genome",
                         help="Which download paths to generate, comma separated. \
-                            Choose from 'genome', 'gff', 'protein', 'rna', 'all'. (default: %(default)s)")
+                            Choose from 'cds', 'genome', 'gff', 'protein', 'rna', 'all'. (default: %(default)s)")
     parser.add_argument("--exclude-species", type=str, nargs='?', default="",
                         help="Species names to exclude from dataset, comma separated")
     args = parser.parse_args()
