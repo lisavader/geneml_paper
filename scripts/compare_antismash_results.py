@@ -11,13 +11,21 @@ def get_overlapping(features1, features2):
     i = 0
     j = 0
     while i < len(features1) and j < len(features2):
-        overlaps = features1[i].overlaps_with(features2[j])
-        if overlaps:
-            if isinstance(features1[i], Protocluster) and features1[i].product == features2[j].product:
-                overlapping.extend([features1[i], features2[j]])
-            else:
-                overlapping.extend([features1[i], features2[j]])
-        if features1[i].end < features2[j].end:
+        f1 = features1[i]
+        f2 = features2[j]
+        overlaps = f1.overlaps_with(f2)
+        types = []
+        for f in (f1, f2):
+            if isinstance(f, PFAMDomain):
+                type = f.identifier
+            elif isinstance(f, Protocluster):
+                type = f.product
+            elif isinstance(f, CDSFeature):
+                type = f.gene_function
+            types.append(type)
+        if overlaps and types[0] == types[1]:
+            overlapping.extend([f1, f2])
+        if f1.end < f2.end:
             i += 1
         else:
             j += 1
