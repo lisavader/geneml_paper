@@ -1,41 +1,26 @@
 import argparse
 import gffutils
 
-FEATURE_ORDER = {"gene": 0, "mRNA": 1, "CDS": 2}
 
-def filter_features(gff_db):
-    filtered_features = []
-
-    transcripts = gff_db.features_of_type("mRNA")
-    for transcript in transcripts:
-        cds_list = list(gff_db.children(transcript, featuretype="CDS"))
-        if not cds_list:
-            gff_db.delete(transcript.id)
-            continue
-        filtered_features.extend(cds_list)
-
-        # update transcript coordinates
-        transcript.start = min(c.start for c in cds_list)
-        transcript.end   = max(c.end for c in cds_list)
-
-    genes = gff_db.features_of_type("gene")
-    for gene in genes:
-        gene_transcripts = list(gff_db.children(gene, featuretype="mRNA"))
-        if not gene_transcripts:
-            continue
-        filtered_features.extend(gene_transcripts)
-
-        # update gene coordinates
-        gene.start = min(t.start for t in gene_transcripts)
-        gene.end   = max(t.end for t in gene_transcripts)
-        filtered_features.append(gene)
-
-    return filtered_features
+def format_gff_feature(feature):
+    # Build a GFF3 line from a gffutils feature, preserving input format
+    attr_str = ";".join([f"{k}={','.join(v)}" for k, v in feature.attributes.items()])
+    fields = [
+        feature.seqid,
+        feature.source,
+        feature.featuretype,
+        str(feature.start),
+        str(feature.end),
+        str(feature.score) if feature.score is not None else '.',
+        feature.strand if feature.strand is not None else '.',
+        feature.frame if feature.frame is not None else '.',
+        attr_str
+    ]
+    return "\t".join(fields)
 
 
 def main(input, output, accession):
     gff_db = gffutils.create_db(input, dbfn=":memory:", merge_strategy="create_unique")
-    filtered_features = filter_features(gff_db)
 
     gff_header = [
         '##gff-version 3',
@@ -45,9 +30,34 @@ def main(input, output, accession):
     with open(output, "w", encoding="utf-8") as out_f:
         for line in gff_header:
             out_f.write(line + "\n")
-        for feature in sorted(filtered_features, key=lambda x: (
-            x.seqid, x.start, FEATURE_ORDER.get(x.featuretype, 99))):
-            out_f.write(str(feature) + "\n")
+
+        # Group by sequence_id, then for each gene: gene, mRNA, CDSes
+        genes = sorted(list(gff_db.features_of_type("gene")), key=lambda g: (g.seqid, g.start))
+        for gene in genes:
+            mrnas = sorted(list(gff_db.children(gene, featuretype="mRNA")), key=lambda m: m.start)
+            # Update gene coordinates to span only CDS regions
+            cds_starts = []
+            cds_ends = []
+            mrna_cdses_dict = {}
+            for mrna in mrnas:
+                cdses = sorted(list(gff_db.children(mrna, featuretype="CDS")), key=lambda c: c.start)
+                mrna_cdses_dict[mrna.id] = cdses
+                if cdses:
+                    cds_starts.extend([cds.start for cds in cdses])
+                    cds_ends.extend([cds.end for cds in cdses])
+            if cds_starts and cds_ends:
+                gene.start = min(cds_starts)
+                gene.end = max(cds_ends)
+            out_f.write(format_gff_feature(gene) + "\n")
+            for mrna in mrnas:
+                cdses = mrna_cdses_dict[mrna.id]
+                # Update mRNA coordinates to span only CDS regions
+                if cdses:
+                    mrna.start = min(cds.start for cds in cdses)
+                    mrna.end = max(cds.end for cds in cdses)
+                out_f.write(format_gff_feature(mrna) + "\n")
+                for cds in cdses:
+                    out_f.write(format_gff_feature(cds) + "\n")
 
 
 if __name__ == "__main__":
