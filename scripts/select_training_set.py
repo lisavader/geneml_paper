@@ -58,12 +58,10 @@ def remove_problematic(genomes, contig_n50_threshold):
     preselected = [genome for genome in genomes if not genome.warnings]
     if not preselected:
         return None
-    median_size = statistics.median([genome.genome_size for genome in preselected])
-    median_genes = statistics.median([genome.genes for genome in preselected])
     for genome in preselected:
+        genes_per_mb = genome.genes / (genome.genome_size / 1_000_000)
         if genome.contig_n50 >= contig_n50_threshold and \
-           2/3*median_size < genome.genome_size < (1+1/3)*median_size and \
-           2/3*median_genes < genome.genes < (1+1/3)*median_genes:
+            200 <= genes_per_mb <= 800:
             clean.append(genome)
     return clean
 
