@@ -12,8 +12,8 @@ class GenomeInfo:
     """
     accession: str
     assembly_name: str
-    scaffolds: int
-    scaffold_n50: int
+    contigs: int
+    contig_n50: int
     genome_size: int
     genes: int
     gc_content: float
@@ -53,7 +53,7 @@ class GenomeInfo:
         return "\t".join([str(value) for value in self.__dict__.values()])
 
 
-def remove_problematic(genomes):
+def remove_problematic(genomes, contig_n50_threshold):
     clean = []
     preselected = [genome for genome in genomes if not genome.warnings]
     if not preselected:
@@ -61,7 +61,7 @@ def remove_problematic(genomes):
     median_size = statistics.median([genome.genome_size for genome in preselected])
     median_genes = statistics.median([genome.genes for genome in preselected])
     for genome in preselected:
-        if genome.scaffold_n50 >= 100000 and \
+        if genome.contig_n50 >= contig_n50_threshold and \
            2/3*median_size < genome.genome_size < (1+1/3)*median_size and \
            2/3*median_genes < genome.genes < (1+1/3)*median_genes:
             clean.append(genome)
@@ -75,7 +75,7 @@ def select_best(genomes, boost_gc=False):
     upper_gc_boundary = 58
     gc_boosted_per_genus = 5
 
-    sorted_genomes = sorted(genomes, key=lambda g: (g.in_refseq(), g.scaffold_n50), reverse=True)
+    sorted_genomes = sorted(genomes, key=lambda g: (g.in_refseq(), g.contig_n50), reverse=True)
     selected = [sorted_genomes[0]]
     if boost_gc:
         for genome in sorted_genomes[1:]:
@@ -84,7 +84,7 @@ def select_best(genomes, boost_gc=False):
                 selected.append(genome)
     return selected
 
-def main(summary, boost_gc, stats, paths, file_types, exclude_species):
+def main(summary, boost_gc, stats, paths, file_types, exclude_species, contig_n50_threshold):
     genomes_by_genus = defaultdict(list)
     selected_genomes = []
     species_list = []
@@ -100,8 +100,8 @@ def main(summary, boost_gc, stats, paths, file_types, exclude_species):
                 continue
             assembly_name = report["assembly_info"]["assembly_name"]
             assembly_name = assembly_name.replace(",","").replace(" ","_").replace("__","_")
-            scaffold_n50 = report["assembly_stats"]["scaffold_n50"]
-            scaffolds = report["assembly_stats"]["number_of_scaffolds"]
+            contig_n50 = report["assembly_stats"]["contig_n50"]
+            contigs = report["assembly_stats"]["number_of_contigs"]
             genome_size = report["assembly_stats"]["total_sequence_length"]
             genes = report["annotation_info"]["stats"]["gene_counts"]["total"]
             gc_content = report["assembly_stats"]["gc_percent"]
@@ -109,13 +109,13 @@ def main(summary, boost_gc, stats, paths, file_types, exclude_species):
                 warnings = report["assembly_info"]["atypical"]["warnings"]
             except KeyError:
                 warnings = []
-            genome_stats = GenomeInfo(accession, assembly_name, int(scaffolds), int(scaffold_n50), int(genome_size), int(genes), float(gc_content), warnings)
+            genome_stats = GenomeInfo(accession, assembly_name, int(contigs), int(contig_n50), int(genome_size), int(genes), float(gc_content), warnings)
             genus = species.split(" ")[0].strip("[]")
             genomes_by_genus[genus].append(genome_stats)
 
     genera = []
     for genus, genomes in genomes_by_genus.items():
-        genomes = remove_problematic(genomes)
+        genomes = remove_problematic(genomes, contig_n50_threshold)
         best_genomes = select_best(genomes, boost_gc)
         if best_genomes:
             genera.append(genus)
@@ -124,7 +124,7 @@ def main(summary, boost_gc, stats, paths, file_types, exclude_species):
 
     if stats:
         with open(stats, "w", encoding="utf-8") as s:
-            s.write("\t".join(["accession", "assembly_name", "scaffolds", "scaffold_n50", "genome_size", "genes", "gc_content", "warnings"])+"\n")
+            s.write("\t".join(["accession", "assembly_name", "contigs", "contig_n50", "genome_size", "genes", "gc_content", "warnings"])+"\n")
             for genome in selected_genomes:
                 s.write(genome.write_stats()+"\n")
 
@@ -153,5 +153,7 @@ if __name__ == "__main__":
                             Choose from 'cds', 'genome', 'gff', 'protein', 'rna', 'all'. (default: %(default)s)")
     parser.add_argument("--exclude-species", type=str, nargs='?', default="",
                         help="Species names to exclude from dataset, comma separated")
+    parser.add_argument("--contig_n50_threshold", type=int, nargs='?', default=50000,
+                        help="Minimum contig N50 threshold in bp (default: %(default)s)")
     args = parser.parse_args()
     main(**vars(args))
