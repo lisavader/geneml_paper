@@ -11,6 +11,7 @@ class GenomeInfo:
     """ Basic genome statistics
     """
     accession: str
+    species: str
     assembly_name: str
     contigs: int
     contig_n50: int
@@ -50,7 +51,7 @@ class GenomeInfo:
         return "/".join([self.download_path, file_name])
 
     def write_stats(self):
-        return "\t".join([str(value) for value in self.__dict__.values()])
+        return "\t".join([str(value) for value in self.__dict__.values()][:-1]) # exclude warnings
 
 
 def remove_problematic(genomes, contig_n50_threshold):
@@ -107,8 +108,8 @@ def main(summary, boost_gc, stats, paths, file_types, exclude_species, contig_n5
                 warnings = report["assembly_info"]["atypical"]["warnings"]
             except KeyError:
                 warnings = []
-            genome_stats = GenomeInfo(accession, assembly_name, int(contigs), int(contig_n50), int(genome_size), int(genes), float(gc_content), warnings)
             genus = species.split(" ")[0].strip("[]")
+            genome_stats = GenomeInfo(accession, species, assembly_name, int(contigs), int(contig_n50), int(genome_size), int(genes), float(gc_content), warnings)
             genomes_by_genus[genus].append(genome_stats)
 
     genera = []
@@ -122,7 +123,7 @@ def main(summary, boost_gc, stats, paths, file_types, exclude_species, contig_n5
 
     if stats:
         with open(stats, "w", encoding="utf-8") as s:
-            s.write("\t".join(["accession", "assembly_name", "contigs", "contig_n50", "genome_size", "genes", "gc_content", "warnings"])+"\n")
+            s.write("\t".join(["accession", "species", "assembly_name", "contigs", "contig_n50", "genome_size", "genes", "gc_content"]) + "\n")
             for genome in selected_genomes:
                 s.write(genome.write_stats()+"\n")
 
