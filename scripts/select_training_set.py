@@ -103,7 +103,7 @@ def main(summary, boost_gc, stats, paths, file_types, exclude_species, contig_n5
             contigs = report["assembly_stats"]["number_of_contigs"]
             genome_size = report["assembly_stats"]["total_sequence_length"]
             genes = report["annotation_info"]["stats"]["gene_counts"]["total"]
-            gc_content = report["assembly_stats"]["gc_percent"]
+            gc_content = report["assembly_stats"].get("gc_percent", 0.0)
             try:
                 warnings = report["assembly_info"]["atypical"]["warnings"]
             except KeyError:
