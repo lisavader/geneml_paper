@@ -1,6 +1,6 @@
 import argparse
 import json
-import statistics
+import taxoniq
 
 from collections import defaultdict
 from dataclasses import dataclass
@@ -12,6 +12,7 @@ class GenomeInfo:
     """
     accession: str
     species: str
+    phylum: str
     assembly_name: str
     contigs: int
     contig_n50: int
@@ -53,6 +54,17 @@ class GenomeInfo:
     def write_stats(self):
         return "\t".join([str(value) for value in self.__dict__.values()][:-1]) # exclude warnings
 
+
+def get_phylum(taxid, genus):
+    try:
+        taxon = taxoniq.Taxon(tax_id=taxid)
+    except KeyError:
+        try:
+            taxon = taxoniq.Taxon(scientific_name=genus)
+        except KeyError:
+            return "Unknown"
+    lineage = {t.rank.name: t.scientific_name for t in taxon.ranked_lineage}
+    return lineage.get("phylum", "Unknown")
 
 def remove_problematic(genomes, contig_n50_threshold):
     clean = []
@@ -97,6 +109,9 @@ def main(summary, boost_gc, stats, paths, file_types, exclude_species, contig_n5
             if any(s in species for s in species_list):
                 print(f"Skipped {accession} of species {species}")
                 continue
+            genus = species.split(" ")[0].strip("[]")
+            taxid = report["organism"]["tax_id"]
+            phylum = get_phylum(taxid, genus)
             assembly_name = report["assembly_info"]["assembly_name"]
             assembly_name = assembly_name.replace(",","").replace(" ","_").replace("__","_")
             contig_n50 = report["assembly_stats"]["contig_n50"]
@@ -108,8 +123,7 @@ def main(summary, boost_gc, stats, paths, file_types, exclude_species, contig_n5
                 warnings = report["assembly_info"]["atypical"]["warnings"]
             except KeyError:
                 warnings = []
-            genus = species.split(" ")[0].strip("[]")
-            genome_stats = GenomeInfo(accession, species, assembly_name, int(contigs), int(contig_n50), int(genome_size), int(genes), float(gc_content), warnings)
+            genome_stats = GenomeInfo(accession, species, phylum, assembly_name, int(contigs), int(contig_n50), int(genome_size), int(genes), float(gc_content), warnings)
             genomes_by_genus[genus].append(genome_stats)
 
     genera = []
@@ -123,7 +137,7 @@ def main(summary, boost_gc, stats, paths, file_types, exclude_species, contig_n5
 
     if stats:
         with open(stats, "w", encoding="utf-8") as s:
-            s.write("\t".join(["accession", "species", "assembly_name", "contigs", "contig_n50", "genome_size", "genes", "gc_content"]) + "\n")
+            s.write("\t".join(["accession", "species", "phylum", "assembly_name", "contigs", "contig_n50", "genome_size", "genes", "gc_content"]) + "\n")
             for genome in selected_genomes:
                 s.write(genome.write_stats()+"\n")
 
