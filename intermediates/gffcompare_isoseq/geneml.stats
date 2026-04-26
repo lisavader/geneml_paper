@@ -1,0 +1,30 @@
+# gffcompare v0.12.10 | Command line was:
+#gffcompare -r isoseq_data/transcript_annotation_simplified.gff3 isoseq_data/PH-1_YL1_geneml.gff3 -T --no-exon-merge --strict-match -e 0
+#
+
+#= Summary for dataset: isoseq_data/PH-1_YL1_geneml.gff3
+#     Query mRNAs :   15586 in   12844 loci  (11587 multi-exon transcripts)
+#            (1981 multi-transcript loci, ~1.2 transcripts per locus)
+# Reference mRNAs :   26927 in   18120 loci  (15914 multi-exon)
+# Super-loci w/ reference transcripts:    12358
+#-----------------| Sensitivity | Precision  |
+        Base level:    90.8     |    97.4    |
+        Exon level:    61.7     |    84.1    |
+      Intron level:    82.5     |    89.8    |
+Intron chain level:    55.8     |    76.7    |
+  Transcript level:    41.2     |    71.1    |
+       Locus level:    60.7     |    85.6    |
+
+     Matching intron chains:    8887
+       Matching transcripts:   11086
+              Matching loci:   10996
+
+          Missed exons:    8646/51911   ( 16.7%)
+           Novel exons:    1650/38086   (  4.3%)
+        Missed introns:    3319/25063   ( 13.2%)
+         Novel introns:    1464/23028   (  6.4%)
+           Missed loci:    5687/18120   ( 31.4%)
+            Novel loci:     427/12844   (  3.3%)
+
+ Total union super-loci across all input datasets: 12785
+15586 out of 15586 consensus transcripts written in gffcmp.annotated.gtf (0 discarded as redundant)

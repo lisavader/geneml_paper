@@ -1,0 +1,303 @@
+INFO     15/04 14:25:08   Running geneML version 1.1.1.dev1+gb98a07696
+INFO     15/04 14:25:08   Command line: benchmarking_dataset/GCA_964035595.1/chromosomes.fna -o geneml_scores/GCA_964035595.1.gff3 --model models/benchmarking_final.keras --context-length 800 --cores 8 --cpu-only
+INFO     15/04 14:25:08   Parameters:
+[paths]
+  inpath = benchmarking_dataset/GCA_964035595.1/chromosomes.fna
+  outpath = geneml_scores/GCA_964035595.1.gff3
+  basepath = geneml_scores/GCA_964035595.1
+  contigs_filter = None
+
+[model]
+  model_path = models/benchmarking_final.keras
+  context_length = 800
+
+[gene_calling]
+  strand = both
+  max_transcripts = 5
+  allow_opposite_strand_overlaps = True
+  gene_candidates = 5000
+
+[thresholds]
+  dynamic_scoring = True
+  min_gene_score = 0.5
+  min_exon_size = 1
+  max_exon_size = 30000
+  min_intron_size = 10
+  max_intron_size = 400
+  cds_start_min_score = 0.01
+  cds_end_min_score = 0.01
+  exon_start_min_score = 0.01
+  exon_end_min_score = 0.01
+
+[outputs]
+  output_segs = False
+  output_genes = None
+  output_proteins = None
+  gene_id_prefix = None
+
+[runtime]
+  num_cores = 8
+  cpu_only = True
+
+[logging]
+  debug = False
+  verbose = False
+
+[internal_limits]
+  single_recurse_max_num_ops = 100000
+  recurse_region_max_num_ops = 200000
+
+INFO     15/04 14:25:09   Processing contig OZ037954.1 of size 1691408
+INFO     15/04 14:25:09   OZ037954.1 1/5: Running model on forward strand
+INFO     15/04 14:25:09   Processing contig OZ037953.1 of size 2218451
+INFO     15/04 14:25:09   OZ037953.1 1/5: Running model on forward strand
+INFO     15/04 14:25:09   Processing contig OZ037952.1 of size 2369608
+INFO     15/04 14:25:09   OZ037952.1 1/5: Running model on forward strand
+INFO     15/04 14:25:09   Processing contig OZ037951.1 of size 2381584
+INFO     15/04 14:25:09   OZ037951.1 1/5: Running model on forward strand
+INFO     15/04 14:25:09   Processing contig OZ037950.1 of size 2385127
+INFO     15/04 14:25:09   OZ037950.1 1/5: Running model on forward strand
+INFO     15/04 14:25:09   Processing contig OZ037947.1 of size 3114039
+INFO     15/04 14:25:09   OZ037947.1 1/5: Running model on forward strand
+INFO     15/04 14:25:09   Processing contig OZ037948.1 of size 3054357
+INFO     15/04 14:25:09   OZ037948.1 1/5: Running model on forward strand
+INFO     15/04 14:25:09   Processing contig OZ037949.1 of size 2405026
+INFO     15/04 14:25:09   OZ037949.1 1/5: Running model on forward strand
+INFO     15/04 14:25:25   OZ037954.1 2/5: Running model on reverse strand
+INFO     15/04 14:25:33   OZ037953.1 2/5: Running model on reverse strand
+INFO     15/04 14:25:33   OZ037952.1 2/5: Running model on reverse strand
+INFO     15/04 14:25:34   OZ037951.1 2/5: Running model on reverse strand
+INFO     15/04 14:25:34   OZ037949.1 2/5: Running model on reverse strand
+INFO     15/04 14:25:34   OZ037950.1 2/5: Running model on reverse strand
+INFO     15/04 14:25:41   OZ037948.1 2/5: Running model on reverse strand
+INFO     15/04 14:25:41   OZ037947.1 2/5: Running model on reverse strand
+INFO     15/04 14:25:43   OZ037954.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:25:55   OZ037953.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:25:55   OZ037952.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:25:56   OZ037951.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:25:56   OZ037949.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:25:56   OZ037950.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:26:02   OZ037948.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:26:02   OZ037947.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:26:52   num_ops exceeded (127347, 1.3s) for OZ037952.1 forward strand 33 69 2101:0:0.0 3395:2:0.0
+INFO     15/04 14:26:56   num_ops exceeded (118167, 3.2s) for OZ037949.1 forward strand 2285 2412 171112:0:0.0 177130:1:0.0
+INFO     15/04 14:27:00   num_ops exceeded (128107, 8.2s) for OZ037951.1 forward strand 229 317 16368:0:0.9 20088:3:0.0
+INFO     15/04 14:27:01   num_ops exceeded (108372, 9.2s) for OZ037953.1 forward strand 936 1043 52701:0:0.1 58769:2:0.0
+INFO     15/04 14:27:02   num_ops exceeded (107366, 4.3s) for OZ037952.1 forward strand 5713 5812 369303:0:0.9 372654:1:0.0
+INFO     15/04 14:27:05   num_ops exceeded (135793, 3.3s) for OZ037951.1 forward strand 3411 3475 233906:0:0.9 236791:2:0.3
+INFO     15/04 14:27:05   num_ops exceeded (178188, 3.5s) for OZ037949.1 forward strand 7738 7806 536530:0:0.9 538627:3:0.1
+INFO     15/04 14:27:07   num_ops exceeded (111712, 6.0s) for OZ037953.1 forward strand 1805 1896 97846:0:0.9 101665:3:0.0
+INFO     15/04 14:27:12   num_ops exceeded (108607, 5.3s) for OZ037951.1 forward strand 5091 5168 353267:0:0.9 356289:3:0.1
+INFO     15/04 14:27:17   num_ops exceeded (109150, 6.5s) for OZ037952.1 forward strand 8864 8921 599017:0:0.9 601655:2:0.0
+INFO     15/04 14:27:23   num_ops exceeded (102699, 8.9s) for OZ037954.1 forward strand 15457 15537 1008431:0:0.8 1012023:2:0.0
+INFO     15/04 14:27:23   num_ops exceeded (105580, 13.2s) for OZ037950.1 forward strand 8712 8810 596222:0:0.6 600561:0:0.9
+INFO     15/04 14:27:25   num_ops exceeded (116700, 14.6s) for OZ037953.1 forward strand 3172 3247 185560:0:0.0 190039:1:0.0
+INFO     15/04 14:27:36   num_ops exceeded (105526, 5.1s) for OZ037952.1 forward strand 11868 11949 801751:0:0.1 804484:1:0.1
+INFO     15/04 14:27:37   num_ops exceeded (164098, 15.3s) for OZ037951.1 forward strand 8692 8807 603402:0:0.8 608124:1:0.0
+INFO     15/04 14:27:39   num_ops exceeded (108644, 8.4s) for OZ037950.1 forward strand 13504 13582 911732:0:0.0 914921:1:0.0
+INFO     15/04 14:27:41   num_ops exceeded (195955, 35.4s) for OZ037947.1 forward strand 8577 8796 578514:0:0.7 586609:2:0.1
+INFO     15/04 14:27:41   num_ops exceeded (104440, 3.7s) for OZ037954.1 forward strand 22086 22146 1425165:0:0.8 1427217:1:0.0
+INFO     15/04 14:27:46   num_ops exceeded (118170, 3.1s) for OZ037954.1 forward strand 24703 24778 1598474:0:0.1 1601013:2:0.0
+INFO     15/04 14:27:46   num_ops exceeded (100549, 10.4s) for OZ037953.1 forward strand 9980 10063 535207:0:0.9 539463:1:0.0
+INFO     15/04 14:27:51   OZ037954.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:27:51   num_ops exceeded (186274, 41.7s) for OZ037949.1 forward strand 13227 13349 876353:0:0.0 884413:2:0.0
+INFO     15/04 14:27:54   num_ops exceeded (187488, 16.5s) for OZ037948.1 forward strand 19646 19705 1240962:0:0.0 1245205:1:0.0
+INFO     15/04 14:27:56   num_ops exceeded (103813, 4.7s) for OZ037949.1 forward strand 13565 13654 904963:0:0.6 907278:3:0.0
+INFO     15/04 14:28:01   num_ops exceeded (122187, 3.6s) for OZ037948.1 forward strand 21888 21948 1412542:0:0.6 1414531:1:0.0
+INFO     15/04 14:28:01   num_ops exceeded (120270, 9.4s) for OZ037953.1 forward strand 17214 17320 953576:0:0.9 958634:3:0.0
+INFO     15/04 14:28:02   num_ops exceeded (147032, 24.4s) for OZ037952.1 forward strand 12761 12890 865224:0:0.9 871854:2:0.0
+INFO     15/04 14:28:02   num_ops exceeded (130281, 5.9s) for OZ037950.1 forward strand 25567 25769 1772437:0:0.0 1775449:0:0.0
+INFO     15/04 14:28:04   num_ops exceeded (103254, 8.6s) for OZ037954.1 reverse strand 4325 4411 268164:0:0.0 273470:2:0.0
+INFO     15/04 14:28:06   num_ops exceeded (116261, 4.6s) for OZ037948.1 forward strand 22076 22173 1429052:0:0.8 1432551:3:0.0
+INFO     15/04 14:28:07   num_ops exceeded (135058, 10.7s) for OZ037949.1 forward strand 14013 14138 929533:0:0.3 935991:2:0.0
+INFO     15/04 14:28:07   num_ops exceeded (121848, 11.0s) for OZ037951.1 forward strand 13321 13403 928525:0:0.9 933432:2:0.0
+INFO     15/04 14:28:09   num_ops exceeded (107214, 4.7s) for OZ037947.1 forward strand 23900 23987 1641890:0:1.0 1645159:1:0.1
+INFO     15/04 14:28:13   num_ops exceeded (109618, 0.5s) for OZ037954.1 reverse strand 9677 9724 631375:0:0.0 632379:0:0.8
+INFO     15/04 14:28:16   num_ops exceeded (121121, 3.5s) for OZ037952.1 forward strand 19428 19526 1332093:0:0.7 1334609:0:1.0
+INFO     15/04 14:28:17   num_ops exceeded (134381, 7.8s) for OZ037951.1 forward strand 16117 16218 1130712:0:0.5 1134240:1:0.1
+INFO     15/04 14:28:21   num_ops exceeded (105824, 18.6s) for OZ037950.1 forward strand 26052 26151 1789946:0:0.0 1797304:3:0.0
+INFO     15/04 14:28:26   num_ops exceeded (165089, 20.0s) for OZ037953.1 forward strand 22093 22188 1296763:0:0.9 1304692:2:0.0
+INFO     15/04 14:28:27   num_ops exceeded (110371, 4.8s) for OZ037949.1 forward strand 24981 25089 1673010:0:0.7 1676687:2:0.0
+INFO     15/04 14:28:33   num_ops exceeded (116830, 7.8s) for OZ037951.1 forward strand 20150 20234 1427403:0:1.0 1431096:2:0.0
+INFO     15/04 14:28:35   num_ops exceeded (151026, 5.8s) for OZ037954.1 reverse strand 15627 15698 1037160:0:0.0 1039312:2:0.0
+INFO     15/04 14:28:38   num_ops exceeded (107556, 11.8s) for OZ037950.1 forward strand 34019 34143 2312251:0:0.8 2316454:1:0.0
+INFO     15/04 14:28:42   num_ops exceeded (140779, 24.7s) for OZ037947.1 forward strand 34146 34253 2349203:0:0.7 2354547:1:0.0
+INFO     15/04 14:28:45   num_ops exceeded (155910, 27.2s) for OZ037952.1 forward strand 21756 21832 1499931:0:0.0 1505561:0:0.1
+INFO     15/04 14:28:46   OZ037950.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:28:53   num_ops exceeded (172357, 17.8s) for OZ037954.1 reverse strand 15745 15854 1045299:0:0.9 1052038:2:0.0
+INFO     15/04 14:28:54   num_ops exceeded (132333, 8.5s) for OZ037949.1 forward strand 30202 30281 2024567:0:0.3 2028083:1:0.0
+INFO     15/04 14:28:54   num_ops exceeded (101852, 5.4s) for OZ037947.1 forward strand 38170 38253 2610185:0:0.6 2613943:1:0.0
+INFO     15/04 14:28:55   OZ037953.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:29:04   OZ037951.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:29:04   num_ops exceeded (157886, 15.6s) for OZ037952.1 forward strand 22567 22662 1561598:0:0.9 1567812:3:0.0
+INFO     15/04 14:29:08   num_ops exceeded (154984, 2.8s) for OZ037951.1 reverse strand 980 1062 63987:0:0.0 66341:2:0.0
+INFO     15/04 14:29:10   num_ops exceeded (155559, 9.6s) for OZ037947.1 forward strand 41352 41473 2825053:0:0.7 2829991:2:0.0
+INFO     15/04 14:29:13   OZ037949.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:29:16   num_ops exceeded (106257, 5.4s) for OZ037954.1 reverse strand 23830 23905 1560892:0:0.0 1564288:2:0.0
+INFO     15/04 14:29:17   num_ops exceeded (111313, 6.6s) for OZ037947.1 forward strand 43340 43425 2954254:0:0.9 2957508:0:0.0
+INFO     15/04 14:29:20   num_ops exceeded (196726, 7.0s) for OZ037948.1 forward strand 41533 41604 2788833:0:0.7 2791964:3:0.0
+INFO     15/04 14:29:20   num_ops exceeded (100482, 2.7s) for OZ037951.1 reverse strand 9102 9175 566906:0:0.9 569798:2:0.0
+INFO     15/04 14:29:23   num_ops exceeded (101476, 2.8s) for OZ037951.1 reverse strand 9202 9287 570938:0:1.0 573762:2:0.0
+INFO     15/04 14:29:27   OZ037952.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:29:28   num_ops exceeded (183260, 17.5s) for OZ037953.1 reverse strand 6714 6828 372608:0:0.0 377286:0:1.0
+INFO     15/04 14:29:30   num_ops exceeded (135464, 9.0s) for OZ037950.1 reverse strand 15692 15789 1040027:0:0.0 1043875:2:0.0
+INFO     15/04 14:29:31   OZ037947.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:29:37   num_ops exceeded (142817, 8.1s) for OZ037952.1 reverse strand 2607 2718 169776:0:0.0 176082:1:0.0
+INFO     15/04 14:29:37   OZ037954.1 5/5: Selecting best gene calls
+INFO     15/04 14:29:37   Finished processing contig OZ037954.1 in 269.03 seconds, 6287.02 bp/s
+INFO     15/04 14:29:38   Processing contig OZ037946.1 of size 3335697
+INFO     15/04 14:29:38   OZ037946.1 1/5: Running model on forward strand
+INFO     15/04 14:29:39   num_ops exceeded (108848, 8.0s) for OZ037951.1 reverse strand 12418 12499 782139:0:0.1 785538:3:0.0
+INFO     15/04 14:29:39   num_ops exceeded (116831, 6.7s) for OZ037953.1 reverse strand 11136 11192 655238:0:0.9 658420:2:0.0
+INFO     15/04 14:29:39   num_ops exceeded (101589, 6.8s) for OZ037947.1 reverse strand 1242 1358 83598:0:0.8 86774:3:0.0
+INFO     15/04 14:29:42   OZ037948.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:29:46   num_ops exceeded (131258, 10.9s) for OZ037950.1 reverse strand 19741 19881 1305235:0:0.1 1311340:1:0.0
+INFO     15/04 14:29:48   num_ops exceeded (158774, 16.4s) for OZ037949.1 reverse strand 16318 16401 1063438:0:0.2 1067805:2:0.0
+INFO     15/04 14:29:48   OZ037946.1 2/5: Running model on reverse strand
+INFO     15/04 14:29:53   num_ops exceeded (122383, 9.9s) for OZ037951.1 reverse strand 14924 14988 979641:0:0.9 983465:3:0.0
+INFO     15/04 14:29:58   num_ops exceeded (110597, 8.9s) for OZ037950.1 reverse strand 20573 20648 1360888:0:0.0 1365703:2:0.0
+INFO     15/04 14:30:00   OZ037946.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:30:05   num_ops exceeded (116067, 3.5s) for OZ037950.1 reverse strand 22895 22993 1531877:0:0.7 1533873:2:0.0
+INFO     15/04 14:30:06   num_ops exceeded (173162, 9.6s) for OZ037949.1 reverse strand 18715 18804 1232923:0:0.7 1235156:1:0.0
+INFO     15/04 14:30:16   num_ops exceeded (108864, 6.7s) for OZ037950.1 reverse strand 25102 25187 1694254:0:0.0 1698739:2:0.0
+INFO     15/04 14:30:18   num_ops exceeded (103735, 3.6s) for OZ037946.1 forward strand 10978 11045 716279:0:0.9 718484:3:0.0
+INFO     15/04 14:30:19   num_ops exceeded (101019, 12.2s) for OZ037953.1 reverse strand 23650 23745 1486089:0:0.9 1490455:2:0.0
+INFO     15/04 14:30:20   num_ops exceeded (115707, 23.7s) for OZ037952.1 reverse strand 15046 15130 1070972:0:0.0 1075455:1:0.0
+INFO     15/04 14:30:21   num_ops exceeded (113045, 32.0s) for OZ037947.1 reverse strand 3938 4055 257611:0:0.0 266136:2:0.0
+INFO     15/04 14:30:23   num_ops exceeded (126166, 3.3s) for OZ037946.1 forward strand 12012 12079 778805:0:0.9 780951:3:0.0
+INFO     15/04 14:30:31   num_ops exceeded (166018, 24.8s) for OZ037951.1 reverse strand 17901 17975 1178759:0:0.2 1183825:1:0.3
+INFO     15/04 14:30:33   num_ops exceeded (125609, 4.6s) for OZ037946.1 forward strand 13533 13615 869061:0:0.5 871110:2:0.0
+INFO     15/04 14:30:34   num_ops exceeded (129237, 13.2s) for OZ037952.1 reverse strand 15460 15626 1094657:0:0.8 1101587:3:0.0
+INFO     15/04 14:30:35   OZ037953.1 5/5: Selecting best gene calls
+INFO     15/04 14:30:35   Finished processing contig OZ037953.1 in 326.85 seconds, 6787.42 bp/s
+INFO     15/04 14:30:35   Processing contig OZ037945.1 of size 3807511
+INFO     15/04 14:30:35   OZ037945.1 1/5: Running model on forward strand
+INFO     15/04 14:30:39   num_ops exceeded (110985, 2.8s) for OZ037946.1 forward strand 14957 15027 962578:0:0.9 964519:0:0.1
+INFO     15/04 14:30:39   num_ops exceeded (110524, 10.3s) for OZ037948.1 reverse strand 22293 22369 1523607:0:0.8 1527419:2:0.0
+INFO     15/04 14:30:42   num_ops exceeded (124424, 18.8s) for OZ037950.1 reverse strand 26012 26087 1754547:0:0.0 1759919:3:0.0
+INFO     15/04 14:30:43   num_ops exceeded (116306, 12.7s) for OZ037949.1 reverse strand 23297 23422 1504264:0:0.3 1510694:0:0.0
+INFO     15/04 14:30:44   num_ops exceeded (142343, 4.9s) for OZ037946.1 forward strand 15071 15124 967208:0:0.9 969387:2:0.0
+INFO     15/04 14:30:45   num_ops exceeded (126290, 11.1s) for OZ037951.1 reverse strand 21127 21224 1419448:0:0.9 1424168:2:0.1
+INFO     15/04 14:30:49   num_ops exceeded (117234, 3.3s) for OZ037946.1 forward strand 16753 16819 1072656:0:0.9 1074890:1:0.0
+INFO     15/04 14:30:49   num_ops exceeded (134054, 16.8s) for OZ037947.1 reverse strand 8917 9042 608785:0:0.7 614855:2:0.0
+INFO     15/04 14:30:49   OZ037945.1 2/5: Running model on reverse strand
+INFO     15/04 14:30:56   num_ops exceeded (112836, 5.8s) for OZ037951.1 reverse strand 24041 24123 1621777:0:0.9 1624825:2:0.0
+INFO     15/04 14:30:58   num_ops exceeded (187757, 6.1s) for OZ037946.1 forward strand 19253 19341 1250394:0:0.9 1253402:2:0.1
+INFO     15/04 14:31:01   OZ037945.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:31:03   num_ops exceeded (127011, 6.4s) for OZ037949.1 reverse strand 29405 29495 1882926:0:0.1 1885284:2:0.0
+INFO     15/04 14:31:05   num_ops exceeded (201513, 3.4s) for OZ037945.1 forward strand 1113 1197 65415:0:0.6 67631:2:0.2
+INFO     15/04 14:31:05   recurse_region_max_num_ops reached 201513 3.3707175254821777 OZ037945.1 forward strand 1117 1197 65528:0:0.1 67631:2:0.2
+INFO     15/04 14:31:05   recurse_region_max_num_ops reached 201513 3.3709664344787598 OZ037945.1 forward strand 1120 1197 65579:0:0.0 67631:2:0.2
+INFO     15/04 14:31:05   recurse_region_max_num_ops reached 201513 3.3710784912109375 OZ037945.1 forward strand 1126 1197 65708:0:0.0 67631:2:0.2
+INFO     15/04 14:31:05   recurse_region_max_num_ops reached 201513 3.371147632598877 OZ037945.1 forward strand 1134 1197 65870:0:0.0 67631:2:0.2
+INFO     15/04 14:31:05   recurse_region_max_num_ops reached 201513 3.371206521987915 OZ037945.1 forward strand 1153 1197 66240:0:0.0 67631:2:0.2
+INFO     15/04 14:31:05   recurse_region_max_num_ops reached 201513 3.3712611198425293 OZ037945.1 forward strand 1170 1197 66766:0:0.0 67631:2:0.2
+INFO     15/04 14:31:05   recurse_region_max_num_ops reached 201513 3.3713154792785645 OZ037945.1 forward strand 1178 1197 66882:0:0.0 67631:2:0.2
+INFO     15/04 14:31:05   recurse_region_max_num_ops reached 201513 3.3713767528533936 OZ037945.1 forward strand 1179 1197 66902:0:0.0 67631:2:0.2
+INFO     15/04 14:31:05   recurse_region_max_num_ops reached 201513 3.371434211730957 OZ037945.1 forward strand 1182 1197 66964:0:0.0 67631:2:0.2
+INFO     15/04 14:31:05   OZ037950.1 5/5: Selecting best gene calls
+INFO     15/04 14:31:05   Finished processing contig OZ037950.1 in 356.95 seconds, 6681.92 bp/s
+INFO     15/04 14:31:06   Processing contig OZ037944.1 of size 4107596
+INFO     15/04 14:31:06   OZ037944.1 1/5: Running model on forward strand
+INFO     15/04 14:31:09   num_ops exceeded (119752, 4.9s) for OZ037952.1 reverse strand 26893 26948 1892250:0:0.9 1894812:2:0.0
+INFO     15/04 14:31:11   num_ops exceeded (107248, 12.0s) for OZ037947.1 reverse strand 14454 14554 967739:0:1.0 972875:0:0.9
+INFO     15/04 14:31:12   num_ops exceeded (103034, 7.2s) for OZ037946.1 forward strand 23473 23572 1588473:0:0.7 1593390:3:0.0
+INFO     15/04 14:31:17   num_ops exceeded (102905, 13.4s) for OZ037949.1 reverse strand 29610 29767 1893013:0:0.9 1897924:0:0.1
+INFO     15/04 14:31:18   num_ops exceeded (130672, 7.1s) for OZ037948.1 reverse strand 37778 37857 2526919:0:0.1 2530289:2:0.0
+INFO     15/04 14:31:19   num_ops exceeded (101056, 5.7s) for OZ037951.1 reverse strand 31962 32025 2188462:0:0.9 2191690:2:0.0
+INFO     15/04 14:31:21   num_ops exceeded (116578, 9.0s) for OZ037945.1 forward strand 3939 4058 257642:0:0.9 261250:2:0.0
+INFO     15/04 14:31:21   OZ037944.1 2/5: Running model on reverse strand
+INFO     15/04 14:31:24   num_ops exceeded (149622, 10.6s) for OZ037947.1 reverse strand 15351 15428 1021752:0:0.2 1025029:1:0.0
+INFO     15/04 14:31:24   num_ops exceeded (117697, 4.8s) for OZ037952.1 reverse strand 32126 32209 2238732:0:0.9 2241498:1:0.0
+INFO     15/04 14:31:31   OZ037952.1 5/5: Selecting best gene calls
+INFO     15/04 14:31:32   Finished processing contig OZ037952.1 in 383.26 seconds, 6182.75 bp/s
+INFO     15/04 14:31:34   OZ037951.1 5/5: Selecting best gene calls
+INFO     15/04 14:31:35   num_ops exceeded (104335, 8.3s) for OZ037946.1 forward strand 33712 33745 2362999:0:0.0 2364428:1:0.0
+INFO     15/04 14:31:35   Finished processing contig OZ037951.1 in 386.35 seconds, 6164.28 bp/s
+INFO     15/04 14:31:36   OZ037944.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:31:43   num_ops exceeded (110937, 3.9s) for OZ037944.1 forward strand 1252 1335 100482:0:0.9 102686:2:0.0
+INFO     15/04 14:31:43   num_ops exceeded (113544, 22.4s) for OZ037945.1 forward strand 4370 4493 290948:0:0.6 301067:1:0.0
+INFO     15/04 14:31:44   OZ037948.1 5/5: Selecting best gene calls
+INFO     15/04 14:31:45   Finished processing contig OZ037948.1 in 396.08 seconds, 7711.52 bp/s
+INFO     15/04 14:31:47   num_ops exceeded (127070, 17.6s) for OZ037949.1 reverse strand 34553 34629 2222047:0:0.0 2227878:2:0.0
+INFO     15/04 14:31:58   OZ037949.1 5/5: Selecting best gene calls
+INFO     15/04 14:31:58   Finished processing contig OZ037949.1 in 409.82 seconds, 5868.45 bp/s
+INFO     15/04 14:32:06   num_ops exceeded (125128, 13.3s) for OZ037946.1 forward strand 41724 41843 2946277:0:0.8 2953912:1:0.0
+INFO     15/04 14:32:14   num_ops exceeded (107925, 3.9s) for OZ037946.1 forward strand 44958 45067 3173763:0:0.7 3176829:0:0.0
+INFO     15/04 14:32:15   num_ops exceeded (129350, 27.8s) for OZ037947.1 reverse strand 22026 22152 1491763:0:0.8 1500371:2:0.0
+INFO     15/04 14:32:19   num_ops exceeded (131168, 5.0s) for OZ037945.1 forward strand 17513 17616 1266095:0:0.7 1268826:2:0.0
+INFO     15/04 14:32:24   OZ037946.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:32:25   num_ops exceeded (125139, 5.9s) for OZ037945.1 forward strand 17656 17731 1271058:0:0.9 1273774:2:0.0
+INFO     15/04 14:32:30   num_ops exceeded (106780, 4.1s) for OZ037946.1 reverse strand 1414 1499 97712:0:0.9 100722:3:0.0
+INFO     15/04 14:32:36   num_ops exceeded (127117, 5.1s) for OZ037944.1 forward strand 24407 24491 1818569:0:1.0 1821377:3:0.0
+INFO     15/04 14:32:44   num_ops exceeded (128870, 3.0s) for OZ037947.1 reverse strand 34353 34423 2382425:0:0.2 2384520:0:0.0
+INFO     15/04 14:32:44   num_ops exceeded (139580, 11.5s) for OZ037946.1 reverse strand 3380 3536 243182:0:0.2 249898:1:0.0
+INFO     15/04 14:32:52   num_ops exceeded (121613, 1.9s) for OZ037946.1 reverse strand 9436 9530 674628:0:0.7 677010:3:0.0
+INFO     15/04 14:32:52   num_ops exceeded (101350, 12.2s) for OZ037944.1 forward strand 27210 27323 2021767:0:0.9 2029342:1:0.0
+INFO     15/04 14:32:57   num_ops exceeded (119635, 10.5s) for OZ037947.1 reverse strand 35780 35940 2478037:0:0.9 2485107:3:0.0
+INFO     15/04 14:32:59   num_ops exceeded (113091, 5.1s) for OZ037946.1 reverse strand 10379 10484 731466:0:0.8 735550:2:0.0
+INFO     15/04 14:33:01   num_ops exceeded (108308, 1.6s) for OZ037946.1 reverse strand 12371 12411 885195:0:0.0 886101:0:0.8
+INFO     15/04 14:33:04   num_ops exceeded (104909, 4.0s) for OZ037947.1 reverse strand 39447 39508 2706022:0:0.0 2709192:2:0.0
+INFO     15/04 14:33:12   num_ops exceeded (142456, 3.7s) for OZ037947.1 reverse strand 42728 42793 2918812:0:0.9 2921772:2:0.0
+INFO     15/04 14:33:16   num_ops exceeded (111194, 9.9s) for OZ037944.1 forward strand 34532 34644 2577137:0:0.6 2584080:2:0.0
+INFO     15/04 14:33:18   num_ops exceeded (139455, 6.9s) for OZ037946.1 reverse strand 16454 16537 1182903:0:0.1 1186009:1:0.1
+INFO     15/04 14:33:19   num_ops exceeded (176861, 47.3s) for OZ037945.1 forward strand 21999 22193 1590060:0:0.9 1599621:1:0.0
+INFO     15/04 14:33:22   OZ037947.1 5/5: Selecting best gene calls
+INFO     15/04 14:33:22   Finished processing contig OZ037947.1 in 493.37 seconds, 6311.72 bp/s
+INFO     15/04 14:33:29   num_ops exceeded (127488, 5.9s) for OZ037944.1 forward strand 40250 40388 3004262:0:0.0 3008859:2:0.0
+INFO     15/04 14:33:31   num_ops exceeded (115670, 5.2s) for OZ037945.1 forward strand 27223 27302 1994257:0:0.1 1996909:2:0.0
+INFO     15/04 14:33:38   num_ops exceeded (126636, 3.5s) for OZ037945.1 forward strand 28484 28559 2090118:0:0.5 2092461:3:0.0
+INFO     15/04 14:33:45   num_ops exceeded (109102, 3.8s) for OZ037945.1 forward strand 31902 31973 2329224:0:0.8 2332446:1:0.0
+INFO     15/04 14:33:45   num_ops exceeded (105916, 20.7s) for OZ037946.1 reverse strand 20806 20884 1540284:0:0.1 1546543:1:0.0
+INFO     15/04 14:33:53   num_ops exceeded (112064, 7.1s) for OZ037946.1 reverse strand 21172 21276 1573775:0:0.0 1577646:1:0.0
+INFO     15/04 14:34:04   num_ops exceeded (154213, 33.8s) for OZ037944.1 forward strand 42106 42312 3129272:0:0.0 3139465:1:0.1
+INFO     15/04 14:34:17   num_ops exceeded (156242, 8.2s) for OZ037944.1 forward strand 46724 46831 3444939:0:0.1 3448689:1:0.1
+INFO     15/04 14:34:17   num_ops exceeded (128387, 1.7s) for OZ037946.1 reverse strand 30376 30482 2244838:0:0.9 2247200:0:0.1
+INFO     15/04 14:34:23   num_ops exceeded (119440, 3.6s) for OZ037946.1 reverse strand 32748 32800 2394613:0:0.0 2396441:1:0.2
+INFO     15/04 14:34:33   num_ops exceeded (105729, 14.6s) for OZ037944.1 forward strand 48586 48683 3581780:0:0.1 3585464:2:0.0
+INFO     15/04 14:34:34   num_ops exceeded (106084, 2.6s) for OZ037946.1 reverse strand 34319 34371 2500640:0:0.0 2502626:1:0.0
+INFO     15/04 14:34:36   num_ops exceeded (121005, 1.9s) for OZ037946.1 reverse strand 35014 35107 2546521:0:0.5 2549089:0:0.0
+INFO     15/04 14:34:41   num_ops exceeded (105777, 2.9s) for OZ037946.1 reverse strand 35860 35922 2598298:0:0.9 2600395:2:0.0
+INFO     15/04 14:34:42   num_ops exceeded (194856, 20.9s) for OZ037945.1 forward strand 47923 48075 3391916:0:0.6 3399003:2:0.0
+INFO     15/04 14:34:50   num_ops exceeded (105848, 2.9s) for OZ037946.1 reverse strand 39008 39112 2755337:0:0.1 2757424:3:0.0
+INFO     15/04 14:34:55   num_ops exceeded (128031, 15.3s) for OZ037944.1 forward strand 54947 55079 3993850:0:1.0 4002436:2:0.0
+INFO     15/04 14:35:01   OZ037945.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:35:02   num_ops exceeded (100667, 10.2s) for OZ037946.1 reverse strand 40329 40488 2841536:0:0.8 2849553:2:0.0
+INFO     15/04 14:35:08   num_ops exceeded (100476, 13.0s) for OZ037944.1 forward strand 55095 55249 4005996:0:0.9 4014472:3:0.0
+INFO     15/04 14:35:11   num_ops exceeded (104876, 8.3s) for OZ037945.1 reverse strand 1221 1313 89910:0:0.0 93980:3:0.0
+INFO     15/04 14:35:19   num_ops exceeded (110190, 5.4s) for OZ037946.1 reverse strand 45508 45565 3203294:0:0.2 3206077:2:0.0
+INFO     15/04 14:35:22   OZ037944.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:35:25   num_ops exceeded (102435, 2.9s) for OZ037945.1 reverse strand 8755 8817 579815:0:0.1 581726:1:0.0
+INFO     15/04 14:35:30   num_ops exceeded (157316, 4.9s) for OZ037945.1 reverse strand 9806 9879 640115:0:0.1 642513:2:0.0
+INFO     15/04 14:35:32   OZ037946.1 5/5: Selecting best gene calls
+INFO     15/04 14:35:32   Finished processing contig OZ037946.1 in 354.90 seconds, 9399.03 bp/s
+INFO     15/04 14:35:40   num_ops exceeded (189799, 9.0s) for OZ037944.1 reverse strand 9911 10002 615547:0:0.1 619197:3:0.0
+INFO     15/04 14:35:43   num_ops exceeded (100610, 4.4s) for OZ037945.1 reverse strand 17076 17135 1114583:0:0.0 1116933:2:0.0
+INFO     15/04 14:36:01   num_ops exceeded (166311, 15.4s) for OZ037944.1 reverse strand 12899 13065 831614:0:0.0 836615:0:0.0
+INFO     15/04 14:36:10   num_ops exceeded (107852, 2.7s) for OZ037945.1 reverse strand 27617 27699 1874433:0:0.1 1877382:0:0.8
+INFO     15/04 14:36:19   num_ops exceeded (137876, 5.5s) for OZ037945.1 reverse strand 31251 31337 2158011:0:0.0 2161241:1:0.0
+INFO     15/04 14:36:33   num_ops exceeded (106808, 9.9s) for OZ037945.1 reverse strand 33111 33177 2295773:0:0.8 2300232:1:0.0
+INFO     15/04 14:36:39   num_ops exceeded (134235, 26.2s) for OZ037944.1 reverse strand 19293 19464 1279752:0:0.9 1288436:1:0.0
+INFO     15/04 14:36:45   num_ops exceeded (131872, 6.0s) for OZ037944.1 reverse strand 19545 19626 1296003:0:0.0 1299581:2:0.0
+INFO     15/04 14:36:54   num_ops exceeded (104834, 6.4s) for OZ037945.1 reverse strand 38077 38165 2664700:0:0.1 2668349:2:0.0
+INFO     15/04 14:37:20   num_ops exceeded (104878, 2.9s) for OZ037945.1 reverse strand 52003 52106 3734499:0:0.1 3736796:2:0.0
+INFO     15/04 14:37:28   num_ops exceeded (179184, 43.0s) for OZ037944.1 reverse strand 19696 19858 1309328:0:0.8 1317547:3:0.0
+INFO     15/04 14:37:30   OZ037945.1 5/5: Selecting best gene calls
+INFO     15/04 14:37:31   Finished processing contig OZ037945.1 in 415.24 seconds, 9169.37 bp/s
+INFO     15/04 14:37:46   num_ops exceeded (170006, 14.1s) for OZ037944.1 reverse strand 22330 22495 1503751:0:0.2 1510993:2:0.0
+INFO     15/04 14:37:52   num_ops exceeded (116951, 5.6s) for OZ037944.1 reverse strand 23057 23169 1554927:0:0.8 1559093:1:0.0
+INFO     15/04 14:38:22   num_ops exceeded (122434, 21.5s) for OZ037944.1 reverse strand 28457 28608 1948359:0:1.0 1960290:2:0.0
+INFO     15/04 14:38:33   num_ops exceeded (123470, 11.4s) for OZ037944.1 reverse strand 28989 29110 1995260:0:0.9 2001476:0:0.1
+INFO     15/04 14:39:37   num_ops exceeded (139757, 23.0s) for OZ037944.1 reverse strand 47539 47644 3452105:0:0.1 3459035:1:0.0
+INFO     15/04 14:39:56   num_ops exceeded (112959, 7.1s) for OZ037944.1 reverse strand 53199 53291 3872962:0:0.8 3876424:0:0.0
+INFO     15/04 14:40:07   num_ops exceeded (162418, 5.0s) for OZ037944.1 reverse strand 55417 55490 4023920:0:0.2 4026310:0:0.7
+INFO     15/04 14:40:18   OZ037944.1 5/5: Selecting best gene calls
+INFO     15/04 14:40:19   Finished processing contig OZ037944.1 in 553.12 seconds, 7426.17 bp/s
+INFO     15/04 14:40:19   Finished processing all contigs
+INFO     15/04 14:40:19   Filtering gene calls by dynamic threshold
+INFO     15/04 14:40:19   Dynamic threshold calculated: 0.56 (based on 24738 gene loci)
+INFO     15/04 14:40:20   Total predicted transcripts: 16673
+INFO     15/04 14:40:20   Total predicted genes: 11786 (1.41 transcripts per gene)
+INFO     15/04 14:40:20   Average gene score: 0.847
+INFO     15/04 14:40:20   Writing gene predictions to geneml_scores/GCA_964035595.1.gff3
+INFO     15/04 14:40:21   Finished processing benchmarking_dataset/GCA_964035595.1/chromosomes.fna, 30.9MB, in 15.22 minutes

@@ -1,0 +1,2537 @@
+gene_id	transcript_id	pfam_ids	domain_annotation	domain_changes
+gene-EHP00_2075	rna-mrna.EHP00_2075	PF12762.14	Partial	None
+gene-EHP00_1966	rna-mrna.EHP00_1966	PF08538.17	Partial	None
+gene-EHP00_1967	rna-mrna.EHP00_1967		None	None
+gene-EHP00_2077	rna-mrna.EHP00_2077		None	None
+gene-EHP00_1970	rna-mrna.EHP00_1970		None	None
+gene-EHP00_1971	rna-mrna.EHP00_1971	PF00833.24	Partial	None
+gene-EHP00_2083	rna-mrna.EHP00_2083		None	None
+gene-EHP00_1978	rna-mrna.EHP00_1978	PF02223.24,PF02223.24	Partial	None
+gene-EHP00_1979	rna-mrna.EHP00_1979		None	None
+gene-EHP00_2005	rna-mrna.EHP00_2005	PF00227.32	Partial	None
+gene-EHP00_2027	rna-mrna.EHP00_2027	PF01248.32	Partial	None
+gene-EHP00_2030	rna-mrna.EHP00_2030	PF00827.23	Partial	None
+gene-EHP00_2034	rna-mrna.EHP00_2034	PF22628.3	Complete	None
+gene-EHP00_1886	rna-mrna.EHP00_1886	PF00077.26,PF00078.33,PF00665.33,PF17917.8,PF17919.8,PF17921.8	Complete	None
+gene-EHP00_1888	rna-mrna.EHP00_1888	PF00753.34,PF12706.14,PF16661.12,PF23023.2	Partial	None
+gene-EHP00_1889	rna-mrna.EHP00_1889	PF08238.19,PF08238.19,PF08238.19,PF08238.19,PF08238.19,PF08238.19,PF08238.19	Complete	None
+gene-EHP00_1890	rna-mrna.EHP00_1890	PF08772.17,PF17146.11	Complete	None
+gene-EHP00_1891	rna-mrna.EHP00_1891		None	None
+gene-EHP00_1892	rna-mrna.EHP00_1892		None	None
+gene-EHP00_1908	rna-mrna.EHP00_1908	PF05529.18,PF05529.18	Partial	None
+gene-EHP00_1909	rna-mrna.EHP00_1909	PF29084.1	Partial	None
+gene-EHP00_1910	rna-mrna.EHP00_1910		None	None
+gene-EHP00_1911	rna-mrna.EHP00_1911		None	None
+gene-EHP00_1912	rna-mrna.EHP00_1912	PF00078.33,PF00665.33,PF17917.8,PF17919.8	Complete	None
+gene-EHP00_1917	rna-mrna.EHP00_1917	PF19510.6	Partial	None
+gene-EHP00_1918	rna-mrna.EHP00_1918	PF00535.33,PF30648.1	Complete	None
+gene-EHP00_1919	rna-mrna.EHP00_1919	PF14384.13	Partial	None
+gene-EHP00_2728	rna-mrna.EHP00_2728	PF05182.19	Partial	None
+gene-EHP00_2138	rna-mrna.EHP00_2138		None	None
+gene-EHP00_2139	rna-mrna.EHP00_2139		None	None
+gene-EHP00_2140	rna-mrna.EHP00_2140		None	None
+gene-EHP00_2141	rna-mrna.EHP00_2141		None	None
+gene-EHP00_2142	rna-mrna.EHP00_2142		None	None
+gene-EHP00_2010	rna-mrna.EHP00_2010		None	None
+gene-EHP00_2747	rna-mrna.EHP00_2747	PF00004.36,PF00910.29,PF01057.24,PF05496.19,PF13173.13,PF13177.13,PF14532.13	Partial	None
+gene-EHP00_2143	rna-mrna.EHP00_2143		None	None
+gene-EHP00_1065	rna-mrna.EHP00_1065		None	None
+gene-EHP00_1064	rna-mrna.EHP00_1064	PF00643.30	Complete	None
+gene-EHP00_1063	rna-mrna.EHP00_1063	PF01217.27	Partial	None
+gene-EHP00_1062	rna-mrna.EHP00_1062	PF03947.25	Partial	None
+gene-EHP00_1061	rna-mrna.EHP00_1061		None	None
+gene-EHP00_1060	rna-mrna.EHP00_1060	PF00160.27	Partial	None
+gene-EHP00_1059	rna-mrna.EHP00_1059		None	None
+gene-EHP00_1058	rna-mrna.EHP00_1058		None	None
+gene-EHP00_1057	rna-mrna.EHP00_1057	PF09734.16	Partial	None
+gene-EHP00_1056	rna-mrna.EHP00_1056		None	None
+gene-EHP00_1055	rna-mrna.EHP00_1055		None	None
+gene-EHP00_1054	rna-mrna.EHP00_1054	PF08743.16	Complete	None
+gene-EHP00_1053	rna-mrna.EHP00_1053	PF01902.25,PF03054.23,PF28410.1	Partial	None
+gene-EHP00_1052	rna-mrna.EHP00_1052		None	None
+gene-EHP00_1051	rna-mrna.EHP00_1051	PF00479.29,PF02781.22	Partial	None
+gene-EHP00_1050	rna-mrna.EHP00_1050	PF04153.25	Partial	None
+gene-EHP00_1049	rna-mrna.EHP00_1049		None	None
+gene-EHP00_1048	rna-mrna.EHP00_1048	PF00227.32	Partial	None
+gene-EHP00_1047	rna-mrna.EHP00_1047	PF17007.12	Partial	None
+gene-EHP00_1046	rna-mrna.EHP00_1046	PF00004.36,PF07726.18,PF07728.21,PF07728.21,PF07728.21,PF20030.6	Complete	None
+gene-EHP00_2144	rna-mrna.EHP00_2144	PF00025.28,PF00071.29,PF01926.30,PF04670.19,PF08477.20	Partial	None
+gene-EHP00_1045	rna-mrna.EHP00_1045		None	None
+gene-EHP00_2126	rna-mrna.EHP00_2126		None	None
+gene-EHP00_1	rna-mrna.EHP00_1	PF00069.32,PF07714.24	Partial	None
+gene-EHP00_2	rna-mrna.EHP00_2	PF00004.36,PF07724.21,PF07728.21,PF16450.12,PF17862.8	Complete	None
+gene-EHP00_3	rna-mrna.EHP00_3	PF01813.23	Partial	None
+gene-EHP00_4	rna-mrna.EHP00_4	PF00069.32,PF03109.23,PF07714.24	Partial	None
+gene-EHP00_5	rna-mrna.EHP00_5	PF00276.26	Partial	None
+gene-EHP00_6	rna-mrna.EHP00_6	PF00448.29	Partial	None
+gene-EHP00_7	rna-mrna.EHP00_7		None	None
+gene-EHP00_8	rna-mrna.EHP00_8	PF00808.30	Complete	None
+gene-EHP00_9	rna-mrna.EHP00_9	PF00118.30	Partial	None
+gene-EHP00_10	rna-mrna.EHP00_10		None	None
+gene-EHP00_11	rna-mrna.EHP00_11	PF00400.39,PF00400.39	Complete	None
+gene-EHP00_12	rna-mrna.EHP00_12	PF05158.19	Partial	None
+gene-EHP00_13	rna-mrna.EHP00_13		None	None
+gene-EHP00_14	rna-mrna.EHP00_14		None	None
+gene-EHP00_15	rna-mrna.EHP00_15	PF01399.34,PF10602.16	Complete	None
+gene-EHP00_16	rna-mrna.EHP00_16	PF01300.25,PF03481.20	Partial	None
+gene-EHP00_17	rna-mrna.EHP00_17	PF30332.1	Partial	None
+gene-EHP00_18	rna-mrna.EHP00_18	PF01553.27	Partial	None
+gene-EHP00_19	rna-mrna.EHP00_19		None	None
+gene-EHP00_20	rna-mrna.EHP00_20		None	None
+gene-EHP00_21	rna-mrna.EHP00_21	PF05495.18	Complete	None
+gene-EHP00_22	rna-mrna.EHP00_22	PF05127.22,PF08351.19,PF13718.13,PF13718.13	Complete	None
+gene-EHP00_23	rna-mrna.EHP00_23	PF04042.22,PF22062.3	Partial	None
+gene-EHP00_24	rna-mrna.EHP00_24	PF00557.30	Partial	None
+gene-EHP00_25	rna-mrna.EHP00_25	PF00225.30,PF16796.12	Partial	None
+gene-EHP00_2145	rna-mrna.EHP00_2145		None	None
+gene-EHP00_26	rna-mrna.EHP00_26		None	None
+gene-EHP00_27	rna-mrna.EHP00_27	PF00719.25	Partial	None
+gene-EHP00_28	rna-mrna.EHP00_28		None	None
+gene-EHP00_29	rna-mrna.EHP00_29		None	None
+gene-EHP00_30	rna-mrna.EHP00_30		None	None
+gene-EHP00_31	rna-mrna.EHP00_31	PF00025.28,PF00071.29,PF08477.20	Partial	None
+gene-EHP00_32	rna-mrna.EHP00_32	PF00241.26	Partial	None
+gene-EHP00_33	rna-mrna.EHP00_33		None	None
+gene-EHP00_34	rna-mrna.EHP00_34	PF03291.23,PF08241.19,PF08242.19,PF13489.13,PF13649.13,PF13847.13	Partial	None
+gene-EHP00_2095	rna-mrna.EHP00_2095	PF00164.32	Partial	None
+gene-EHP00_35	rna-mrna.EHP00_35		None	None
+gene-EHP00_36	rna-mrna.EHP00_36	PF13519.13	Partial	None
+gene-EHP00_37	rna-mrna.EHP00_37		None	None
+gene-EHP00_38	rna-mrna.EHP00_38		None	None
+gene-EHP00_39	rna-mrna.EHP00_39		None	None
+gene-EHP00_40	rna-mrna.EHP00_40	PF03167.26	Partial	None
+gene-EHP00_2098	rna-mrna.EHP00_2098	PF03219.21	Partial	None
+gene-EHP00_42	rna-mrna.EHP00_42	PF02366.25,PF02815.26,PF16192.11	Complete	None
+gene-EHP00_43	rna-mrna.EHP00_43		None	None
+gene-EHP00_44	rna-mrna.EHP00_44		None	None
+gene-EHP00_45	rna-mrna.EHP00_45	PF00227.32	Partial	None
+gene-EHP00_46	rna-mrna.EHP00_46		None	None
+gene-EHP00_47	rna-mrna.EHP00_47		None	None
+gene-EHP00_48	rna-mrna.EHP00_48	PF01336.32,PF04057.19,PF08646.17,PF16900.12	Complete	None
+gene-EHP00_49	rna-mrna.EHP00_49		None	None
+gene-EHP00_50	rna-mrna.EHP00_50	PF00118.30	Partial	None
+gene-EHP00_51	rna-mrna.EHP00_51		None	None
+gene-EHP00_52	rna-mrna.EHP00_52		None	None
+gene-EHP00_53	rna-mrna.EHP00_53		None	None
+gene-EHP00_54	rna-mrna.EHP00_54	PF05236.21	Partial	None
+gene-EHP00_55	rna-mrna.EHP00_55		None	None
+gene-EHP00_56	rna-mrna.EHP00_56	PF00005.34	Complete	None
+gene-EHP00_57	rna-mrna.EHP00_57	PF00005.34	Complete	None
+gene-EHP00_58	rna-mrna.EHP00_58		None	None
+gene-EHP00_59	rna-mrna.EHP00_59		None	None
+gene-EHP00_2146	rna-mrna.EHP00_2146		None	None
+gene-EHP00_60	rna-mrna.EHP00_60		None	None
+gene-EHP00_61	rna-mrna.EHP00_61	PF01704.25	Partial	None
+gene-EHP00_62	rna-mrna.EHP00_62	PF01602.27	Partial	None
+gene-EHP00_63	rna-mrna.EHP00_63	PF00753.34,PF07521.18,PF10996.15,PF11718.14,PF12706.14,PF16661.12,PF23023.2	Complete	None
+gene-EHP00_64	rna-mrna.EHP00_64		None	None
+gene-EHP00_65	rna-mrna.EHP00_65		None	None
+gene-EHP00_66	rna-mrna.EHP00_66	PF12348.15	Partial	None
+gene-EHP00_67	rna-mrna.EHP00_67		None	None
+gene-EHP00_68	rna-mrna.EHP00_68		None	None
+gene-EHP00_69	rna-mrna.EHP00_69		None	None
+gene-EHP00_70	rna-mrna.EHP00_70	PF03657.21,PF17833.8	Partial	None
+gene-EHP00_71	rna-mrna.EHP00_71	PF00828.26	Partial	None
+gene-EHP00_72	rna-mrna.EHP00_72	PF09133.16	Partial	None
+gene-EHP00_73	rna-mrna.EHP00_73		None	None
+gene-EHP00_74	rna-mrna.EHP00_74	PF00488.28,PF01624.26,PF05192.24	Complete	None
+gene-EHP00_75	rna-mrna.EHP00_75		None	None
+gene-EHP00_76	rna-mrna.EHP00_76	PF16661.12	Partial	None
+gene-EHP00_77	rna-mrna.EHP00_77		None	None
+gene-EHP00_78	rna-mrna.EHP00_78		None	None
+gene-EHP00_79	rna-mrna.EHP00_79		None	None
+gene-EHP00_80	rna-mrna.EHP00_80		None	None
+gene-EHP00_81	rna-mrna.EHP00_81	PF00179.32	Partial	None
+gene-EHP00_82	rna-mrna.EHP00_82		None	None
+gene-EHP00_83	rna-mrna.EHP00_83	PF13238.13	Partial	None
+gene-EHP00_84	rna-mrna.EHP00_84		None	None
+gene-EHP00_85	rna-mrna.EHP00_85	PF01266.31,PF16901.11	Complete	None
+gene-EHP00_86	rna-mrna.EHP00_86		None	None
+gene-EHP00_87	rna-mrna.EHP00_87		None	None
+gene-EHP00_88	rna-mrna.EHP00_88		None	None
+gene-EHP00_89	rna-mrna.EHP00_89	PF00439.31,PF12157.14,PF15288.12	Complete	None
+gene-EHP00_90	rna-mrna.EHP00_90		None	None
+gene-EHP00_91	rna-mrna.EHP00_91		None	None
+gene-EHP00_92	rna-mrna.EHP00_92		None	None
+gene-EHP00_93	rna-mrna.EHP00_93	PF03801.20	Partial	None
+gene-EHP00_94	rna-mrna.EHP00_94	PF01269.24	Partial	None
+gene-EHP00_95	rna-mrna.EHP00_95	PF03604.20	Partial	None
+gene-EHP00_96	rna-mrna.EHP00_96	PF01778.23,PF04874.20	Partial	None
+gene-EHP00_97	rna-mrna.EHP00_97	PF02005.23	Partial	None
+gene-EHP00_98	rna-mrna.EHP00_98		None	None
+gene-EHP00_99	rna-mrna.EHP00_99	PF00566.26	Partial	None
+gene-EHP00_100	rna-mrna.EHP00_100	PF00076.29,PF00076.29,PF00076.29,PF00076.29	Complete	None
+gene-EHP00_101	rna-mrna.EHP00_101		None	None
+gene-EHP00_102	rna-mrna.EHP00_102		None	None
+gene-EHP00_103	rna-mrna.EHP00_103		None	None
+gene-EHP00_104	rna-mrna.EHP00_104		None	None
+gene-EHP00_105	rna-mrna.EHP00_105	PF00006.32,PF02874.30,PF22919.2	Complete	None
+gene-EHP00_106	rna-mrna.EHP00_106	PF13177.13,PF22534.3	Complete	None
+gene-EHP00_107	rna-mrna.EHP00_107		None	None
+gene-EHP00_108	rna-mrna.EHP00_108		None	None
+gene-EHP00_109	rna-mrna.EHP00_109		None	None
+gene-EHP00_110	rna-mrna.EHP00_110		None	None
+gene-EHP00_111	rna-mrna.EHP00_111	PF02969.24,PF07571.20	Partial	None
+gene-EHP00_112	rna-mrna.EHP00_112	PF10256.15	Partial	None
+gene-EHP00_113	rna-mrna.EHP00_113	PF01189.24	Partial	None
+gene-EHP00_114	rna-mrna.EHP00_114		None	None
+gene-EHP00_115	rna-mrna.EHP00_115	PF05181.19	Partial	None
+gene-EHP00_116	rna-mrna.EHP00_116	PF03152.22,PF24842.2	Partial	None
+gene-EHP00_2147	rna-mrna.EHP00_2147	PF16854.12	Partial	None
+gene-EHP00_117	rna-mrna.EHP00_117		None	None
+gene-EHP00_118	rna-mrna.EHP00_118	PF01214.24	Partial	None
+gene-EHP00_119	rna-mrna.EHP00_119	PF00136.27,PF03104.26,PF22634.2	Complete	None
+gene-EHP00_2148	rna-mrna.EHP00_2148		None	None
+gene-EHP00_2149	rna-mrna.EHP00_2149		None	None
+gene-EHP00_120	rna-mrna.EHP00_120		None	None
+gene-EHP00_121	rna-mrna.EHP00_121		None	None
+gene-EHP00_122	rna-mrna.EHP00_122		None	None
+gene-EHP00_123	rna-mrna.EHP00_123	PF01553.27	Partial	None
+gene-EHP00_2150	rna-mrna.EHP00_2150		None	None
+gene-EHP00_124	rna-mrna.EHP00_124	PF01553.27	Partial	None
+gene-EHP00_125	rna-mrna.EHP00_125		None	None
+gene-EHP00_126	rna-mrna.EHP00_126	PF01207.24	Partial	None
+gene-EHP00_127	rna-mrna.EHP00_127		None	None
+gene-EHP00_128	rna-mrna.EHP00_128		None	None
+gene-EHP00_129	rna-mrna.EHP00_129	PF03031.25	Partial	None
+gene-EHP00_2151	rna-mrna.EHP00_2151		None	None
+gene-EHP00_2152	rna-mrna.EHP00_2152		None	None
+gene-EHP00_130	rna-mrna.EHP00_130	PF06733.22,PF06777.18,PF13307.13	Complete	None
+gene-EHP00_2096	rna-mrna.EHP00_2096	PF00935.26	Partial	None
+gene-EHP00_131	rna-mrna.EHP00_131		None	None
+gene-EHP00_132	rna-mrna.EHP00_132	PF01529.26	Partial	None
+gene-EHP00_133	rna-mrna.EHP00_133		None	None
+gene-EHP00_134	rna-mrna.EHP00_134		None	None
+gene-EHP00_135	rna-mrna.EHP00_135	PF00899.28	Partial	None
+gene-EHP00_136	rna-mrna.EHP00_136	PF00176.30,PF00270.36,PF00271.38,PF04851.22	Complete	None
+gene-EHP00_137	rna-mrna.EHP00_137	PF03834.22	Partial	None
+gene-EHP00_138	rna-mrna.EHP00_138	PF21266.4	Partial	None
+gene-EHP00_139	rna-mrna.EHP00_139	PF00753.34,PF07521.18,PF10996.15,PF12706.14,PF16661.12,PF23023.2	Complete	None
+gene-EHP00_140	rna-mrna.EHP00_140	PF00924.25	Complete	None
+gene-EHP00_141	rna-mrna.EHP00_141		None	None
+gene-EHP00_142	rna-mrna.EHP00_142		None	None
+gene-EHP00_143	rna-mrna.EHP00_143		None	None
+gene-EHP00_144	rna-mrna.EHP00_144	PF07690.22,PF07690.22	Partial	None
+gene-EHP00_145	rna-mrna.EHP00_145	PF00004.36,PF07728.21,PF16450.12,PF17862.8	Complete	None
+gene-EHP00_146	rna-mrna.EHP00_146	PF00439.31,PF00583.32	Complete	None
+gene-EHP00_147	rna-mrna.EHP00_147	PF00227.32	Partial	None
+gene-EHP00_148	rna-mrna.EHP00_148		None	None
+gene-EHP00_149	rna-mrna.EHP00_149		None	None
+gene-EHP00_150	rna-mrna.EHP00_150		None	None
+gene-EHP00_151	rna-mrna.EHP00_151	PF00096.33,PF00096.33	Complete	None
+gene-EHP00_1968	rna-mrna.EHP00_1968	PF00750.26	Partial	None
+gene-EHP00_2153	rna-mrna.EHP00_2153	PF00750.26	Partial	None
+gene-EHP00_428	rna-mrna.EHP00_428		None	None
+gene-EHP00_427	rna-mrna.EHP00_427		None	None
+gene-EHP00_426	rna-mrna.EHP00_426		None	None
+gene-EHP00_424	rna-mrna.EHP00_424		None	None
+gene-EHP00_425	rna-mrna.EHP00_425		None	None
+gene-EHP00_2154	rna-mrna.EHP00_2154		None	None
+gene-EHP00_2155	rna-mrna.EHP00_2155		None	None
+gene-EHP00_1015	rna-mrna.EHP00_1015		None	None
+gene-EHP00_1016	rna-mrna.EHP00_1016		None	None
+gene-EHP00_1017	rna-mrna.EHP00_1017		None	None
+gene-EHP00_1018	rna-mrna.EHP00_1018		None	None
+gene-EHP00_1019	rna-mrna.EHP00_1019	PF01198.25	Partial	None
+gene-EHP00_1020	rna-mrna.EHP00_1020		None	None
+gene-EHP00_1021	rna-mrna.EHP00_1021		None	None
+gene-EHP00_1022	rna-mrna.EHP00_1022		None	None
+gene-EHP00_2156	rna-mrna.EHP00_2156		None	None
+gene-EHP00_1023	rna-mrna.EHP00_1023		None	None
+gene-EHP00_1024	rna-mrna.EHP00_1024		None	None
+gene-EHP00_1025	rna-mrna.EHP00_1025	PF00583.32,PF13508.14,PF13673.14	Partial	None
+gene-EHP00_1026	rna-mrna.EHP00_1026		None	None
+gene-EHP00_1027	rna-mrna.EHP00_1027	PF00447.24	Partial	None
+gene-EHP00_1028	rna-mrna.EHP00_1028		None	None
+gene-EHP00_1029	rna-mrna.EHP00_1029	PF00400.39	Complete	None
+gene-EHP00_1030	rna-mrna.EHP00_1030	PF00319.24	Complete	None
+gene-EHP00_1031	rna-mrna.EHP00_1031	PF16987.11	Partial	None
+gene-EHP00_1032	rna-mrna.EHP00_1032	PF02204.24	Partial	None
+gene-EHP00_1033	rna-mrna.EHP00_1033		None	None
+gene-EHP00_1034	rna-mrna.EHP00_1034	PF00333.27,PF03719.22	Complete	None
+gene-EHP00_1035	rna-mrna.EHP00_1035		None	None
+gene-EHP00_1036	rna-mrna.EHP00_1036		None	None
+gene-EHP00_1037	rna-mrna.EHP00_1037		None	None
+gene-EHP00_1038	rna-mrna.EHP00_1038		None	None
+gene-EHP00_1039	rna-mrna.EHP00_1039	PF00583.32	Partial	None
+gene-EHP00_1040	rna-mrna.EHP00_1040	PF01409.26	Partial	None
+gene-EHP00_1041	rna-mrna.EHP00_1041	PF00004.36,PF07728.21,PF16450.12,PF17862.8	Complete	None
+gene-EHP00_1042	rna-mrna.EHP00_1042		None	None
+gene-EHP00_1933	rna-mrna.EHP00_1933	PF00122.26,PF13246.13	Complete	None
+gene-EHP00_1691	rna-mrna.EHP00_1691		None	None
+gene-EHP00_1690	rna-mrna.EHP00_1690	PF00587.31,PF03129.26,PF07973.20	Complete	None
+gene-EHP00_1689	rna-mrna.EHP00_1689	PF02574.23	Partial	None
+gene-EHP00_1688	rna-mrna.EHP00_1688	PF13358.13	Partial	None
+gene-EHP00_1687	rna-mrna.EHP00_1687		None	None
+gene-EHP00_1686	rna-mrna.EHP00_1686		None	None
+gene-EHP00_2157	rna-mrna.EHP00_2157		None	None
+gene-EHP00_2158	rna-mrna.EHP00_2158	PF00122.26,PF13246.13	Complete	None
+gene-EHP00_1417	rna-mrna.EHP00_1417		None	None
+gene-EHP00_1418	rna-mrna.EHP00_1418	PF05024.21	Partial	None
+gene-EHP00_1419	rna-mrna.EHP00_1419		None	None
+gene-EHP00_1420	rna-mrna.EHP00_1420		None	None
+gene-EHP00_1421	rna-mrna.EHP00_1421		None	None
+gene-EHP00_1422	rna-mrna.EHP00_1422		None	None
+gene-EHP00_1423	rna-mrna.EHP00_1423		None	None
+gene-EHP00_1424	rna-mrna.EHP00_1424		None	None
+gene-EHP00_1425	rna-mrna.EHP00_1425		None	None
+gene-EHP00_2129	rna-mrna.EHP00_2129		None	None
+gene-EHP00_1426	rna-mrna.EHP00_1426	PF04118.21	Partial	None
+gene-EHP00_1427	rna-mrna.EHP00_1427	PF00462.31	Complete	None
+gene-EHP00_1428	rna-mrna.EHP00_1428	PF01472.27,PF26292.1	Partial	None
+gene-EHP00_1429	rna-mrna.EHP00_1429	PF00227.32	Partial	None
+gene-EHP00_1430	rna-mrna.EHP00_1430		None	None
+gene-EHP00_1431	rna-mrna.EHP00_1431	PF03129.26,PF13393.12	Complete	None
+gene-EHP00_1432	rna-mrna.EHP00_1432	PF00227.32	Partial	None
+gene-EHP00_2025	rna-mrna.EHP00_2025	PF00237.25	Partial	None
+gene-EHP00_2024	rna-mrna.EHP00_2024		None	None
+gene-EHP00_2159	rna-mrna.EHP00_2159		None	None
+gene-EHP00_2085	rna-mrna.EHP00_2085		None	None
+gene-EHP00_2160	rna-mrna.EHP00_2160	PF01406.26,PF01406.26,PF01406.26	Partial	None
+gene-EHP00_2161	rna-mrna.EHP00_2161	PF01020.24	Partial	None
+gene-EHP00_1957	rna-mrna.EHP00_1957		None	None
+gene-EHP00_1998	rna-mrna.EHP00_1998		None	None
+gene-EHP00_2162	rna-mrna.EHP00_2162		None	None
+gene-EHP00_1066	rna-mrna.EHP00_1066		None	None
+gene-EHP00_2136	rna-mrna.EHP00_2136	PF00137.27	Partial	None
+gene-EHP00_1067	rna-mrna.EHP00_1067		None	None
+gene-EHP00_1068	rna-mrna.EHP00_1068		None	None
+gene-EHP00_1069	rna-mrna.EHP00_1069		None	None
+gene-EHP00_1070	rna-mrna.EHP00_1070		None	None
+gene-EHP00_1071	rna-mrna.EHP00_1071		None	None
+gene-EHP00_1072	rna-mrna.EHP00_1072		None	None
+gene-EHP00_1073	rna-mrna.EHP00_1073		None	None
+gene-EHP00_1074	rna-mrna.EHP00_1074		None	None
+gene-EHP00_1075	rna-mrna.EHP00_1075		None	None
+gene-EHP00_1076	rna-mrna.EHP00_1076		None	None
+gene-EHP00_1077	rna-mrna.EHP00_1077		None	None
+gene-EHP00_1078	rna-mrna.EHP00_1078		None	None
+gene-EHP00_1079	rna-mrna.EHP00_1079		None	None
+gene-EHP00_1080	rna-mrna.EHP00_1080	PF01728.26,PF11861.14	Partial	None
+gene-EHP00_1081	rna-mrna.EHP00_1081	PF01873.24	Partial	None
+gene-EHP00_1082	rna-mrna.EHP00_1082	PF02582.20	Partial	None
+gene-EHP00_1083	rna-mrna.EHP00_1083		None	None
+gene-EHP00_1084	rna-mrna.EHP00_1084		None	None
+gene-EHP00_1085	rna-mrna.EHP00_1085		None	None
+gene-EHP00_2163	rna-mrna.EHP00_2163		None	None
+gene-EHP00_1086	rna-mrna.EHP00_1086		None	None
+gene-EHP00_1087	rna-mrna.EHP00_1087		None	None
+gene-EHP00_1088	rna-mrna.EHP00_1088	PF03178.22	Complete	None
+gene-EHP00_1089	rna-mrna.EHP00_1089		None	None
+gene-EHP00_2164	rna-mrna.EHP00_2164	PF00995.29	Partial	None
+gene-EHP00_2165	rna-mrna.EHP00_2165		None	None
+gene-EHP00_1090	rna-mrna.EHP00_1090		None	None
+gene-EHP00_1091	rna-mrna.EHP00_1091		None	None
+gene-EHP00_1840	rna-mrna.EHP00_1840		None	None
+gene-EHP00_1839	rna-mrna.EHP00_1839	PF01150.24,PF02541.23	Partial	None
+gene-EHP00_1838	rna-mrna.EHP00_1838	PF01150.24	Partial	None
+gene-EHP00_2167	rna-mrna.EHP00_2167		None	None
+gene-EHP00_1837	rna-mrna.EHP00_1837		None	None
+gene-EHP00_1836	rna-mrna.EHP00_1836	PF02181.29	Partial	None
+gene-EHP00_1731	rna-mrna.EHP00_1731		None	None
+gene-EHP00_1732	rna-mrna.EHP00_1732		None	None
+gene-EHP00_2168	rna-mrna.EHP00_2168		None	None
+gene-EHP00_1733	rna-mrna.EHP00_1733		None	None
+gene-EHP00_1734	rna-mrna.EHP00_1734	PF00091.32,PF03953.23	Complete	None
+gene-EHP00_1735	rna-mrna.EHP00_1735	PF00317.27,PF02867.21	Partial	None
+gene-EHP00_1878	rna-mrna.EHP00_1878	PF03463.22,PF03464.21,PF03465.21	Complete	None
+gene-EHP00_1879	rna-mrna.EHP00_1879		None	None
+gene-EHP00_1880	rna-mrna.EHP00_1880		None	None
+gene-EHP00_1881	rna-mrna.EHP00_1881	PF01926.30,PF02421.25,PF02824.28,PF16897.11	Complete	None
+gene-EHP00_1913	rna-mrna.EHP00_1913	PF01652.25	Partial	None
+gene-EHP00_1914	rna-mrna.EHP00_1914		None	None
+gene-EHP00_1915	rna-mrna.EHP00_1915	PF17032.11	Partial	None
+gene-EHP00_1916	rna-mrna.EHP00_1916	PF05183.18	Partial	None
+gene-EHP00_2170	rna-mrna.EHP00_2170		None	None
+gene-EHP00_2171	rna-mrna.EHP00_2171		None	None
+gene-EHP00_2172	rna-mrna.EHP00_2172		None	None
+gene-EHP00_1828	rna-mrna.EHP00_1828	PF16573.11,PF16575.12	Partial	None
+gene-EHP00_1827	rna-mrna.EHP00_1827		None	None
+gene-EHP00_1826	rna-mrna.EHP00_1826	PF01909.30,PF22600.3	Partial	None
+gene-EHP00_1825	rna-mrna.EHP00_1825		None	None
+gene-EHP00_1824	rna-mrna.EHP00_1824		None	None
+gene-EHP00_1823	rna-mrna.EHP00_1823	PF00400.39	Complete	None
+gene-EHP00_1822	rna-mrna.EHP00_1822	PF00810.24	Partial	None
+gene-EHP00_1330	rna-mrna.EHP00_1330		None	None
+gene-EHP00_1329	rna-mrna.EHP00_1329	PF00810.24	Partial	None
+gene-EHP00_1328	rna-mrna.EHP00_1328	PF00810.24	Partial	None
+gene-EHP00_1327	rna-mrna.EHP00_1327	PF04468.18	Complete	None
+gene-EHP00_1326	rna-mrna.EHP00_1326	PF03690.19	Partial	None
+gene-EHP00_1325	rna-mrna.EHP00_1325		None	None
+gene-EHP00_1324	rna-mrna.EHP00_1324		None	None
+gene-EHP00_1323	rna-mrna.EHP00_1323		None	None
+gene-EHP00_1322	rna-mrna.EHP00_1322		None	None
+gene-EHP00_1321	rna-mrna.EHP00_1321		None	None
+gene-EHP00_2104	rna-mrna.EHP00_2104	PF00493.30,PF01078.28,PF07728.21,PF17207.10,PF17855.8	Complete	None
+gene-EHP00_1319	rna-mrna.EHP00_1319		None	None
+gene-EHP00_1318	rna-mrna.EHP00_1318		None	None
+gene-EHP00_1317	rna-mrna.EHP00_1317		None	None
+gene-EHP00_1316	rna-mrna.EHP00_1316		None	None
+gene-EHP00_1315	rna-mrna.EHP00_1315		None	None
+gene-EHP00_1314	rna-mrna.EHP00_1314		None	None
+gene-EHP00_1313	rna-mrna.EHP00_1313		None	None
+gene-EHP00_1312	rna-mrna.EHP00_1312		None	None
+gene-EHP00_1311	rna-mrna.EHP00_1311	PF00004.36,PF00910.29,PF05496.19,PF08542.17,PF13173.13,PF14532.13	Complete	None
+gene-EHP00_1310	rna-mrna.EHP00_1310	PF11789.15	Partial	None
+gene-EHP00_1309	rna-mrna.EHP00_1309	PF01853.26	Partial	None
+gene-EHP00_1308	rna-mrna.EHP00_1308	PF00182.25	Complete	None
+gene-EHP00_1307	rna-mrna.EHP00_1307		None	None
+gene-EHP00_1306	rna-mrna.EHP00_1306	PF02656.21	Partial	None
+gene-EHP00_1941	rna-mrna.EHP00_1941	PF00400.39	Partial	None
+gene-EHP00_2174	rna-mrna.EHP00_2174		None	None
+gene-EHP00_2175	rna-mrna.EHP00_2175		None	None
+gene-EHP00_2176	rna-mrna.EHP00_2176		None	None
+gene-EHP00_1283	rna-mrna.EHP00_1283		None	None
+gene-EHP00_1284	rna-mrna.EHP00_1284		None	None
+gene-EHP00_2177	rna-mrna.EHP00_2177		None	None
+gene-EHP00_1331	rna-mrna.EHP00_1331		None	None
+gene-EHP00_1332	rna-mrna.EHP00_1332		None	None
+gene-EHP00_1333	rna-mrna.EHP00_1333		None	None
+gene-EHP00_1334	rna-mrna.EHP00_1334	PF00400.39	Partial	None
+gene-EHP00_1335	rna-mrna.EHP00_1335		None	None
+gene-EHP00_1336	rna-mrna.EHP00_1336		None	None
+gene-EHP00_1337	rna-mrna.EHP00_1337		None	None
+gene-EHP00_1338	rna-mrna.EHP00_1338		None	None
+gene-EHP00_1339	rna-mrna.EHP00_1339	PF01026.28	Partial	None
+gene-EHP00_1340	rna-mrna.EHP00_1340		None	None
+gene-EHP00_1341	rna-mrna.EHP00_1341	PF00385.31,PF01393.27	Complete	None
+gene-EHP00_1342	rna-mrna.EHP00_1342	PF05653.21,PF05653.21	Partial	None
+gene-EHP00_1343	rna-mrna.EHP00_1343		None	None
+gene-EHP00_1344	rna-mrna.EHP00_1344	PF12271.15	Partial	None
+gene-EHP00_1345	rna-mrna.EHP00_1345		None	None
+gene-EHP00_2178	rna-mrna.EHP00_2178	PF00623.26,PF04983.24,PF04990.18,PF04992.20,PF04997.18,PF04998.23,PF05000.23	Complete	None
+gene-EHP00_1347	rna-mrna.EHP00_1347		None	None
+gene-EHP00_1348	rna-mrna.EHP00_1348		None	None
+gene-EHP00_1349	rna-mrna.EHP00_1349		None	None
+gene-EHP00_1562	rna-mrna.EHP00_1562	PF00380.26	Partial	None
+gene-EHP00_1563	rna-mrna.EHP00_1563	PF01294.24	Partial	None
+gene-EHP00_2179	rna-mrna.EHP00_2179		None	None
+gene-EHP00_1564	rna-mrna.EHP00_1564		None	None
+gene-EHP00_1565	rna-mrna.EHP00_1565		None	None
+gene-EHP00_1566	rna-mrna.EHP00_1566	PF08512.19,PF08644.18,PF14826.13,PF24824.2	Complete	None
+gene-EHP00_1567	rna-mrna.EHP00_1567		None	None
+gene-EHP00_1568	rna-mrna.EHP00_1568	PF00400.39,PF00400.39,PF00400.39	Complete	None
+gene-EHP00_1569	rna-mrna.EHP00_1569	PF00562.34,PF00562.34,PF04560.26,PF04561.20,PF04563.21,PF04565.22	Complete	None
+gene-EHP00_1570	rna-mrna.EHP00_1570		None	None
+gene-EHP00_1571	rna-mrna.EHP00_1571		None	None
+gene-EHP00_1572	rna-mrna.EHP00_1572		None	None
+gene-EHP00_1573	rna-mrna.EHP00_1573		None	None
+gene-EHP00_2180	rna-mrna.EHP00_2180	PF04080.20	Partial	None
+gene-EHP00_1959	rna-mrna.EHP00_1959	PF00623.26,PF00623.26,PF04983.24,PF04997.18,PF04998.23,PF05000.23	Complete	None
+gene-EHP00_1964	rna-mrna.EHP00_1964		None	None
+gene-EHP00_1965	rna-mrna.EHP00_1965	PF00270.36,PF00271.38,PF04851.22,PF13959.12	Complete	None
+gene-EHP00_2181	rna-mrna.EHP00_2181		None	None
+gene-EHP00_1745	rna-mrna.EHP00_1745		None	None
+gene-EHP00_1746	rna-mrna.EHP00_1746	PF00137.27,PF00137.27	Partial	None
+gene-EHP00_1747	rna-mrna.EHP00_1747		None	None
+gene-EHP00_2121	rna-mrna.EHP00_2121		None	None
+gene-EHP00_1748	rna-mrna.EHP00_1748	PF01776.23	Partial	None
+gene-EHP00_1749	rna-mrna.EHP00_1749	PF00069.32,PF07714.24,PF17667.8	Partial	None
+gene-EHP00_2122	rna-mrna.EHP00_2122		None	None
+gene-EHP00_1750	rna-mrna.EHP00_1750	PF00152.26	Partial	None
+gene-EHP00_1751	rna-mrna.EHP00_1751		None	None
+gene-EHP00_1752	rna-mrna.EHP00_1752		None	None
+gene-EHP00_2182	rna-mrna.EHP00_2182	PF00012.27,PF00012.27	Partial	None
+gene-EHP00_1852	rna-mrna.EHP00_1852	PF00957.28	Complete	None
+gene-EHP00_1851	rna-mrna.EHP00_1851	PF00621.26,PF00780.29	Complete	None
+gene-EHP00_2183	rna-mrna.EHP00_2183	PF00780.29	Partial	None
+gene-EHP00_930	rna-mrna.EHP00_930	PF00621.26	Partial	None
+gene-EHP00_931	rna-mrna.EHP00_931		None	None
+gene-EHP00_932	rna-mrna.EHP00_932		None	None
+gene-EHP00_933	rna-mrna.EHP00_933		None	None
+gene-EHP00_934	rna-mrna.EHP00_934	PF13638.13	Partial	None
+gene-EHP00_935	rna-mrna.EHP00_935		None	None
+gene-EHP00_936	rna-mrna.EHP00_936	PF00227.32	Partial	None
+gene-EHP00_937	rna-mrna.EHP00_937	PF04148.19	Partial	None
+gene-EHP00_938	rna-mrna.EHP00_938	PF06046.20	Partial	None
+gene-EHP00_939	rna-mrna.EHP00_939		None	None
+gene-EHP00_940	rna-mrna.EHP00_940		None	None
+gene-EHP00_941	rna-mrna.EHP00_941		None	None
+gene-EHP00_942	rna-mrna.EHP00_942	PF00005.34,PF00664.29	Complete	None
+gene-EHP00_943	rna-mrna.EHP00_943	PF00562.34,PF04560.26,PF04561.20,PF04563.21,PF04565.22,PF04566.19,PF04567.23	Complete	None
+gene-EHP00_944	rna-mrna.EHP00_944	PF29448.1	Partial	None
+gene-EHP00_945	rna-mrna.EHP00_945	PF10406.15	Complete	None
+gene-EHP00_946	rna-mrna.EHP00_946	PF08234.18	Complete	None
+gene-EHP00_947	rna-mrna.EHP00_947		None	None
+gene-EHP00_2184	rna-mrna.EHP00_2184	PF01569.28	Partial	None
+gene-EHP00_948	rna-mrna.EHP00_948	PF06068.20	Partial	None
+gene-EHP00_949	rna-mrna.EHP00_949	PF00270.36,PF00271.38,PF04851.22	Complete	None
+gene-EHP00_950	rna-mrna.EHP00_950	PF08676.17,PF13589.13	Complete	None
+gene-EHP00_951	rna-mrna.EHP00_951	PF00006.32,PF02874.30,PF16886.12,PF22919.2	Complete	None
+gene-EHP00_952	rna-mrna.EHP00_952		None	None
+gene-EHP00_953	rna-mrna.EHP00_953	PF16415.12,PF16418.12,PF25097.2	Complete	None
+gene-EHP00_954	rna-mrna.EHP00_954		None	None
+gene-EHP00_955	rna-mrna.EHP00_955	PF00133.29,PF08264.20,PF09334.18	Complete	None
+gene-EHP00_1812	rna-mrna.EHP00_1812		None	None
+gene-EHP00_1811	rna-mrna.EHP00_1811		None	None
+gene-EHP00_1810	rna-mrna.EHP00_1810	PF00009.34	Partial	None
+gene-EHP00_1809	rna-mrna.EHP00_1809		None	None
+gene-EHP00_1808	rna-mrna.EHP00_1808	PF04061.20	Partial	None
+gene-EHP00_1807	rna-mrna.EHP00_1807	PF04048.21	Partial	None
+gene-EHP00_354	rna-mrna.EHP00_354		None	None
+gene-EHP00_1464	rna-mrna.EHP00_1464		None	None
+gene-EHP00_1465	rna-mrna.EHP00_1465		None	None
+gene-EHP00_1466	rna-mrna.EHP00_1466	PF15663.12	Partial	None
+gene-EHP00_1467	rna-mrna.EHP00_1467		None	None
+gene-EHP00_1468	rna-mrna.EHP00_1468		None	None
+gene-EHP00_1469	rna-mrna.EHP00_1469		None	None
+gene-EHP00_1470	rna-mrna.EHP00_1470	PF02224.25,PF13189.13	Partial	None
+gene-EHP00_1471	rna-mrna.EHP00_1471		None	None
+gene-EHP00_1472	rna-mrna.EHP00_1472	PF00735.25,PF00735.25	Partial	None
+gene-EHP00_1473	rna-mrna.EHP00_1473		None	None
+gene-EHP00_1474	rna-mrna.EHP00_1474	PF02319.27,PF08781.16	Partial	None
+gene-EHP00_1475	rna-mrna.EHP00_1475	PF00122.26,PF00702.33,PF13246.13,PF16209.11,PF16212.12	Complete	None
+gene-EHP00_1476	rna-mrna.EHP00_1476		None	None
+gene-EHP00_341	rna-mrna.EHP00_341	PF04515.19	Partial	None
+gene-EHP00_1478	rna-mrna.EHP00_1478	PF13181.13,PF13181.13,PF13181.13,PF13432.13	Complete	None
+gene-EHP00_2193	rna-mrna.EHP00_2193		None	None
+gene-EHP00_338	rna-mrna.EHP00_338	PF01656.30,PF10609.16,PF13614.13	Partial	None
+gene-EHP00_2194	rna-mrna.EHP00_2194	PF00622.37	Partial	None
+gene-EHP00_337	rna-mrna.EHP00_337		None	None
+gene-EHP00_336	rna-mrna.EHP00_336	PF02466.25	Partial	None
+gene-EHP00_335	rna-mrna.EHP00_335	PF02002.24	Partial	None
+gene-EHP00_334	rna-mrna.EHP00_334	PF13831.13,PF13832.13	Complete	None
+gene-EHP00_333	rna-mrna.EHP00_333	PF06732.17	Partial	None
+gene-EHP00_332	rna-mrna.EHP00_332	PF00117.35,PF06418.21	Partial	None
+gene-EHP00_331	rna-mrna.EHP00_331	PF01522.27	Partial	None
+gene-EHP00_330	rna-mrna.EHP00_330		None	None
+gene-EHP00_329	rna-mrna.EHP00_329	PF00338.28	Partial	None
+gene-EHP00_328	rna-mrna.EHP00_328	PF01490.25	Partial	None
+gene-EHP00_327	rna-mrna.EHP00_327		None	None
+gene-EHP00_326	rna-mrna.EHP00_326	PF00808.30	Partial	None
+gene-EHP00_325	rna-mrna.EHP00_325		None	None
+gene-EHP00_324	rna-mrna.EHP00_324	PF05786.20,PF05786.20	Partial	None
+gene-EHP00_323	rna-mrna.EHP00_323		None	None
+gene-EHP00_322	rna-mrna.EHP00_322	PF01412.24	Partial	None
+gene-EHP00_321	rna-mrna.EHP00_321	PF00013.36,PF22891.3	Complete	None
+gene-EHP00_320	rna-mrna.EHP00_320	PF01398.27,PF14464.12	Partial	None
+gene-EHP00_319	rna-mrna.EHP00_319	PF00752.24,PF00867.24	Complete	None
+gene-EHP00_318	rna-mrna.EHP00_318	PF00012.27,PF02782.23,PF06723.20	Complete	None
+gene-EHP00_317	rna-mrna.EHP00_317		None	None
+gene-EHP00_316	rna-mrna.EHP00_316	PF00560.40,PF03372.30,PF12799.14,PF13855.13,PF23598.2	Complete	None
+gene-EHP00_315	rna-mrna.EHP00_315		None	None
+gene-EHP00_314	rna-mrna.EHP00_314	PF00626.28,PF04811.22,PF04815.21,PF08033.18	Complete	None
+gene-EHP00_2197	rna-mrna.EHP00_2197	PF04810.21,PF04811.22	Complete	None
+gene-EHP00_313	rna-mrna.EHP00_313		None	None
+gene-EHP00_312	rna-mrna.EHP00_312		None	None
+gene-EHP00_2199	rna-mrna.EHP00_2199		None	None
+gene-EHP00_2111	rna-mrna.EHP00_2111		None	None
+gene-EHP00_311	rna-mrna.EHP00_311		None	None
+gene-EHP00_310	rna-mrna.EHP00_310		None	None
+gene-EHP00_309	rna-mrna.EHP00_309		None	None
+gene-EHP00_308	rna-mrna.EHP00_308		None	None
+gene-EHP00_307	rna-mrna.EHP00_307	PF03540.20	Partial	None
+gene-EHP00_306	rna-mrna.EHP00_306	PF00154.28,PF06745.20,PF08423.18,PF13481.13,PF14520.13	Partial	None
+gene-EHP00_305	rna-mrna.EHP00_305	PF01201.28	Partial	None
+gene-EHP00_304	rna-mrna.EHP00_304		None	None
+gene-EHP00_303	rna-mrna.EHP00_303	PF00270.36,PF00271.38,PF04408.30	Complete	None
+gene-EHP00_302	rna-mrna.EHP00_302		None	None
+gene-EHP00_301	rna-mrna.EHP00_301		None	None
+gene-EHP00_300	rna-mrna.EHP00_300		None	None
+gene-EHP00_299	rna-mrna.EHP00_299		None	None
+gene-EHP00_298	rna-mrna.EHP00_298		None	None
+gene-EHP00_297	rna-mrna.EHP00_297	PF08662.18	Partial	None
+gene-EHP00_295	rna-mrna.EHP00_295	PF00856.34	Complete	None
+gene-EHP00_294	rna-mrna.EHP00_294	PF00098.29	Complete	None
+gene-EHP00_293	rna-mrna.EHP00_293		None	None
+gene-EHP00_292	rna-mrna.EHP00_292		None	None
+gene-EHP00_291	rna-mrna.EHP00_291		None	None
+gene-EHP00_290	rna-mrna.EHP00_290	PF00749.28,PF03950.24,PF20974.3	Complete	None
+gene-EHP00_289	rna-mrna.EHP00_289		None	None
+gene-EHP00_288	rna-mrna.EHP00_288		None	None
+gene-EHP00_287	rna-mrna.EHP00_287		None	None
+gene-EHP00_286	rna-mrna.EHP00_286	PF01411.25,PF07973.20	Complete	None
+gene-EHP00_285	rna-mrna.EHP00_285		None	None
+gene-EHP00_284	rna-mrna.EHP00_284	PF17004.12	Partial	None
+gene-EHP00_283	rna-mrna.EHP00_283		None	None
+gene-EHP00_2468	rna-mrna.EHP00_2468		None	None
+gene-EHP00_282	rna-mrna.EHP00_282	PF04615.19	Partial	None
+gene-EHP00_281	rna-mrna.EHP00_281		None	None
+gene-EHP00_280	rna-mrna.EHP00_280		None	None
+gene-EHP00_279	rna-mrna.EHP00_279	PF02926.23	Partial	None
+gene-EHP00_278	rna-mrna.EHP00_278	PF22669.3,PF22669.3	Partial	None
+gene-EHP00_277	rna-mrna.EHP00_277	PF00076.29,PF04059.19	Complete	None
+gene-EHP00_276	rna-mrna.EHP00_276	PF00957.28	Complete	None
+gene-EHP00_275	rna-mrna.EHP00_275		None	None
+gene-EHP00_274	rna-mrna.EHP00_274	PF00562.34,PF04560.26,PF04561.20,PF04563.21,PF04565.22,PF04566.19,PF04567.23	Complete	None
+gene-EHP00_2467	rna-mrna.EHP00_2467		None	None
+gene-EHP00_273	rna-mrna.EHP00_273	PF00004.36,PF07728.21	Complete	None
+gene-EHP00_272	rna-mrna.EHP00_272	PF00883.27	Partial	None
+gene-EHP00_271	rna-mrna.EHP00_271	PF15469.13	Partial	None
+gene-EHP00_270	rna-mrna.EHP00_270		None	None
+gene-EHP00_269	rna-mrna.EHP00_269	PF00152.26,PF03590.22	Partial	None
+gene-EHP00_268	rna-mrna.EHP00_268		None	None
+gene-EHP00_2466	rna-mrna.EHP00_2466		None	None
+gene-EHP00_267	rna-mrna.EHP00_267	PF00749.28	Partial	None
+gene-EHP00_2465	rna-mrna.EHP00_2465		None	None
+gene-EHP00_2464	rna-mrna.EHP00_2464		None	None
+gene-EHP00_266	rna-mrna.EHP00_266	PF03031.25	Partial	None
+gene-EHP00_265	rna-mrna.EHP00_265	PF01652.25	Partial	None
+gene-EHP00_264	rna-mrna.EHP00_264	PF00081.28,PF02777.24,PF02777.24	Partial	None
+gene-EHP00_263	rna-mrna.EHP00_263	PF00106.32,PF13561.13	Partial	None
+gene-EHP00_262	rna-mrna.EHP00_262		None	None
+gene-EHP00_261	rna-mrna.EHP00_261	PF00493.30,PF01078.28,PF07726.18,PF07728.21,PF17207.10,PF17855.8	Complete	None
+gene-EHP00_260	rna-mrna.EHP00_260	PF00250.25	Complete	None
+gene-EHP00_2049	rna-mrna.EHP00_2049	PF00808.30	Partial	None
+gene-EHP00_2729	rna-mrna.EHP00_2729	PF08238.19,PF08238.19,PF08238.19,PF08238.19,PF08238.19,PF08238.19,PF08238.19	Complete	None
+gene-EHP00_830	rna-mrna.EHP00_830	PF12706.14,PF13691.13,PF23023.2	Complete	None
+gene-EHP00_831	rna-mrna.EHP00_831		None	None
+gene-EHP00_832	rna-mrna.EHP00_832		None	None
+gene-EHP00_833	rna-mrna.EHP00_833		None	None
+gene-EHP00_834	rna-mrna.EHP00_834	PF00155.28	Partial	None
+gene-EHP00_835	rna-mrna.EHP00_835	PF06093.20	Partial	None
+gene-EHP00_836	rna-mrna.EHP00_836	PF00134.29,PF02984.25	Partial	None
+gene-EHP00_837	rna-mrna.EHP00_837	PF04078.20	Partial	None
+gene-EHP00_838	rna-mrna.EHP00_838	PF17005.12	Partial	None
+gene-EHP00_839	rna-mrna.EHP00_839	PF17002.11	Partial	None
+gene-EHP00_840	rna-mrna.EHP00_840		None	None
+gene-EHP00_841	rna-mrna.EHP00_841		None	None
+gene-EHP00_842	rna-mrna.EHP00_842	PF00203.27	Partial	None
+gene-EHP00_843	rna-mrna.EHP00_843		None	None
+gene-EHP00_844	rna-mrna.EHP00_844	PF00439.31	Partial	None
+gene-EHP00_845	rna-mrna.EHP00_845	PF00467.36,PF16906.12	Partial	None
+gene-EHP00_846	rna-mrna.EHP00_846	PF00076.29,PF14327.12	Partial	None
+gene-EHP00_847	rna-mrna.EHP00_847	PF01230.30,PF11969.14	Partial	None
+gene-EHP00_848	rna-mrna.EHP00_848		None	None
+gene-EHP00_849	rna-mrna.EHP00_849	PF01189.24	Partial	None
+gene-EHP00_850	rna-mrna.EHP00_850	PF00076.29,PF00076.29	Complete	None
+gene-EHP00_851	rna-mrna.EHP00_851		None	None
+gene-EHP00_852	rna-mrna.EHP00_852	PF00125.31,PF00808.30	Partial	None
+gene-EHP00_853	rna-mrna.EHP00_853		None	None
+gene-EHP00_854	rna-mrna.EHP00_854	PF00091.32	Partial	None
+gene-EHP00_855	rna-mrna.EHP00_855		None	None
+gene-EHP00_856	rna-mrna.EHP00_856	PF01602.27	Partial	None
+gene-EHP00_857	rna-mrna.EHP00_857	PF01399.34,PF18055.9	Complete	None
+gene-EHP00_858	rna-mrna.EHP00_858		None	None
+gene-EHP00_859	rna-mrna.EHP00_859	PF12906.14	Partial	None
+gene-EHP00_860	rna-mrna.EHP00_860		None	None
+gene-EHP00_861	rna-mrna.EHP00_861		None	None
+gene-EHP00_862	rna-mrna.EHP00_862		None	None
+gene-EHP00_863	rna-mrna.EHP00_863	PF00270.36,PF00271.38,PF09382.18,PF16124.11	Complete	None
+gene-EHP00_864	rna-mrna.EHP00_864		None	None
+gene-EHP00_2203	rna-mrna.EHP00_2203	PF00621.26,PF00780.29	Complete	None
+gene-EHP00_895	rna-mrna.EHP00_895		None	None
+gene-EHP00_896	rna-mrna.EHP00_896	PF14204.12,PF17144.10	Complete	None
+gene-EHP00_897	rna-mrna.EHP00_897		None	None
+gene-EHP00_898	rna-mrna.EHP00_898		None	None
+gene-EHP00_899	rna-mrna.EHP00_899		None	None
+gene-EHP00_900	rna-mrna.EHP00_900		None	None
+gene-EHP00_901	rna-mrna.EHP00_901		None	None
+gene-EHP00_902	rna-mrna.EHP00_902	PF00122.26,PF00702.33,PF16209.11,PF16212.12	Complete	None
+gene-EHP00_903	rna-mrna.EHP00_903		None	None
+gene-EHP00_904	rna-mrna.EHP00_904		None	None
+gene-EHP00_905	rna-mrna.EHP00_905	PF01981.22	Partial	None
+gene-EHP00_906	rna-mrna.EHP00_906		None	None
+gene-EHP00_907	rna-mrna.EHP00_907	PF00118.30	Partial	None
+gene-EHP00_2125	rna-mrna.EHP00_2125		None	None
+gene-EHP00_2205	rna-mrna.EHP00_2205		None	None
+gene-EHP00_908	rna-mrna.EHP00_908		None	None
+gene-EHP00_909	rna-mrna.EHP00_909		None	None
+gene-EHP00_2115	rna-mrna.EHP00_2115		None	None
+gene-EHP00_910	rna-mrna.EHP00_910	PF03062.25	Partial	None
+gene-EHP00_911	rna-mrna.EHP00_911	PF03062.25	Partial	None
+gene-EHP00_912	rna-mrna.EHP00_912	PF01137.27,PF05189.19	Complete	None
+gene-EHP00_913	rna-mrna.EHP00_913		None	None
+gene-EHP00_914	rna-mrna.EHP00_914	PF01280.27,PF25476.2	Partial	None
+gene-EHP00_915	rna-mrna.EHP00_915		None	None
+gene-EHP00_916	rna-mrna.EHP00_916		None	None
+gene-EHP00_917	rna-mrna.EHP00_917	PF00382.25,PF00382.25,PF08271.18	Complete	None
+gene-EHP00_918	rna-mrna.EHP00_918	PF00416.28	Partial	None
+gene-EHP00_919	rna-mrna.EHP00_919		None	None
+gene-EHP00_920	rna-mrna.EHP00_920		None	None
+gene-EHP00_921	rna-mrna.EHP00_921		None	None
+gene-EHP00_922	rna-mrna.EHP00_922		None	None
+gene-EHP00_923	rna-mrna.EHP00_923		None	None
+gene-EHP00_924	rna-mrna.EHP00_924		None	None
+gene-EHP00_925	rna-mrna.EHP00_925		None	None
+gene-EHP00_926	rna-mrna.EHP00_926		None	None
+gene-EHP00_927	rna-mrna.EHP00_927	PF03381.21	Partial	None
+gene-EHP00_928	rna-mrna.EHP00_928	PF01991.24	Partial	None
+gene-EHP00_929	rna-mrna.EHP00_929	PF03372.30	Partial	None
+gene-EHP00_2206	rna-mrna.EHP00_2206		None	None
+gene-EHP00_1844	rna-mrna.EHP00_1844		None	None
+gene-EHP00_2207	rna-mrna.EHP00_2207		None	None
+gene-EHP00_1845	rna-mrna.EHP00_1845	PF00226.37	Partial	None
+gene-EHP00_1846	rna-mrna.EHP00_1846		None	None
+gene-EHP00_1847	rna-mrna.EHP00_1847	PF03151.23	Partial	None
+gene-EHP00_1848	rna-mrna.EHP00_1848		None	None
+gene-EHP00_1849	rna-mrna.EHP00_1849	PF00505.26,PF09011.17	Partial	None
+gene-EHP00_1850	rna-mrna.EHP00_1850	PF00270.36,PF00271.38,PF04851.22	Complete	None
+gene-EHP00_2209	rna-mrna.EHP00_2209		None	None
+gene-EHP00_2210	rna-mrna.EHP00_2210		None	None
+gene-EHP00_2212	rna-mrna.EHP00_2212		None	None
+gene-EHP00_2213	rna-mrna.EHP00_2213		None	None
+gene-EHP00_2214	rna-mrna.EHP00_2214		None	None
+gene-EHP00_2215	rna-mrna.EHP00_2215		None	None
+gene-EHP00_2216	rna-mrna.EHP00_2216		None	None
+gene-EHP00_2068	rna-mrna.EHP00_2068		None	None
+gene-EHP00_1110	rna-mrna.EHP00_1110		None	None
+gene-EHP00_1111	rna-mrna.EHP00_1111	PF05670.19,PF05833.17,PF11923.14	Complete	None
+gene-EHP00_1112	rna-mrna.EHP00_1112		None	None
+gene-EHP00_1113	rna-mrna.EHP00_1113		None	None
+gene-EHP00_1114	rna-mrna.EHP00_1114		None	None
+gene-EHP00_1115	rna-mrna.EHP00_1115		None	None
+gene-EHP00_1116	rna-mrna.EHP00_1116		None	None
+gene-EHP00_1117	rna-mrna.EHP00_1117	PF00227.32,PF10584.15	Partial	None
+gene-EHP00_1118	rna-mrna.EHP00_1118		None	None
+gene-EHP00_1119	rna-mrna.EHP00_1119		None	None
+gene-EHP00_1120	rna-mrna.EHP00_1120		None	None
+gene-EHP00_1121	rna-mrna.EHP00_1121		None	None
+gene-EHP00_1122	rna-mrna.EHP00_1122		None	None
+gene-EHP00_1123	rna-mrna.EHP00_1123		None	None
+gene-EHP00_1124	rna-mrna.EHP00_1124		None	None
+gene-EHP00_1125	rna-mrna.EHP00_1125		None	None
+gene-EHP00_1126	rna-mrna.EHP00_1126		None	None
+gene-EHP00_1127	rna-mrna.EHP00_1127	PF08512.19,PF21103.4	Partial	None
+gene-EHP00_1128	rna-mrna.EHP00_1128	PF00410.25	Partial	None
+gene-EHP00_1129	rna-mrna.EHP00_1129	PF01644.24,PF03142.22,PF13632.13,PF13641.13	Complete	None
+gene-EHP00_1882	rna-mrna.EHP00_1882	PF01182.27	Partial	None
+gene-EHP00_2217	rna-mrna.EHP00_2217		None	None
+gene-EHP00_1771	rna-mrna.EHP00_1771	PF00005.34,PF00005.34,PF00037.33,PF04068.21,PF12837.13	Complete	None
+gene-EHP00_2222	rna-mrna.EHP00_2222		None	None
+gene-EHP00_2221	rna-mrna.EHP00_2221		None	None
+gene-EHP00_1203	rna-mrna.EHP00_1203		None	None
+gene-EHP00_2220	rna-mrna.EHP00_2220	PF01090.26	Partial	None
+gene-EHP00_1204	rna-mrna.EHP00_1204		None	None
+gene-EHP00_1986	rna-mrna.EHP00_1986		None	None
+gene-EHP00_2223	rna-mrna.EHP00_2223		None	None
+gene-EHP00_1989	rna-mrna.EHP00_1989	PF00005.34,PF01061.30,PF19055.7	Partial	None
+gene-EHP00_2011	rna-mrna.EHP00_2011		None	None
+gene-EHP00_2001	rna-mrna.EHP00_2001	PF00501.35	Partial	None
+gene-EHP00_1788	rna-mrna.EHP00_1788		None	None
+gene-EHP00_1789	rna-mrna.EHP00_1789		None	None
+gene-EHP00_1790	rna-mrna.EHP00_1790		None	None
+gene-EHP00_1791	rna-mrna.EHP00_1791	PF08613.17	Partial	None
+gene-EHP00_1792	rna-mrna.EHP00_1792		None	None
+gene-EHP00_1793	rna-mrna.EHP00_1793	PF00125.31,PF00808.30	Partial	None
+gene-EHP00_1794	rna-mrna.EHP00_1794		None	None
+gene-EHP00_1795	rna-mrna.EHP00_1795		None	None
+gene-EHP00_1796	rna-mrna.EHP00_1796		None	None
+gene-EHP00_1797	rna-mrna.EHP00_1797		None	None
+gene-EHP00_1798	rna-mrna.EHP00_1798		None	None
+gene-EHP00_1799	rna-mrna.EHP00_1799		None	None
+gene-EHP00_1150	rna-mrna.EHP00_1150		None	None
+gene-EHP00_1151	rna-mrna.EHP00_1151	PF00565.24	Partial	None
+gene-EHP00_1152	rna-mrna.EHP00_1152	PF01000.32,PF01193.30	Partial	None
+gene-EHP00_1153	rna-mrna.EHP00_1153	PF02170.29,PF02171.24,PF08699.16	Complete	None
+gene-EHP00_1154	rna-mrna.EHP00_1154		None	None
+gene-EHP00_1155	rna-mrna.EHP00_1155		None	None
+gene-EHP00_1156	rna-mrna.EHP00_1156		None	None
+gene-EHP00_1157	rna-mrna.EHP00_1157		None	None
+gene-EHP00_1158	rna-mrna.EHP00_1158		None	None
+gene-EHP00_1159	rna-mrna.EHP00_1159		None	None
+gene-EHP00_1160	rna-mrna.EHP00_1160		None	None
+gene-EHP00_1161	rna-mrna.EHP00_1161		None	None
+gene-EHP00_1162	rna-mrna.EHP00_1162		None	None
+gene-EHP00_1163	rna-mrna.EHP00_1163		None	None
+gene-EHP00_1164	rna-mrna.EHP00_1164		None	None
+gene-EHP00_1165	rna-mrna.EHP00_1165		None	None
+gene-EHP00_1166	rna-mrna.EHP00_1166		None	None
+gene-EHP00_1167	rna-mrna.EHP00_1167		None	None
+gene-EHP00_1168	rna-mrna.EHP00_1168		None	None
+gene-EHP00_1169	rna-mrna.EHP00_1169		None	None
+gene-EHP00_1170	rna-mrna.EHP00_1170	PF01119.26,PF02518.32,PF13589.13	Complete	None
+gene-EHP00_1171	rna-mrna.EHP00_1171		None	None
+gene-EHP00_1172	rna-mrna.EHP00_1172		None	None
+gene-EHP00_1173	rna-mrna.EHP00_1173		None	None
+gene-EHP00_1174	rna-mrna.EHP00_1174		None	None
+gene-EHP00_1175	rna-mrna.EHP00_1175		None	None
+gene-EHP00_2224	rna-mrna.EHP00_2224		None	None
+gene-EHP00_2225	rna-mrna.EHP00_2225		None	None
+gene-EHP00_2226	rna-mrna.EHP00_2226		None	None
+gene-EHP00_2029	rna-mrna.EHP00_2029	PF00406.30,PF13207.13,PF13238.13	Partial	None
+gene-EHP00_2227	rna-mrna.EHP00_2227		None	None
+gene-EHP00_1860	rna-mrna.EHP00_1860		None	None
+gene-EHP00_1859	rna-mrna.EHP00_1859		None	None
+gene-EHP00_1858	rna-mrna.EHP00_1858	PF00076.29,PF00076.29	Complete	None
+gene-EHP00_1857	rna-mrna.EHP00_1857	PF01199.24	Partial	None
+gene-EHP00_1856	rna-mrna.EHP00_1856	PF00076.29	Partial	None
+gene-EHP00_1855	rna-mrna.EHP00_1855	PF06026.21	Partial	None
+gene-EHP00_1854	rna-mrna.EHP00_1854		None	None
+gene-EHP00_1543	rna-mrna.EHP00_1543	PF00773.26	Partial	None
+gene-EHP00_1130	rna-mrna.EHP00_1130	PF00443.36,PF02148.26	Complete	None
+gene-EHP00_1131	rna-mrna.EHP00_1131	PF00411.25	Partial	None
+gene-EHP00_1132	rna-mrna.EHP00_1132		None	None
+gene-EHP00_1133	rna-mrna.EHP00_1133	PF00069.32,PF07714.24	Partial	None
+gene-EHP00_1134	rna-mrna.EHP00_1134	PF00069.32,PF07714.24,PF17667.8	Partial	None
+gene-EHP00_2116	rna-mrna.EHP00_2116		None	None
+gene-EHP00_1135	rna-mrna.EHP00_1135	PF00176.30,PF00271.38,PF04851.22	Complete	None
+gene-EHP00_2228	rna-mrna.EHP00_2228		None	None
+gene-EHP00_1136	rna-mrna.EHP00_1136		None	None
+gene-EHP00_1137	rna-mrna.EHP00_1137		None	None
+gene-EHP00_1138	rna-mrna.EHP00_1138		None	None
+gene-EHP00_2229	rna-mrna.EHP00_2229		None	None
+gene-EHP00_1139	rna-mrna.EHP00_1139		None	None
+gene-EHP00_1140	rna-mrna.EHP00_1140		None	None
+gene-EHP00_1141	rna-mrna.EHP00_1141		None	None
+gene-EHP00_2230	rna-mrna.EHP00_2230		None	None
+gene-EHP00_1142	rna-mrna.EHP00_1142		None	None
+gene-EHP00_1143	rna-mrna.EHP00_1143		None	None
+gene-EHP00_1144	rna-mrna.EHP00_1144		None	None
+gene-EHP00_1145	rna-mrna.EHP00_1145	PF01157.25	Partial	None
+gene-EHP00_1146	rna-mrna.EHP00_1146	PF10104.15	Partial	None
+gene-EHP00_1147	rna-mrna.EHP00_1147		None	None
+gene-EHP00_1149	rna-mrna.EHP00_1149		None	None
+gene-EHP00_2232	rna-mrna.EHP00_2232		None	None
+gene-EHP00_1775	rna-mrna.EHP00_1775	PF01479.31	Complete	None
+gene-EHP00_1776	rna-mrna.EHP00_1776	PF02121.26,PF02121.26	Partial	None
+gene-EHP00_1777	rna-mrna.EHP00_1777	PF00036.39	Complete	None
+gene-EHP00_2234	rna-mrna.EHP00_2234		None	None
+gene-EHP00_1778	rna-mrna.EHP00_1778	PF00270.36,PF00271.38,PF04851.22	Complete	None
+gene-EHP00_1779	rna-mrna.EHP00_1779	PF01336.32,PF08784.18	Partial	None
+gene-EHP00_1780	rna-mrna.EHP00_1780	PF00493.30,PF01078.28,PF14551.12,PF17207.10	Complete	None
+gene-EHP00_2235	rna-mrna.EHP00_2235	PF17855.8	Partial	None
+gene-EHP00_1753	rna-mrna.EHP00_1753	PF00046.36	Partial	None
+gene-EHP00_1754	rna-mrna.EHP00_1754		None	None
+gene-EHP00_1755	rna-mrna.EHP00_1755	PF00046.36	Partial	None
+gene-EHP00_1756	rna-mrna.EHP00_1756	PF13499.13	Partial	None
+gene-EHP00_1757	rna-mrna.EHP00_1757		None	None
+gene-EHP00_1758	rna-mrna.EHP00_1758		None	None
+gene-EHP00_2236	rna-mrna.EHP00_2236		None	None
+gene-EHP00_1760	rna-mrna.EHP00_1760		None	None
+gene-EHP00_1761	rna-mrna.EHP00_1761	PF01702.26	Partial	None
+gene-EHP00_1762	rna-mrna.EHP00_1762	PF00009.34,PF00071.29,PF01926.30,PF08477.20	Partial	None
+gene-EHP00_1763	rna-mrna.EHP00_1763		None	None
+gene-EHP00_1764	rna-mrna.EHP00_1764		None	None
+gene-EHP00_2237	rna-mrna.EHP00_2237		None	None
+gene-EHP00_2238	rna-mrna.EHP00_2238		None	None
+gene-EHP00_2239	rna-mrna.EHP00_2239	PF13639.13	Complete	None
+gene-EHP00_2240	rna-mrna.EHP00_2240		None	None
+gene-EHP00_2241	rna-mrna.EHP00_2241		None	None
+gene-EHP00_2242	rna-mrna.EHP00_2242		None	None
+gene-EHP00_1945	rna-mrna.EHP00_1945	PF00176.30	Partial	None
+gene-EHP00_2243	rna-mrna.EHP00_2243		None	None
+gene-EHP00_1452	rna-mrna.EHP00_1452	PF00400.39,PF00400.39,PF00400.39	Complete	None
+gene-EHP00_1453	rna-mrna.EHP00_1453		None	None
+gene-EHP00_1454	rna-mrna.EHP00_1454		None	None
+gene-EHP00_1455	rna-mrna.EHP00_1455	PF00828.26,PF17135.10	Partial	None
+gene-EHP00_1456	rna-mrna.EHP00_1456		None	None
+gene-EHP00_1457	rna-mrna.EHP00_1457		None	None
+gene-EHP00_1458	rna-mrna.EHP00_1458		None	None
+gene-EHP00_1459	rna-mrna.EHP00_1459		None	None
+gene-EHP00_1460	rna-mrna.EHP00_1460		None	None
+gene-EHP00_1461	rna-mrna.EHP00_1461	PF00005.34,PF01061.30,PF19055.7	Partial	None
+gene-EHP00_1462	rna-mrna.EHP00_1462	PF12762.14	Partial	None
+gene-EHP00_2245	rna-mrna.EHP00_2245		None	None
+gene-EHP00_1463	rna-mrna.EHP00_1463		None	None
+gene-EHP00_2246	rna-mrna.EHP00_2246		None	None
+gene-EHP00_2247	rna-mrna.EHP00_2247		None	None
+gene-EHP00_2052	rna-mrna.EHP00_2052	PF00808.30	Partial	None
+gene-EHP00_2248	rna-mrna.EHP00_2248	PF00753.34,PF12706.14,PF13691.13,PF23023.2	Complete	None
+gene-EHP00_1744	rna-mrna.EHP00_1744	PF17009.11	Partial	None
+gene-EHP00_1743	rna-mrna.EHP00_1743	PF00806.26,PF00806.26	Complete	None
+gene-EHP00_1742	rna-mrna.EHP00_1742	PF17029.11	Partial	None
+gene-EHP00_1741	rna-mrna.EHP00_1741	PF01248.32	Partial	None
+gene-EHP00_1740	rna-mrna.EHP00_1740	PF02714.21,PF13967.12	Complete	None
+gene-EHP00_1739	rna-mrna.EHP00_1739	PF00097.32,PF14634.13	Partial	None
+gene-EHP00_1738	rna-mrna.EHP00_1738		None	None
+gene-EHP00_2120	rna-mrna.EHP00_2120		None	None
+gene-EHP00_1737	rna-mrna.EHP00_1737		None	None
+gene-EHP00_1736	rna-mrna.EHP00_1736		None	None
+gene-EHP00_1800	rna-mrna.EHP00_1800		None	None
+gene-EHP00_1801	rna-mrna.EHP00_1801		None	None
+gene-EHP00_1802	rna-mrna.EHP00_1802	PF00443.36,PF13423.13	Partial	None
+gene-EHP00_1803	rna-mrna.EHP00_1803		None	None
+gene-EHP00_1804	rna-mrna.EHP00_1804	PF02463.26,PF13476.13	Partial	None
+gene-EHP00_1805	rna-mrna.EHP00_1805		None	None
+gene-EHP00_1806	rna-mrna.EHP00_1806		None	None
+gene-EHP00_2031	rna-mrna.EHP00_2031		None	None
+gene-EHP00_2124	rna-mrna.EHP00_2124		None	None
+gene-EHP00_539	rna-mrna.EHP00_539	PF00069.32,PF07714.24,PF14531.13	Partial	None
+gene-EHP00_538	rna-mrna.EHP00_538		None	None
+gene-EHP00_537	rna-mrna.EHP00_537		None	None
+gene-EHP00_2112	rna-mrna.EHP00_2112		None	None
+gene-EHP00_536	rna-mrna.EHP00_536		None	None
+gene-EHP00_535	rna-mrna.EHP00_535	PF17008.11	Partial	None
+gene-EHP00_534	rna-mrna.EHP00_534	PF00004.36,PF05496.19,PF07724.21,PF07728.21,PF16450.12,PF17862.8	Complete	None
+gene-EHP00_533	rna-mrna.EHP00_533	PF03332.20,PF05116.20,PF08282.19	Partial	None
+gene-EHP00_532	rna-mrna.EHP00_532	PF00328.28	Partial	None
+gene-EHP00_531	rna-mrna.EHP00_531	PF00587.31,PF03129.26	Complete	None
+gene-EHP00_530	rna-mrna.EHP00_530	PF05712.19	Partial	None
+gene-EHP00_529	rna-mrna.EHP00_529		None	None
+gene-EHP00_528	rna-mrna.EHP00_528	PF08640.18	Partial	None
+gene-EHP00_527	rna-mrna.EHP00_527	PF00428.25	Partial	None
+gene-EHP00_526	rna-mrna.EHP00_526	PF17026.11	Partial	None
+gene-EHP00_525	rna-mrna.EHP00_525		None	None
+gene-EHP00_524	rna-mrna.EHP00_524	PF04729.20	Partial	None
+gene-EHP00_523	rna-mrna.EHP00_523	PF02475.24,PF25133.2	Partial	None
+gene-EHP00_522	rna-mrna.EHP00_522	PF02463.26,PF06470.19,PF13175.13,PF13304.13,PF13304.13,PF13476.13,PF13555.13	Complete	None
+gene-EHP00_521	rna-mrna.EHP00_521	PF00883.27	Partial	None
+gene-EHP00_520	rna-mrna.EHP00_520	PF08711.17	Complete	None
+gene-EHP00_519	rna-mrna.EHP00_519	PF13476.13	Partial	None
+gene-EHP00_518	rna-mrna.EHP00_518		None	None
+gene-EHP00_517	rna-mrna.EHP00_517		None	None
+gene-EHP00_516	rna-mrna.EHP00_516	PF01728.26	Partial	None
+gene-EHP00_515	rna-mrna.EHP00_515		None	None
+gene-EHP00_514	rna-mrna.EHP00_514		None	None
+gene-EHP00_513	rna-mrna.EHP00_513	PF17003.13	Partial	None
+gene-EHP00_512	rna-mrna.EHP00_512	PF00240.30,PF11976.15	Partial	None
+gene-EHP00_511	rna-mrna.EHP00_511		None	None
+gene-EHP00_510	rna-mrna.EHP00_510	PF00400.39,PF04158.20	Complete	None
+gene-EHP00_509	rna-mrna.EHP00_509	PF02463.26,PF06470.19,PF13304.13,PF13476.13,PF13555.13	Complete	None
+gene-EHP00_508	rna-mrna.EHP00_508		None	None
+gene-EHP00_507	rna-mrna.EHP00_507		None	None
+gene-EHP00_506	rna-mrna.EHP00_506		None	None
+gene-EHP00_505	rna-mrna.EHP00_505		None	None
+gene-EHP00_2251	rna-mrna.EHP00_2251		None	None
+gene-EHP00_504	rna-mrna.EHP00_504		None	None
+gene-EHP00_503	rna-mrna.EHP00_503		None	None
+gene-EHP00_502	rna-mrna.EHP00_502	PF00466.26,PF17777.7	Partial	None
+gene-EHP00_501	rna-mrna.EHP00_501	PF01163.29	Partial	None
+gene-EHP00_500	rna-mrna.EHP00_500	PF00069.32,PF07714.24	Partial	None
+gene-EHP00_499	rna-mrna.EHP00_499		None	None
+gene-EHP00_498	rna-mrna.EHP00_498	PF05020.21,PF05021.21	Partial	None
+gene-EHP00_497	rna-mrna.EHP00_497		None	None
+gene-EHP00_496	rna-mrna.EHP00_496		None	None
+gene-EHP00_495	rna-mrna.EHP00_495		None	None
+gene-EHP00_494	rna-mrna.EHP00_494	PF00226.37,PF00684.26,PF01556.24	Complete	None
+gene-EHP00_493	rna-mrna.EHP00_493	PF00400.39,PF00400.39,PF00400.39,PF00400.39,PF12265.15,PF23609.2	Complete	None
+gene-EHP00_492	rna-mrna.EHP00_492	PF00230.26	Partial	None
+gene-EHP00_491	rna-mrna.EHP00_491		None	None
+gene-EHP00_490	rna-mrna.EHP00_490	PF06423.19	Partial	None
+gene-EHP00_489	rna-mrna.EHP00_489		None	None
+gene-EHP00_488	rna-mrna.EHP00_488		None	None
+gene-EHP00_487	rna-mrna.EHP00_487		None	None
+gene-EHP00_2037	rna-mrna.EHP00_2037	PF00230.26,PF00230.26	Partial	None
+gene-EHP00_2036	rna-mrna.EHP00_2036	PF03839.22	Partial	None
+gene-EHP00_2252	rna-mrna.EHP00_2252		None	None
+gene-EHP00_2253	rna-mrna.EHP00_2253		None	None
+gene-EHP00_2254	rna-mrna.EHP00_2254		None	None
+gene-EHP00_1702	rna-mrna.EHP00_1702		None	None
+gene-EHP00_1701	rna-mrna.EHP00_1701		None	None
+gene-EHP00_1700	rna-mrna.EHP00_1700		None	None
+gene-EHP00_1699	rna-mrna.EHP00_1699	PF03031.25	Partial	None
+gene-EHP00_1698	rna-mrna.EHP00_1698	PF00561.27	Partial	None
+gene-EHP00_1697	rna-mrna.EHP00_1697		None	None
+gene-EHP00_1696	rna-mrna.EHP00_1696		None	None
+gene-EHP00_1695	rna-mrna.EHP00_1695	PF01246.27	Partial	None
+gene-EHP00_1694	rna-mrna.EHP00_1694		None	None
+gene-EHP00_1693	rna-mrna.EHP00_1693		None	None
+gene-EHP00_1692	rna-mrna.EHP00_1692		None	None
+gene-EHP00_1629	rna-mrna.EHP00_1629	PF12762.14	Partial	None
+gene-EHP00_1628	rna-mrna.EHP00_1628		None	None
+gene-EHP00_1627	rna-mrna.EHP00_1627	PF00579.32,PF00579.32	Partial	None
+gene-EHP00_2255	rna-mrna.EHP00_2255	PF00009.34,PF03143.24,PF22594.3	Complete	None
+gene-EHP00_1626	rna-mrna.EHP00_1626		None	None
+gene-EHP00_1625	rna-mrna.EHP00_1625	PF04406.20,PF21180.4	Partial	None
+gene-EHP00_1624	rna-mrna.EHP00_1624	PF01793.24	Partial	None
+gene-EHP00_1875	rna-mrna.EHP00_1875		None	None
+gene-EHP00_1876	rna-mrna.EHP00_1876	PF00004.36,PF00004.36,PF17862.8,PF17862.8	Complete	None
+gene-EHP00_1877	rna-mrna.EHP00_1877	PF00133.29,PF00133.29,PF08264.20,PF09334.18,PF13603.13	Complete	None
+gene-EHP00_2046	rna-mrna.EHP00_2046		None	None
+gene-EHP00_2256	rna-mrna.EHP00_2256	PF01176.27	Partial	None
+gene-EHP00_1980	rna-mrna.EHP00_1980	PF02201.24	Complete	None
+gene-EHP00_1927	rna-mrna.EHP00_1927		None	None
+gene-EHP00_1926	rna-mrna.EHP00_1926		None	None
+gene-EHP00_586	rna-mrna.EHP00_586	PF01233.26	Partial	None
+gene-EHP00_585	rna-mrna.EHP00_585		None	None
+gene-EHP00_584	rna-mrna.EHP00_584		None	None
+gene-EHP00_583	rna-mrna.EHP00_583		None	None
+gene-EHP00_2258	rna-mrna.EHP00_2258		None	None
+gene-EHP00_683	rna-mrna.EHP00_683		None	None
+gene-EHP00_684	rna-mrna.EHP00_684		None	None
+gene-EHP00_685	rna-mrna.EHP00_685		None	None
+gene-EHP00_686	rna-mrna.EHP00_686		None	None
+gene-EHP00_687	rna-mrna.EHP00_687		None	None
+gene-EHP00_688	rna-mrna.EHP00_688		None	None
+gene-EHP00_689	rna-mrna.EHP00_689		None	None
+gene-EHP00_690	rna-mrna.EHP00_690	PF00012.27,PF06723.20	Partial	None
+gene-EHP00_691	rna-mrna.EHP00_691		None	None
+gene-EHP00_692	rna-mrna.EHP00_692		None	None
+gene-EHP00_693	rna-mrna.EHP00_693	PF00638.25	Partial	None
+gene-EHP00_694	rna-mrna.EHP00_694		None	None
+gene-EHP00_695	rna-mrna.EHP00_695	PF17018.11	Partial	None
+gene-EHP00_696	rna-mrna.EHP00_696		None	None
+gene-EHP00_697	rna-mrna.EHP00_697	PF04571.20,PF08235.20,PF24694.2	Complete	None
+gene-EHP00_698	rna-mrna.EHP00_698	PF00702.33,PF13419.13	Partial	None
+gene-EHP00_699	rna-mrna.EHP00_699		None	None
+gene-EHP00_700	rna-mrna.EHP00_700		None	None
+gene-EHP00_701	rna-mrna.EHP00_701		None	None
+gene-EHP00_702	rna-mrna.EHP00_702	PF01990.23	Partial	None
+gene-EHP00_703	rna-mrna.EHP00_703	PF00320.34	Complete	None
+gene-EHP00_704	rna-mrna.EHP00_704	PF08518.17	Partial	None
+gene-EHP00_2101	rna-mrna.EHP00_2101	PF03219.21	Partial	None
+gene-EHP00_706	rna-mrna.EHP00_706	PF00004.36,PF08542.17,PF13173.13,PF13177.13	Complete	None
+gene-EHP00_707	rna-mrna.EHP00_707		None	None
+gene-EHP00_708	rna-mrna.EHP00_708		None	None
+gene-EHP00_709	rna-mrna.EHP00_709		None	None
+gene-EHP00_710	rna-mrna.EHP00_710	PF00122.26,PF00702.33,PF13246.13	Complete	None
+gene-EHP00_711	rna-mrna.EHP00_711		None	None
+gene-EHP00_712	rna-mrna.EHP00_712	PF00227.32	Partial	None
+gene-EHP00_713	rna-mrna.EHP00_713	PF17028.11	Partial	None
+gene-EHP00_714	rna-mrna.EHP00_714	PF03126.24	Partial	None
+gene-EHP00_715	rna-mrna.EHP00_715		None	None
+gene-EHP00_716	rna-mrna.EHP00_716		None	None
+gene-EHP00_717	rna-mrna.EHP00_717	PF00025.28,PF00071.29,PF08477.20	Partial	None
+gene-EHP00_718	rna-mrna.EHP00_718	PF00293.35	Partial	None
+gene-EHP00_719	rna-mrna.EHP00_719	PF00995.29	Partial	None
+gene-EHP00_720	rna-mrna.EHP00_720	PF00255.26	Partial	None
+gene-EHP00_721	rna-mrna.EHP00_721		None	None
+gene-EHP00_722	rna-mrna.EHP00_722	PF02268.22,PF02751.21	Partial	None
+gene-EHP00_1956	rna-mrna.EHP00_1956	PF04096.21	Complete	None
+gene-EHP00_1530	rna-mrna.EHP00_1530		None	None
+gene-EHP00_1529	rna-mrna.EHP00_1529		None	None
+gene-EHP00_1528	rna-mrna.EHP00_1528		None	None
+gene-EHP00_1527	rna-mrna.EHP00_1527	PF04188.19	Partial	None
+gene-EHP00_1526	rna-mrna.EHP00_1526	PF14608.13,PF14608.13,PF14608.13,PF14608.13	Complete	None
+gene-EHP00_1525	rna-mrna.EHP00_1525		None	None
+gene-EHP00_1524	rna-mrna.EHP00_1524		None	None
+gene-EHP00_1523	rna-mrna.EHP00_1523		None	None
+gene-EHP00_1522	rna-mrna.EHP00_1522	PF07690.22,PF12832.14,PF12832.14	Partial	None
+gene-EHP00_1521	rna-mrna.EHP00_1521	PF01896.26	Partial	None
+gene-EHP00_1520	rna-mrna.EHP00_1520	PF08645.18,PF08645.18	Partial	None
+gene-EHP00_1519	rna-mrna.EHP00_1519		None	None
+gene-EHP00_1518	rna-mrna.EHP00_1518		None	None
+gene-EHP00_1517	rna-mrna.EHP00_1517	PF00069.32,PF07714.24	Partial	None
+gene-EHP00_2026	rna-mrna.EHP00_2026		None	None
+gene-EHP00_2259	rna-mrna.EHP00_2259		None	None
+gene-EHP00_2260	rna-mrna.EHP00_2260		None	None
+gene-EHP00_894	rna-mrna.EHP00_894	PF00118.30	Partial	None
+gene-EHP00_893	rna-mrna.EHP00_893		None	None
+gene-EHP00_2261	rna-mrna.EHP00_2261	PF03029.24	Partial	None
+gene-EHP00_892	rna-mrna.EHP00_892	PF17019.11	Partial	None
+gene-EHP00_891	rna-mrna.EHP00_891		None	None
+gene-EHP00_890	rna-mrna.EHP00_890		None	None
+gene-EHP00_889	rna-mrna.EHP00_889		None	None
+gene-EHP00_888	rna-mrna.EHP00_888	PF00514.30	Complete	None
+gene-EHP00_2262	rna-mrna.EHP00_2262		None	None
+gene-EHP00_887	rna-mrna.EHP00_887		None	None
+gene-EHP00_886	rna-mrna.EHP00_886	PF12009.14	Partial	None
+gene-EHP00_885	rna-mrna.EHP00_885		None	None
+gene-EHP00_884	rna-mrna.EHP00_884		None	None
+gene-EHP00_883	rna-mrna.EHP00_883		None	None
+gene-EHP00_882	rna-mrna.EHP00_882		None	None
+gene-EHP00_881	rna-mrna.EHP00_881		None	None
+gene-EHP00_880	rna-mrna.EHP00_880		None	None
+gene-EHP00_879	rna-mrna.EHP00_879		None	None
+gene-EHP00_878	rna-mrna.EHP00_878		None	None
+gene-EHP00_877	rna-mrna.EHP00_877		None	None
+gene-EHP00_876	rna-mrna.EHP00_876		None	None
+gene-EHP00_875	rna-mrna.EHP00_875		None	None
+gene-EHP00_874	rna-mrna.EHP00_874		None	None
+gene-EHP00_873	rna-mrna.EHP00_873		None	None
+gene-EHP00_872	rna-mrna.EHP00_872	PF00163.25,PF01479.31	Complete	None
+gene-EHP00_871	rna-mrna.EHP00_871		None	None
+gene-EHP00_870	rna-mrna.EHP00_870		None	None
+gene-EHP00_869	rna-mrna.EHP00_869		None	None
+gene-EHP00_868	rna-mrna.EHP00_868		None	None
+gene-EHP00_867	rna-mrna.EHP00_867		None	None
+gene-EHP00_866	rna-mrna.EHP00_866		None	None
+gene-EHP00_865	rna-mrna.EHP00_865		None	None
+gene-EHP00_2263	rna-mrna.EHP00_2263		None	None
+gene-EHP00_2264	rna-mrna.EHP00_2264		None	None
+gene-EHP00_2265	rna-mrna.EHP00_2265		None	None
+gene-EHP00_2018	rna-mrna.EHP00_2018	PF00928.27	Partial	None
+gene-EHP00_2266	rna-mrna.EHP00_2266		None	None
+gene-EHP00_2268	rna-mrna.EHP00_2268		None	None
+gene-EHP00_1996	rna-mrna.EHP00_1996	PF01019.28,PF01019.28	Partial	None
+gene-EHP00_1951	rna-mrna.EHP00_1951		None	None
+gene-EHP00_2269	rna-mrna.EHP00_2269		None	None
+gene-EHP00_2270	rna-mrna.EHP00_2270		None	None
+gene-EHP00_1259	rna-mrna.EHP00_1259		None	None
+gene-EHP00_1258	rna-mrna.EHP00_1258		None	None
+gene-EHP00_1257	rna-mrna.EHP00_1257		None	None
+gene-EHP00_1256	rna-mrna.EHP00_1256		None	None
+gene-EHP00_2103	rna-mrna.EHP00_2103		None	None
+gene-EHP00_1255	rna-mrna.EHP00_1255		None	None
+gene-EHP00_1254	rna-mrna.EHP00_1254		None	None
+gene-EHP00_1253	rna-mrna.EHP00_1253		None	None
+gene-EHP00_1252	rna-mrna.EHP00_1252	PF01412.24	Partial	None
+gene-EHP00_1251	rna-mrna.EHP00_1251	PF00415.25,PF00415.25,PF00415.25,PF00415.25,PF13540.13,PF13540.13,PF13540.13,PF25390.2	Complete	None
+gene-EHP00_1250	rna-mrna.EHP00_1250	PF00566.26	Partial	None
+gene-EHP00_1249	rna-mrna.EHP00_1249	PF00025.28,PF00071.29,PF01926.30,PF08477.20	Partial	None
+gene-EHP00_1248	rna-mrna.EHP00_1248		None	None
+gene-EHP00_1247	rna-mrna.EHP00_1247		None	None
+gene-EHP00_1246	rna-mrna.EHP00_1246		None	None
+gene-EHP00_1245	rna-mrna.EHP00_1245		None	None
+gene-EHP00_1244	rna-mrna.EHP00_1244		None	None
+gene-EHP00_1243	rna-mrna.EHP00_1243	PF01553.27	Partial	None
+gene-EHP00_1242	rna-mrna.EHP00_1242	PF14616.12	Partial	None
+gene-EHP00_1241	rna-mrna.EHP00_1241		None	None
+gene-EHP00_1240	rna-mrna.EHP00_1240		None	None
+gene-EHP00_1239	rna-mrna.EHP00_1239	PF01504.25,PF01504.25	Partial	None
+gene-EHP00_1237	rna-mrna.EHP00_1237	PF00999.27	Partial	None
+gene-EHP00_1236	rna-mrna.EHP00_1236		None	None
+gene-EHP00_1235	rna-mrna.EHP00_1235		None	None
+gene-EHP00_1234	rna-mrna.EHP00_1234		None	None
+gene-EHP00_1233	rna-mrna.EHP00_1233		None	None
+gene-EHP00_1232	rna-mrna.EHP00_1232		None	None
+gene-EHP00_1231	rna-mrna.EHP00_1231		None	None
+gene-EHP00_1230	rna-mrna.EHP00_1230		None	None
+gene-EHP00_1229	rna-mrna.EHP00_1229		None	None
+gene-EHP00_1983	rna-mrna.EHP00_1983		None	None
+gene-EHP00_2271	rna-mrna.EHP00_2271		None	None
+gene-EHP00_1972	rna-mrna.EHP00_1972	PF00118.30	Partial	None
+gene-EHP00_1903	rna-mrna.EHP00_1903	PF00831.29	Partial	None
+gene-EHP00_1902	rna-mrna.EHP00_1902		None	None
+gene-EHP00_1901	rna-mrna.EHP00_1901	PF00352.28,PF00352.28	Partial	None
+gene-EHP00_1900	rna-mrna.EHP00_1900		None	None
+gene-EHP00_1899	rna-mrna.EHP00_1899	PF03931.22	Partial	None
+gene-EHP00_1907	rna-mrna.EHP00_1907		None	None
+gene-EHP00_1906	rna-mrna.EHP00_1906		None	None
+gene-EHP00_1905	rna-mrna.EHP00_1905		None	None
+gene-EHP00_1904	rna-mrna.EHP00_1904		None	None
+gene-EHP00_1640	rna-mrna.EHP00_1640		None	None
+gene-EHP00_1639	rna-mrna.EHP00_1639		None	None
+gene-EHP00_1638	rna-mrna.EHP00_1638		None	None
+gene-EHP00_1637	rna-mrna.EHP00_1637	PF00623.26,PF04983.24,PF04997.18,PF04998.23,PF05000.23	Complete	None
+gene-EHP00_1636	rna-mrna.EHP00_1636		None	None
+gene-EHP00_1635	rna-mrna.EHP00_1635		None	None
+gene-EHP00_1634	rna-mrna.EHP00_1634		None	None
+gene-EHP00_1633	rna-mrna.EHP00_1633	PF04824.22,PF04825.19	Complete	None
+gene-EHP00_1632	rna-mrna.EHP00_1632	PF00572.25	Partial	None
+gene-EHP00_1631	rna-mrna.EHP00_1631	PF03501.22	Partial	None
+gene-EHP00_2272	rna-mrna.EHP00_2272		None	None
+gene-EHP00_2273	rna-mrna.EHP00_2273		None	None
+gene-EHP00_2028	rna-mrna.EHP00_2028	PF02940.22	Partial	None
+gene-EHP00_2274	rna-mrna.EHP00_2274		None	None
+gene-EHP00_2275	rna-mrna.EHP00_2275		None	None
+gene-EHP00_2276	rna-mrna.EHP00_2276		None	None
+gene-EHP00_2277	rna-mrna.EHP00_2277		None	None
+gene-EHP00_2278	rna-mrna.EHP00_2278		None	None
+gene-EHP00_2279	rna-mrna.EHP00_2279		None	None
+gene-EHP00_2280	rna-mrna.EHP00_2280		None	None
+gene-EHP00_2281	rna-mrna.EHP00_2281		None	None
+gene-EHP00_2282	rna-mrna.EHP00_2282		None	None
+gene-EHP00_2061	rna-mrna.EHP00_2061	PF01655.24,PF01655.24	Partial	None
+gene-EHP00_2283	rna-mrna.EHP00_2283		None	None
+gene-EHP00_2284	rna-mrna.EHP00_2284		None	None
+gene-EHP00_2285	rna-mrna.EHP00_2285	PF00400.39,PF00400.39,PF12894.14,PF24807.2	Complete	None
+gene-EHP00_1774	rna-mrna.EHP00_1774		None	None
+gene-EHP00_1773	rna-mrna.EHP00_1773		None	None
+gene-EHP00_1772	rna-mrna.EHP00_1772		None	None
+gene-EHP00_2286	rna-mrna.EHP00_2286		None	None
+gene-EHP00_2287	rna-mrna.EHP00_2287		None	None
+gene-EHP00_2288	rna-mrna.EHP00_2288		None	None
+gene-EHP00_2289	rna-mrna.EHP00_2289	PF00281.25,PF00673.27	Partial	None
+gene-EHP00_2290	rna-mrna.EHP00_2290		None	None
+gene-EHP00_2291	rna-mrna.EHP00_2291		None	None
+gene-EHP00_2292	rna-mrna.EHP00_2292		None	None
+gene-EHP00_2130	rna-mrna.EHP00_2130		None	None
+gene-EHP00_1495	rna-mrna.EHP00_1495		None	None
+gene-EHP00_1496	rna-mrna.EHP00_1496	PF08284.17,PF12384.13,PF13650.12,PF13975.12	Partial	None
+gene-EHP00_2293	rna-mrna.EHP00_2293		None	None
+gene-EHP00_2294	rna-mrna.EHP00_2294		None	None
+gene-EHP00_1497	rna-mrna.EHP00_1497		None	None
+gene-EHP00_1498	rna-mrna.EHP00_1498		None	None
+gene-EHP00_1499	rna-mrna.EHP00_1499		None	None
+gene-EHP00_1500	rna-mrna.EHP00_1500		None	None
+gene-EHP00_1501	rna-mrna.EHP00_1501		None	None
+gene-EHP00_1502	rna-mrna.EHP00_1502		None	None
+gene-EHP00_1503	rna-mrna.EHP00_1503	PF13358.13	Partial	None
+gene-EHP00_2295	rna-mrna.EHP00_2295		None	None
+gene-EHP00_1504	rna-mrna.EHP00_1504		None	None
+gene-EHP00_1505	rna-mrna.EHP00_1505	PF01498.25,PF13358.13	Partial	None
+gene-EHP00_1506	rna-mrna.EHP00_1506		None	None
+gene-EHP00_1932	rna-mrna.EHP00_1932		None	None
+gene-EHP00_1931	rna-mrna.EHP00_1931		None	None
+gene-EHP00_2296	rna-mrna.EHP00_2296		None	None
+gene-EHP00_2297	rna-mrna.EHP00_2297		None	None
+gene-EHP00_2298	rna-mrna.EHP00_2298		None	None
+gene-EHP00_2299	rna-mrna.EHP00_2299		None	None
+gene-EHP00_2023	rna-mrna.EHP00_2023		None	None
+gene-EHP00_2300	rna-mrna.EHP00_2300		None	None
+gene-EHP00_1108	rna-mrna.EHP00_1108	PF00179.32	Partial	None
+gene-EHP00_1107	rna-mrna.EHP00_1107	PF01066.27	Partial	None
+gene-EHP00_1106	rna-mrna.EHP00_1106	PF00806.26,PF00806.26,PF00806.26,PF00806.26,PF00806.26,PF00806.26,PF00806.26	Complete	None
+gene-EHP00_1105	rna-mrna.EHP00_1105		None	None
+gene-EHP00_1104	rna-mrna.EHP00_1104		None	None
+gene-EHP00_2303	rna-mrna.EHP00_2303		None	None
+gene-EHP00_1103	rna-mrna.EHP00_1103		None	None
+gene-EHP00_2304	rna-mrna.EHP00_2304	PF00005.34	Partial	None
+gene-EHP00_1102	rna-mrna.EHP00_1102		None	None
+gene-EHP00_1101	rna-mrna.EHP00_1101		None	None
+gene-EHP00_1100	rna-mrna.EHP00_1100		None	None
+gene-EHP00_1099	rna-mrna.EHP00_1099	PF01435.25	Partial	None
+gene-EHP00_1098	rna-mrna.EHP00_1098	PF00303.25	Partial	None
+gene-EHP00_1097	rna-mrna.EHP00_1097	PF00464.26	Partial	None
+gene-EHP00_1096	rna-mrna.EHP00_1096		None	None
+gene-EHP00_1095	rna-mrna.EHP00_1095	PF00005.34	Complete	None
+gene-EHP00_1094	rna-mrna.EHP00_1094	PF00583.32,PF13508.14,PF13673.14	Partial	None
+gene-EHP00_1093	rna-mrna.EHP00_1093	PF00186.25	Partial	None
+gene-EHP00_1092	rna-mrna.EHP00_1092		None	None
+gene-EHP00_2306	rna-mrna.EHP00_2306		None	None
+gene-EHP00_2022	rna-mrna.EHP00_2022		None	None
+gene-EHP00_2307	rna-mrna.EHP00_2307		None	None
+gene-EHP00_2308	rna-mrna.EHP00_2308		None	None
+gene-EHP00_2309	rna-mrna.EHP00_2309		None	None
+gene-EHP00_1867	rna-mrna.EHP00_1867	PF03006.27	Partial	None
+gene-EHP00_1866	rna-mrna.EHP00_1866		None	None
+gene-EHP00_1865	rna-mrna.EHP00_1865	PF04153.25	Partial	None
+gene-EHP00_1864	rna-mrna.EHP00_1864		None	None
+gene-EHP00_1863	rna-mrna.EHP00_1863	PF00004.36,PF07728.21	Partial	None
+gene-EHP00_1862	rna-mrna.EHP00_1862		None	None
+gene-EHP00_1861	rna-mrna.EHP00_1861	PF00808.30	Partial	None
+gene-EHP00_1542	rna-mrna.EHP00_1542		None	None
+gene-EHP00_1541	rna-mrna.EHP00_1541		None	None
+gene-EHP00_1540	rna-mrna.EHP00_1540		None	None
+gene-EHP00_1539	rna-mrna.EHP00_1539		None	None
+gene-EHP00_1538	rna-mrna.EHP00_1538		None	None
+gene-EHP00_2311	rna-mrna.EHP00_2311		None	None
+gene-EHP00_2106	rna-mrna.EHP00_2106	PF00493.30,PF01078.28,PF14551.12,PF17207.10	Complete	None
+gene-EHP00_1536	rna-mrna.EHP00_1536	PF00004.36,PF09848.16,PF13401.13	Partial	None
+gene-EHP00_1535	rna-mrna.EHP00_1535		None	None
+gene-EHP00_1534	rna-mrna.EHP00_1534	PF00125.31,PF00808.30	Partial	None
+gene-EHP00_2312	rna-mrna.EHP00_2312	PF01368.28,PF02833.20	Complete	None
+gene-EHP00_1533	rna-mrna.EHP00_1533		None	None
+gene-EHP00_1532	rna-mrna.EHP00_1532		None	None
+gene-EHP00_1531	rna-mrna.EHP00_1531	PF00005.34,PF01061.30,PF19055.7	Partial	None
+gene-EHP00_2107	rna-mrna.EHP00_2107	PF00382.25,PF00382.25,PF07741.19	Complete	None
+gene-EHP00_2069	rna-mrna.EHP00_2069		None	None
+gene-EHP00_1935	rna-mrna.EHP00_1935		None	None
+gene-EHP00_2314	rna-mrna.EHP00_2314		None	None
+gene-EHP00_2315	rna-mrna.EHP00_2315		None	None
+gene-EHP00_2066	rna-mrna.EHP00_2066	PF05175.21	Partial	None
+gene-EHP00_732	rna-mrna.EHP00_732		None	None
+gene-EHP00_2316	rna-mrna.EHP00_2316		None	None
+gene-EHP00_733	rna-mrna.EHP00_733		None	None
+gene-EHP00_734	rna-mrna.EHP00_734		None	None
+gene-EHP00_735	rna-mrna.EHP00_735	PF04658.19	Partial	None
+gene-EHP00_736	rna-mrna.EHP00_736		None	None
+gene-EHP00_737	rna-mrna.EHP00_737	PF17027.12	Partial	None
+gene-EHP00_738	rna-mrna.EHP00_738		None	None
+gene-EHP00_739	rna-mrna.EHP00_739		None	None
+gene-EHP00_740	rna-mrna.EHP00_740		None	None
+gene-EHP00_741	rna-mrna.EHP00_741		None	None
+gene-EHP00_742	rna-mrna.EHP00_742	PF04900.19,PF18477.8	Partial	None
+gene-EHP00_743	rna-mrna.EHP00_743		None	None
+gene-EHP00_744	rna-mrna.EHP00_744		None	None
+gene-EHP00_745	rna-mrna.EHP00_745		None	None
+gene-EHP00_746	rna-mrna.EHP00_746		None	None
+gene-EHP00_747	rna-mrna.EHP00_747		None	None
+gene-EHP00_748	rna-mrna.EHP00_748		None	None
+gene-EHP00_749	rna-mrna.EHP00_749		None	None
+gene-EHP00_750	rna-mrna.EHP00_750		None	None
+gene-EHP00_751	rna-mrna.EHP00_751		None	None
+gene-EHP00_752	rna-mrna.EHP00_752		None	None
+gene-EHP00_753	rna-mrna.EHP00_753		None	None
+gene-EHP00_754	rna-mrna.EHP00_754	PF00687.27	Partial	None
+gene-EHP00_755	rna-mrna.EHP00_755	PF00096.33	Complete	None
+gene-EHP00_756	rna-mrna.EHP00_756		None	None
+gene-EHP00_757	rna-mrna.EHP00_757	PF00069.32,PF07714.24	Partial	None
+gene-EHP00_758	rna-mrna.EHP00_758		None	None
+gene-EHP00_759	rna-mrna.EHP00_759		None	None
+gene-EHP00_760	rna-mrna.EHP00_760	PF00493.30,PF01078.28,PF17207.10,PF17855.8	Complete	None
+gene-EHP00_761	rna-mrna.EHP00_761		None	None
+gene-EHP00_762	rna-mrna.EHP00_762	PF00270.36,PF00270.36,PF00271.38,PF04851.22	Complete	None
+gene-EHP00_763	rna-mrna.EHP00_763		None	None
+gene-EHP00_2317	rna-mrna.EHP00_2317	PF03226.22	Partial	None
+gene-EHP00_1990	rna-mrna.EHP00_1990	PF00004.36,PF00910.29,PF05496.19,PF13177.13	Partial	None
+gene-EHP00_1961	rna-mrna.EHP00_1961		None	None
+gene-EHP00_1962	rna-mrna.EHP00_1962		None	None
+gene-EHP00_1963	rna-mrna.EHP00_1963		None	None
+gene-EHP00_2072	rna-mrna.EHP00_2072		None	None
+gene-EHP00_2035	rna-mrna.EHP00_2035	PF00005.34,PF01061.30,PF19055.7	Partial	None
+gene-EHP00_2318	rna-mrna.EHP00_2318		None	None
+gene-EHP00_2319	rna-mrna.EHP00_2319		None	None
+gene-EHP00_2320	rna-mrna.EHP00_2320		None	None
+gene-EHP00_2321	rna-mrna.EHP00_2321	PF01233.26	Partial	None
+gene-EHP00_978	rna-mrna.EHP00_978		None	None
+gene-EHP00_979	rna-mrna.EHP00_979		None	None
+gene-EHP00_980	rna-mrna.EHP00_980	PF02544.22,PF06966.18	Partial	None
+gene-EHP00_981	rna-mrna.EHP00_981	PF00227.32,PF10584.15	Partial	None
+gene-EHP00_982	rna-mrna.EHP00_982		None	None
+gene-EHP00_983	rna-mrna.EHP00_983		None	None
+gene-EHP00_984	rna-mrna.EHP00_984	PF00642.31,PF16543.11	Complete	None
+gene-EHP00_985	rna-mrna.EHP00_985	PF00134.29	Partial	None
+gene-EHP00_986	rna-mrna.EHP00_986	PF00179.32	Partial	None
+gene-EHP00_987	rna-mrna.EHP00_987	PF01798.24	Partial	None
+gene-EHP00_988	rna-mrna.EHP00_988		None	None
+gene-EHP00_989	rna-mrna.EHP00_989		None	None
+gene-EHP00_990	rna-mrna.EHP00_990		None	None
+gene-EHP00_991	rna-mrna.EHP00_991		None	None
+gene-EHP00_992	rna-mrna.EHP00_992		None	None
+gene-EHP00_993	rna-mrna.EHP00_993	PF00046.36	Complete	None
+gene-EHP00_994	rna-mrna.EHP00_994	PF01369.26	Partial	None
+gene-EHP00_995	rna-mrna.EHP00_995	PF00022.27	Partial	None
+gene-EHP00_996	rna-mrna.EHP00_996		None	None
+gene-EHP00_997	rna-mrna.EHP00_997		None	None
+gene-EHP00_998	rna-mrna.EHP00_998	PF00488.28,PF05192.24	Complete	None
+gene-EHP00_999	rna-mrna.EHP00_999	PF00046.36	Partial	None
+gene-EHP00_1000	rna-mrna.EHP00_1000	PF00250.25	Partial	None
+gene-EHP00_1001	rna-mrna.EHP00_1001		None	None
+gene-EHP00_2323	rna-mrna.EHP00_2323		None	None
+gene-EHP00_1002	rna-mrna.EHP00_1002	PF04934.20	Partial	None
+gene-EHP00_1003	rna-mrna.EHP00_1003	PF01592.22	Partial	None
+gene-EHP00_1004	rna-mrna.EHP00_1004		None	None
+gene-EHP00_1005	rna-mrna.EHP00_1005		None	None
+gene-EHP00_1006	rna-mrna.EHP00_1006		None	None
+gene-EHP00_1007	rna-mrna.EHP00_1007		None	None
+gene-EHP00_1008	rna-mrna.EHP00_1008		None	None
+gene-EHP00_1009	rna-mrna.EHP00_1009		None	None
+gene-EHP00_1010	rna-mrna.EHP00_1010		None	None
+gene-EHP00_1011	rna-mrna.EHP00_1011		None	None
+gene-EHP00_1012	rna-mrna.EHP00_1012		None	None
+gene-EHP00_1013	rna-mrna.EHP00_1013		None	None
+gene-EHP00_1730	rna-mrna.EHP00_1730	PF00175.27,PF00258.31	Complete	None
+gene-EHP00_1729	rna-mrna.EHP00_1729		None	None
+gene-EHP00_1728	rna-mrna.EHP00_1728		None	None
+gene-EHP00_1727	rna-mrna.EHP00_1727		None	None
+gene-EHP00_1726	rna-mrna.EHP00_1726	PF00009.34,PF03144.32,PF09173.18	Complete	None
+gene-EHP00_1725	rna-mrna.EHP00_1725		None	None
+gene-EHP00_1724	rna-mrna.EHP00_1724		None	None
+gene-EHP00_1723	rna-mrna.EHP00_1723		None	None
+gene-EHP00_1722	rna-mrna.EHP00_1722		None	None
+gene-EHP00_1721	rna-mrna.EHP00_1721		None	None
+gene-EHP00_1720	rna-mrna.EHP00_1720	PF03849.20,PF18307.7	Complete	None
+gene-EHP00_1718	rna-mrna.EHP00_1718		None	None
+gene-EHP00_1719	rna-mrna.EHP00_1719		None	None
+gene-EHP00_2324	rna-mrna.EHP00_2324		None	None
+gene-EHP00_2325	rna-mrna.EHP00_2325		None	None
+gene-EHP00_2326	rna-mrna.EHP00_2326		None	None
+gene-EHP00_1416	rna-mrna.EHP00_1416		None	None
+gene-EHP00_1415	rna-mrna.EHP00_1415		None	None
+gene-EHP00_1414	rna-mrna.EHP00_1414	PF01000.32,PF01193.30	Partial	None
+gene-EHP00_1413	rna-mrna.EHP00_1413		None	None
+gene-EHP00_1412	rna-mrna.EHP00_1412		None	None
+gene-EHP00_1411	rna-mrna.EHP00_1411		None	None
+gene-EHP00_1410	rna-mrna.EHP00_1410	PF21404.4	Complete	None
+gene-EHP00_1409	rna-mrna.EHP00_1409	PF00814.32	Partial	None
+gene-EHP00_1408	rna-mrna.EHP00_1408	PF00069.32,PF07714.24	Partial	None
+gene-EHP00_1407	rna-mrna.EHP00_1407		None	None
+gene-EHP00_1406	rna-mrna.EHP00_1406		None	None
+gene-EHP00_1405	rna-mrna.EHP00_1405		None	None
+gene-EHP00_1404	rna-mrna.EHP00_1404		None	None
+gene-EHP00_1403	rna-mrna.EHP00_1403		None	None
+gene-EHP00_1402	rna-mrna.EHP00_1402	PF29631.1,PF29632.1	Partial	None
+gene-EHP00_1401	rna-mrna.EHP00_1401	PF00642.31,PF00642.31	Complete	None
+gene-EHP00_1400	rna-mrna.EHP00_1400	PF01588.27	Partial	None
+gene-EHP00_1399	rna-mrna.EHP00_1399		None	None
+gene-EHP00_1398	rna-mrna.EHP00_1398	PF00270.36,PF00271.38	Complete	None
+gene-EHP00_2327	rna-mrna.EHP00_2327	PF02358.23,PF02358.23	Complete	None
+gene-EHP00_2328	rna-mrna.EHP00_2328		None	None
+gene-EHP00_2329	rna-mrna.EHP00_2329		None	None
+gene-EHP00_2330	rna-mrna.EHP00_2330		None	None
+gene-EHP00_2331	rna-mrna.EHP00_2331		None	None
+gene-EHP00_2332	rna-mrna.EHP00_2332		None	None
+gene-EHP00_1280	rna-mrna.EHP00_1280		None	None
+gene-EHP00_1279	rna-mrna.EHP00_1279		None	None
+gene-EHP00_1278	rna-mrna.EHP00_1278		None	None
+gene-EHP00_1277	rna-mrna.EHP00_1277		None	None
+gene-EHP00_1276	rna-mrna.EHP00_1276		None	None
+gene-EHP00_1275	rna-mrna.EHP00_1275		None	None
+gene-EHP00_1274	rna-mrna.EHP00_1274		None	None
+gene-EHP00_1273	rna-mrna.EHP00_1273	PF01248.32	Partial	None
+gene-EHP00_1272	rna-mrna.EHP00_1272	PF00085.27	Partial	None
+gene-EHP00_1271	rna-mrna.EHP00_1271		None	None
+gene-EHP00_1270	rna-mrna.EHP00_1270	PF00179.32	Partial	None
+gene-EHP00_1269	rna-mrna.EHP00_1269		None	None
+gene-EHP00_1268	rna-mrna.EHP00_1268		None	None
+gene-EHP00_1267	rna-mrna.EHP00_1267		None	None
+gene-EHP00_1266	rna-mrna.EHP00_1266		None	None
+gene-EHP00_1265	rna-mrna.EHP00_1265	PF00535.33	Partial	None
+gene-EHP00_1264	rna-mrna.EHP00_1264	PF01131.26,PF01751.29,PF06839.18	Complete	None
+gene-EHP00_1263	rna-mrna.EHP00_1263	PF02269.23	Partial	None
+gene-EHP00_1262	rna-mrna.EHP00_1262		None	None
+gene-EHP00_1261	rna-mrna.EHP00_1261		None	None
+gene-EHP00_1260	rna-mrna.EHP00_1260		None	None
+gene-EHP00_582	rna-mrna.EHP00_582		None	None
+gene-EHP00_581	rna-mrna.EHP00_581	PF04515.19	Partial	None
+gene-EHP00_580	rna-mrna.EHP00_580		None	None
+gene-EHP00_579	rna-mrna.EHP00_579	PF00133.29,PF00133.29,PF01406.26,PF09334.18,PF09334.18	Partial	None
+gene-EHP00_578	rna-mrna.EHP00_578		None	None
+gene-EHP00_2113	rna-mrna.EHP00_2113		None	None
+gene-EHP00_577	rna-mrna.EHP00_577	PF00307.37,PF00307.37	Partial	None
+gene-EHP00_576	rna-mrna.EHP00_576	PF02535.29	Partial	None
+gene-EHP00_575	rna-mrna.EHP00_575		None	None
+gene-EHP00_574	rna-mrna.EHP00_574		None	None
+gene-EHP00_573	rna-mrna.EHP00_573		None	None
+gene-EHP00_572	rna-mrna.EHP00_572	PF00560.40,PF00560.40,PF12799.14,PF12799.14,PF13855.13,PF13855.13,PF13855.13,PF23598.2	Complete	None
+gene-EHP00_571	rna-mrna.EHP00_571	PF00560.40,PF12799.14,PF13855.13,PF13855.13	Complete	None
+gene-EHP00_570	rna-mrna.EHP00_570		None	None
+gene-EHP00_569	rna-mrna.EHP00_569		None	None
+gene-EHP00_568	rna-mrna.EHP00_568	PF00334.25	Partial	None
+gene-EHP00_567	rna-mrna.EHP00_567	PF01873.24	Partial	None
+gene-EHP00_566	rna-mrna.EHP00_566	PF00483.30,PF12804.14,PF25087.2	Complete	None
+gene-EHP00_565	rna-mrna.EHP00_565	PF02390.24	Partial	None
+gene-EHP00_564	rna-mrna.EHP00_564		None	None
+gene-EHP00_563	rna-mrna.EHP00_563	PF00025.28,PF00071.29,PF08477.20	Partial	None
+gene-EHP00_562	rna-mrna.EHP00_562		None	None
+gene-EHP00_561	rna-mrna.EHP00_561		None	None
+gene-EHP00_560	rna-mrna.EHP00_560		None	None
+gene-EHP00_2333	rna-mrna.EHP00_2333	PF00344.26,PF10559.15	Partial	None
+gene-EHP00_557	rna-mrna.EHP00_557	PF01207.24	Partial	None
+gene-EHP00_556	rna-mrna.EHP00_556	PF00097.32	Complete	None
+gene-EHP00_555	rna-mrna.EHP00_555	PF07541.18	Partial	None
+gene-EHP00_554	rna-mrna.EHP00_554	PF00439.31,PF25577.2	Complete	None
+gene-EHP00_2334	rna-mrna.EHP00_2334		None	None
+gene-EHP00_553	rna-mrna.EHP00_553		None	None
+gene-EHP00_552	rna-mrna.EHP00_552		None	None
+gene-EHP00_551	rna-mrna.EHP00_551	PF09763.16	Partial	None
+gene-EHP00_550	rna-mrna.EHP00_550	PF00485.25	Partial	None
+gene-EHP00_549	rna-mrna.EHP00_549		None	None
+gene-EHP00_548	rna-mrna.EHP00_548	PF01916.24	Partial	None
+gene-EHP00_547	rna-mrna.EHP00_547		None	None
+gene-EHP00_546	rna-mrna.EHP00_546	PF04098.22	Partial	None
+gene-EHP00_545	rna-mrna.EHP00_545		None	None
+gene-EHP00_544	rna-mrna.EHP00_544		None	None
+gene-EHP00_543	rna-mrna.EHP00_543	PF04178.19	Partial	None
+gene-EHP00_542	rna-mrna.EHP00_542	PF00009.34,PF01926.30,PF11987.14,PF14578.13	Complete	None
+gene-EHP00_541	rna-mrna.EHP00_541	PF04573.18	Partial	None
+gene-EHP00_540	rna-mrna.EHP00_540	PF00136.27	Partial	None
+gene-EHP00_1993	rna-mrna.EHP00_1993	PF12861.14,PF13639.13	Complete	None
+gene-EHP00_1992	rna-mrna.EHP00_1992		None	None
+gene-EHP00_635	rna-mrna.EHP00_635		None	None
+gene-EHP00_636	rna-mrna.EHP00_636		None	None
+gene-EHP00_637	rna-mrna.EHP00_637	PF00735.25,PF01926.30	Partial	None
+gene-EHP00_638	rna-mrna.EHP00_638		None	None
+gene-EHP00_639	rna-mrna.EHP00_639	PF03159.25,PF17846.7,PF17846.7,PF17846.7	Partial	None
+gene-EHP00_640	rna-mrna.EHP00_640	PF04042.22,PF18018.8	Partial	None
+gene-EHP00_641	rna-mrna.EHP00_641		None	None
+gene-EHP00_642	rna-mrna.EHP00_642	PF00850.25	Partial	None
+gene-EHP00_643	rna-mrna.EHP00_643	PF00227.32	Partial	None
+gene-EHP00_644	rna-mrna.EHP00_644	PF00076.29,PF05383.24	Partial	None
+gene-EHP00_645	rna-mrna.EHP00_645	PF05903.21	Partial	None
+gene-EHP00_646	rna-mrna.EHP00_646	PF10058.15	Complete	None
+gene-EHP00_647	rna-mrna.EHP00_647		None	None
+gene-EHP00_648	rna-mrna.EHP00_648	PF00924.25	Complete	None
+gene-EHP00_649	rna-mrna.EHP00_649	PF06978.17,PF06978.17	Partial	None
+gene-EHP00_650	rna-mrna.EHP00_650		None	None
+gene-EHP00_651	rna-mrna.EHP00_651		None	None
+gene-EHP00_652	rna-mrna.EHP00_652		None	None
+gene-EHP00_653	rna-mrna.EHP00_653		None	None
+gene-EHP00_2335	rna-mrna.EHP00_2335		None	None
+gene-EHP00_682	rna-mrna.EHP00_682		None	None
+gene-EHP00_681	rna-mrna.EHP00_681		None	None
+gene-EHP00_680	rna-mrna.EHP00_680		None	None
+gene-EHP00_679	rna-mrna.EHP00_679	PF00787.30	Partial	None
+gene-EHP00_678	rna-mrna.EHP00_678	PF01853.26,PF11717.15,PF17772.8	Partial	None
+gene-EHP00_677	rna-mrna.EHP00_677		None	None
+gene-EHP00_676	rna-mrna.EHP00_676		None	None
+gene-EHP00_675	rna-mrna.EHP00_675		None	None
+gene-EHP00_674	rna-mrna.EHP00_674	PF00044.31,PF02800.27	Partial	None
+gene-EHP00_673	rna-mrna.EHP00_673	PF00004.36,PF00004.36,PF13173.13,PF17862.8	Complete	None
+gene-EHP00_672	rna-mrna.EHP00_672		None	None
+gene-EHP00_671	rna-mrna.EHP00_671	PF00752.24,PF00867.24	Complete	None
+gene-EHP00_670	rna-mrna.EHP00_670		None	None
+gene-EHP00_669	rna-mrna.EHP00_669	PF08149.17	Complete	None
+gene-EHP00_668	rna-mrna.EHP00_668	PF03800.21	Partial	None
+gene-EHP00_667	rna-mrna.EHP00_667		None	None
+gene-EHP00_666	rna-mrna.EHP00_666		None	None
+gene-EHP00_665	rna-mrna.EHP00_665	PF00565.24	Partial	None
+gene-EHP00_664	rna-mrna.EHP00_664	PF00565.24	Partial	None
+gene-EHP00_663	rna-mrna.EHP00_663		None	None
+gene-EHP00_662	rna-mrna.EHP00_662	PF03878.21	Partial	None
+gene-EHP00_661	rna-mrna.EHP00_661	PF08553.17	Partial	None
+gene-EHP00_660	rna-mrna.EHP00_660		None	None
+gene-EHP00_659	rna-mrna.EHP00_659		None	None
+gene-EHP00_658	rna-mrna.EHP00_658	PF00085.27,PF13848.13	Complete	None
+gene-EHP00_657	rna-mrna.EHP00_657	PF17020.11	Partial	None
+gene-EHP00_656	rna-mrna.EHP00_656		None	None
+gene-EHP00_655	rna-mrna.EHP00_655		None	None
+gene-EHP00_826	rna-mrna.EHP00_826		None	None
+gene-EHP00_2730	rna-mrna.EHP00_2730		None	None
+gene-EHP00_823	rna-mrna.EHP00_823		None	None
+gene-EHP00_821	rna-mrna.EHP00_821		None	None
+gene-EHP00_820	rna-mrna.EHP00_820	PF00240.30,PF01599.27,PF11976.15	Complete	None
+gene-EHP00_819	rna-mrna.EHP00_819	PF06733.22,PF13307.13	Complete	None
+gene-EHP00_2336	rna-mrna.EHP00_2336		None	None
+gene-EHP00_2731	rna-mrna.EHP00_2731	PF06733.22,PF13307.13	Complete	None
+gene-EHP00_822	rna-mrna.EHP00_822		None	None
+gene-EHP00_824	rna-mrna.EHP00_824		None	None
+gene-EHP00_825	rna-mrna.EHP00_825	PF01239.29	Complete	None
+gene-EHP00_1925	rna-mrna.EHP00_1925	PF12762.14	Partial	None
+gene-EHP00_2039	rna-mrna.EHP00_2039	PF00078.33	Complete	None
+gene-EHP00_829	rna-mrna.EHP00_829		None	None
+gene-EHP00_828	rna-mrna.EHP00_828	PF12762.14	Partial	None
+gene-EHP00_827	rna-mrna.EHP00_827		None	None
+gene-EHP00_2340	rna-mrna.EHP00_2340		None	None
+gene-EHP00_1873	rna-mrna.EHP00_1873		None	None
+gene-EHP00_1872	rna-mrna.EHP00_1872		None	None
+gene-EHP00_1871	rna-mrna.EHP00_1871		None	None
+gene-EHP00_1870	rna-mrna.EHP00_1870		None	None
+gene-EHP00_1869	rna-mrna.EHP00_1869	PF09729.16	Partial	None
+gene-EHP00_1868	rna-mrna.EHP00_1868		None	None
+gene-EHP00_1682	rna-mrna.EHP00_1682	PF00176.30,PF00270.36,PF00271.38,PF04851.22,PF11496.15,PF13892.12	Complete	None
+gene-EHP00_1681	rna-mrna.EHP00_1681		None	None
+gene-EHP00_2341	rna-mrna.EHP00_2341		None	None
+gene-EHP00_1680	rna-mrna.EHP00_1680	PF01255.25	Partial	None
+gene-EHP00_2342	rna-mrna.EHP00_2342	PF12906.14	Partial	None
+gene-EHP00_1679	rna-mrna.EHP00_1679		None	None
+gene-EHP00_1678	rna-mrna.EHP00_1678		None	None
+gene-EHP00_2732	rna-mrna.EHP00_2732	PF00004.36,PF07728.21,PF16450.12,PF17862.8	Complete	None
+gene-EHP00_2733	rna-mrna.EHP00_2733	PF01496.25,PF01496.25	Partial	None
+gene-EHP00_2343	rna-mrna.EHP00_2343		None	None
+gene-EHP00_1185	rna-mrna.EHP00_1185		None	None
+gene-EHP00_1184	rna-mrna.EHP00_1184		None	None
+gene-EHP00_1183	rna-mrna.EHP00_1183		None	None
+gene-EHP00_1182	rna-mrna.EHP00_1182		None	None
+gene-EHP00_1181	rna-mrna.EHP00_1181		None	None
+gene-EHP00_2344	rna-mrna.EHP00_2344	PF00400.39,PF00400.39	Complete	None
+gene-EHP00_1179	rna-mrna.EHP00_1179		None	None
+gene-EHP00_2346	rna-mrna.EHP00_2346		None	None
+gene-EHP00_2070	rna-mrna.EHP00_2070	PF00320.34	Complete	None
+gene-EHP00_2347	rna-mrna.EHP00_2347		None	None
+gene-EHP00_355	rna-mrna.EHP00_355	PF17013.12	Partial	None
+gene-EHP00_356	rna-mrna.EHP00_356		None	None
+gene-EHP00_357	rna-mrna.EHP00_357	PF03798.22	Partial	None
+gene-EHP00_358	rna-mrna.EHP00_358		None	None
+gene-EHP00_359	rna-mrna.EHP00_359	PF01096.24	Partial	None
+gene-EHP00_360	rna-mrna.EHP00_360		None	None
+gene-EHP00_361	rna-mrna.EHP00_361	PF03219.21	Partial	None
+gene-EHP00_362	rna-mrna.EHP00_362		None	None
+gene-EHP00_363	rna-mrna.EHP00_363	PF13640.13,PF13661.13	Partial	None
+gene-EHP00_364	rna-mrna.EHP00_364		None	None
+gene-EHP00_365	rna-mrna.EHP00_365		None	None
+gene-EHP00_366	rna-mrna.EHP00_366		None	None
+gene-EHP00_367	rna-mrna.EHP00_367		None	None
+gene-EHP00_368	rna-mrna.EHP00_368	PF17031.11	Partial	None
+gene-EHP00_369	rna-mrna.EHP00_369		None	None
+gene-EHP00_370	rna-mrna.EHP00_370		None	None
+gene-EHP00_371	rna-mrna.EHP00_371		None	None
+gene-EHP00_372	rna-mrna.EHP00_372	PF00400.39,PF00400.39,PF23953.2	Complete	None
+gene-EHP00_373	rna-mrna.EHP00_373		None	None
+gene-EHP00_374	rna-mrna.EHP00_374	PF00312.28,PF08069.18	Partial	None
+gene-EHP00_375	rna-mrna.EHP00_375		None	None
+gene-EHP00_376	rna-mrna.EHP00_376		None	None
+gene-EHP00_377	rna-mrna.EHP00_377	PF00270.36,PF00271.38	Complete	None
+gene-EHP00_378	rna-mrna.EHP00_378	PF03568.24	Partial	None
+gene-EHP00_379	rna-mrna.EHP00_379		None	None
+gene-EHP00_380	rna-mrna.EHP00_380	PF02270.23	Complete	None
+gene-EHP00_381	rna-mrna.EHP00_381		None	None
+gene-EHP00_382	rna-mrna.EHP00_382	PF01926.30,PF02421.25,PF06071.20	Complete	None
+gene-EHP00_383	rna-mrna.EHP00_383	PF00238.25	Partial	None
+gene-EHP00_384	rna-mrna.EHP00_384	PF00817.26,PF11799.14	Complete	None
+gene-EHP00_385	rna-mrna.EHP00_385		None	None
+gene-EHP00_386	rna-mrna.EHP00_386	PF11969.14	Partial	None
+gene-EHP00_387	rna-mrna.EHP00_387	PF00266.26,PF01041.24,PF01212.28	Partial	None
+gene-EHP00_388	rna-mrna.EHP00_388	PF04427.24	Partial	None
+gene-EHP00_389	rna-mrna.EHP00_389	PF04851.22,PF06733.22,PF13307.13	Complete	None
+gene-EHP00_390	rna-mrna.EHP00_390	PF00400.39,PF00400.39,PF00400.39,PF12894.14	Complete	None
+gene-EHP00_391	rna-mrna.EHP00_391	PF07718.19,PF14806.12	Complete	None
+gene-EHP00_392	rna-mrna.EHP00_392		None	None
+gene-EHP00_393	rna-mrna.EHP00_393		None	None
+gene-EHP00_394	rna-mrna.EHP00_394	PF17006.11	Partial	None
+gene-EHP00_395	rna-mrna.EHP00_395		None	None
+gene-EHP00_2348	rna-mrna.EHP00_2348		None	None
+gene-EHP00_396	rna-mrna.EHP00_396	PF00005.34,PF02463.26	Complete	None
+gene-EHP00_397	rna-mrna.EHP00_397		None	None
+gene-EHP00_398	rna-mrna.EHP00_398	PF00225.30,PF16796.12	Partial	None
+gene-EHP00_399	rna-mrna.EHP00_399	PF00900.27,PF08071.18	Partial	None
+gene-EHP00_400	rna-mrna.EHP00_400	PF04857.27,PF04857.27	Partial	None
+gene-EHP00_2349	rna-mrna.EHP00_2349		None	None
+gene-EHP00_401	rna-mrna.EHP00_401		None	None
+gene-EHP00_402	rna-mrna.EHP00_402	PF00849.28	Partial	None
+gene-EHP00_403	rna-mrna.EHP00_403	PF00573.28	Partial	None
+gene-EHP00_404	rna-mrna.EHP00_404		None	None
+gene-EHP00_405	rna-mrna.EHP00_405	PF17010.11	Partial	None
+gene-EHP00_406	rna-mrna.EHP00_406	PF00009.34,PF00025.28,PF00071.29,PF01926.30,PF04670.19,PF08477.20	Partial	None
+gene-EHP00_407	rna-mrna.EHP00_407	PF01656.30,PF02374.22,PF10609.16	Partial	None
+gene-EHP00_408	rna-mrna.EHP00_408		None	None
+gene-EHP00_409	rna-mrna.EHP00_409		None	None
+gene-EHP00_410	rna-mrna.EHP00_410	PF02732.22	Complete	None
+gene-EHP00_411	rna-mrna.EHP00_411		None	None
+gene-EHP00_412	rna-mrna.EHP00_412	PF03874.22	Partial	None
+gene-EHP00_2350	rna-mrna.EHP00_2350		None	None
+gene-EHP00_413	rna-mrna.EHP00_413	PF07934.19	Partial	None
+gene-EHP00_414	rna-mrna.EHP00_414		None	None
+gene-EHP00_415	rna-mrna.EHP00_415		None	None
+gene-EHP00_416	rna-mrna.EHP00_416	PF03248.19	Partial	None
+gene-EHP00_417	rna-mrna.EHP00_417		None	None
+gene-EHP00_418	rna-mrna.EHP00_418		None	None
+gene-EHP00_419	rna-mrna.EHP00_419	PF01775.23	Partial	None
+gene-EHP00_420	rna-mrna.EHP00_420	PF00587.31,PF02403.28	Partial	None
+gene-EHP00_421	rna-mrna.EHP00_421	PF01922.24	Partial	None
+gene-EHP00_422	rna-mrna.EHP00_422		None	None
+gene-EHP00_423	rna-mrna.EHP00_423		None	None
+gene-EHP00_2352	rna-mrna.EHP00_2352		None	None
+gene-EHP00_2353	rna-mrna.EHP00_2353		None	None
+gene-EHP00_2735	rna-mrna.EHP00_2735	PF00149.34	Partial	None
+gene-EHP00_2736	rna-mrna.EHP00_2736		None	None
+gene-EHP00_2737	rna-mrna.EHP00_2737	PF00004.36,PF00533.34,PF00910.29,PF03215.22,PF08519.18,PF12738.14	Complete	None
+gene-EHP00_2738	rna-mrna.EHP00_2738	PF03825.23,PF12832.14	Partial	None
+gene-EHP00_622	rna-mrna.EHP00_622	PF04981.20,PF29994.1	Partial	None
+gene-EHP00_621	rna-mrna.EHP00_621	PF06068.20	Partial	None
+gene-EHP00_620	rna-mrna.EHP00_620		None	None
+gene-EHP00_619	rna-mrna.EHP00_619		None	None
+gene-EHP00_618	rna-mrna.EHP00_618	PF00069.32,PF03109.23,PF07387.18,PF07714.24	Partial	None
+gene-EHP00_617	rna-mrna.EHP00_617	PF01248.32	Partial	None
+gene-EHP00_616	rna-mrna.EHP00_616	PF01435.25,PF16491.11	Partial	None
+gene-EHP00_615	rna-mrna.EHP00_615		None	None
+gene-EHP00_614	rna-mrna.EHP00_614	PF00111.33	Partial	None
+gene-EHP00_613	rna-mrna.EHP00_613		None	None
+gene-EHP00_612	rna-mrna.EHP00_612	PF00400.39,PF00400.39,PF00400.39,PF00400.39,PF00400.39,PF00400.39	Complete	None
+gene-EHP00_611	rna-mrna.EHP00_611	PF00996.25	Partial	None
+gene-EHP00_2354	rna-mrna.EHP00_2354	PF03029.24	Partial	None
+gene-EHP00_609	rna-mrna.EHP00_609	PF04950.19	Partial	None
+gene-EHP00_608	rna-mrna.EHP00_608	PF00899.28	Partial	None
+gene-EHP00_607	rna-mrna.EHP00_607	PF02319.27,PF16421.11	Partial	None
+gene-EHP00_606	rna-mrna.EHP00_606		None	None
+gene-EHP00_605	rna-mrna.EHP00_605	PF00587.31,PF03129.26,PF09180.17	Complete	None
+gene-EHP00_604	rna-mrna.EHP00_604	PF03179.21	Partial	None
+gene-EHP00_603	rna-mrna.EHP00_603	PF16589.13,PF16770.12	Complete	None
+gene-EHP00_602	rna-mrna.EHP00_602		None	None
+gene-EHP00_601	rna-mrna.EHP00_601		None	None
+gene-EHP00_600	rna-mrna.EHP00_600	PF00485.25	Partial	None
+gene-EHP00_599	rna-mrna.EHP00_599	PF01068.27,PF01068.27,PF04675.20,PF04679.22	Complete	None
+gene-EHP00_598	rna-mrna.EHP00_598	PF00626.28,PF04810.21,PF04811.22,PF08033.18	Complete	None
+gene-EHP00_597	rna-mrna.EHP00_597		None	None
+gene-EHP00_2355	rna-mrna.EHP00_2355		None	None
+gene-EHP00_596	rna-mrna.EHP00_596		None	None
+gene-EHP00_2114	rna-mrna.EHP00_2114		None	None
+gene-EHP00_595	rna-mrna.EHP00_595		None	None
+gene-EHP00_594	rna-mrna.EHP00_594	PF00561.27	Partial	None
+gene-EHP00_593	rna-mrna.EHP00_593	PF00265.25	Partial	None
+gene-EHP00_592	rna-mrna.EHP00_592	PF00149.34,PF04152.20	Partial	None
+gene-EHP00_591	rna-mrna.EHP00_591	PF00176.30,PF00270.36,PF00271.38,PF04851.22,PF11496.15	Complete	None
+gene-EHP00_590	rna-mrna.EHP00_590	PF00069.32,PF07714.24,PF14531.13	Partial	None
+gene-EHP00_589	rna-mrna.EHP00_589		None	None
+gene-EHP00_588	rna-mrna.EHP00_588	PF00182.25	Partial	None
+gene-EHP00_587	rna-mrna.EHP00_587		None	None
+gene-EHP00_2356	rna-mrna.EHP00_2356		None	None
+gene-EHP00_2357	rna-mrna.EHP00_2357	PF06703.17	Partial	None
+gene-EHP00_2358	rna-mrna.EHP00_2358	PF00270.36,PF00270.36,PF00271.38,PF04851.22	Complete	None
+gene-EHP00_2359	rna-mrna.EHP00_2359		None	None
+gene-EHP00_2360	rna-mrna.EHP00_2360		None	None
+gene-EHP00_2361	rna-mrna.EHP00_2361		None	None
+gene-EHP00_2362	rna-mrna.EHP00_2362		None	None
+gene-EHP00_2363	rna-mrna.EHP00_2363		None	None
+gene-EHP00_2364	rna-mrna.EHP00_2364		None	None
+gene-EHP00_2365	rna-mrna.EHP00_2365		None	None
+gene-EHP00_2366	rna-mrna.EHP00_2366		None	None
+gene-EHP00_2367	rna-mrna.EHP00_2367		None	None
+gene-EHP00_2368	rna-mrna.EHP00_2368		None	None
+gene-EHP00_1874	rna-mrna.EHP00_1874	PF00454.34,PF02260.26	Complete	None
+gene-EHP00_1975	rna-mrna.EHP00_1975		None	None
+gene-EHP00_2369	rna-mrna.EHP00_2369		None	None
+gene-EHP00_804	rna-mrna.EHP00_804		None	None
+gene-EHP00_805	rna-mrna.EHP00_805		None	None
+gene-EHP00_806	rna-mrna.EHP00_806		None	None
+gene-EHP00_807	rna-mrna.EHP00_807		None	None
+gene-EHP00_808	rna-mrna.EHP00_808	PF17030.12	Partial	None
+gene-EHP00_809	rna-mrna.EHP00_809	PF00183.24,PF13589.13	Partial	None
+gene-EHP00_810	rna-mrna.EHP00_810		None	None
+gene-EHP00_811	rna-mrna.EHP00_811		None	None
+gene-EHP00_812	rna-mrna.EHP00_812		None	None
+gene-EHP00_813	rna-mrna.EHP00_813		None	None
+gene-EHP00_814	rna-mrna.EHP00_814		None	None
+gene-EHP00_815	rna-mrna.EHP00_815		None	None
+gene-EHP00_816	rna-mrna.EHP00_816		None	None
+gene-EHP00_817	rna-mrna.EHP00_817		None	None
+gene-EHP00_818	rna-mrna.EHP00_818		None	None
+gene-EHP00_2739	rna-mrna.EHP00_2739	PF06733.22,PF13307.13	Complete	None
+gene-EHP00_2740	rna-mrna.EHP00_2740	PF00240.30,PF01599.27,PF11976.15	Complete	None
+gene-EHP00_2741	rna-mrna.EHP00_2741	PF01239.29	Complete	None
+gene-EHP00_152	rna-mrna.EHP00_152		None	None
+gene-EHP00_153	rna-mrna.EHP00_153		None	None
+gene-EHP00_154	rna-mrna.EHP00_154		None	None
+gene-EHP00_155	rna-mrna.EHP00_155	PF03810.26,PF08389.19,PF08767.18,PF18784.7,PF18787.8	Complete	None
+gene-EHP00_156	rna-mrna.EHP00_156		None	None
+gene-EHP00_157	rna-mrna.EHP00_157	PF06391.19,PF17121.12	Partial	None
+gene-EHP00_158	rna-mrna.EHP00_158		None	None
+gene-EHP00_159	rna-mrna.EHP00_159	PF01261.31	Partial	None
+gene-EHP00_160	rna-mrna.EHP00_160		None	None
+gene-EHP00_161	rna-mrna.EHP00_161	PF00804.32	Partial	None
+gene-EHP00_162	rna-mrna.EHP00_162	PF02671.27,PF08295.18,PF16879.11	Complete	None
+gene-EHP00_163	rna-mrna.EHP00_163		None	None
+gene-EHP00_164	rna-mrna.EHP00_164	PF03388.22	Partial	None
+gene-EHP00_165	rna-mrna.EHP00_165		None	None
+gene-EHP00_166	rna-mrna.EHP00_166	PF00298.25	Partial	None
+gene-EHP00_167	rna-mrna.EHP00_167	PF00534.27,PF08288.19,PF13439.13,PF13579.13,PF13692.13	Partial	None
+gene-EHP00_168	rna-mrna.EHP00_168		None	None
+gene-EHP00_169	rna-mrna.EHP00_169		None	None
+gene-EHP00_170	rna-mrna.EHP00_170		None	None
+gene-EHP00_171	rna-mrna.EHP00_171		None	None
+gene-EHP00_172	rna-mrna.EHP00_172		None	None
+gene-EHP00_173	rna-mrna.EHP00_173	PF00004.36,PF07728.21,PF17862.8,PF20720.4,PF21236.4	Complete	None
+gene-EHP00_174	rna-mrna.EHP00_174	PF00632.31	Partial	None
+gene-EHP00_175	rna-mrna.EHP00_175		None	None
+gene-EHP00_176	rna-mrna.EHP00_176	PF17903.8,PF21800.5	Partial	None
+gene-EHP00_177	rna-mrna.EHP00_177	PF01926.30	Complete	None
+gene-EHP00_178	rna-mrna.EHP00_178	PF01246.27	Partial	None
+gene-EHP00_179	rna-mrna.EHP00_179		None	None
+gene-EHP00_180	rna-mrna.EHP00_180	PF00447.24	Partial	None
+gene-EHP00_181	rna-mrna.EHP00_181	PF01981.22	Partial	None
+gene-EHP00_182	rna-mrna.EHP00_182		None	None
+gene-EHP00_183	rna-mrna.EHP00_183		None	None
+gene-EHP00_184	rna-mrna.EHP00_184		None	None
+gene-EHP00_185	rna-mrna.EHP00_185	PF00070.34,PF07992.21,PF13738.13	Complete	None
+gene-EHP00_186	rna-mrna.EHP00_186		None	None
+gene-EHP00_187	rna-mrna.EHP00_187		None	None
+gene-EHP00_188	rna-mrna.EHP00_188	PF00204.32,PF00521.27,PF01751.29,PF02518.32,PF16898.11	Complete	None
+gene-EHP00_189	rna-mrna.EHP00_189		None	None
+gene-EHP00_190	rna-mrna.EHP00_190		None	None
+gene-EHP00_191	rna-mrna.EHP00_191	PF00398.27,PF05175.21	Partial	None
+gene-EHP00_192	rna-mrna.EHP00_192		None	None
+gene-EHP00_193	rna-mrna.EHP00_193	PF06432.17	Partial	None
+gene-EHP00_194	rna-mrna.EHP00_194	PF01105.30	Partial	None
+gene-EHP00_195	rna-mrna.EHP00_195	PF02224.25,PF13189.13	Partial	None
+gene-EHP00_196	rna-mrna.EHP00_196		None	None
+gene-EHP00_197	rna-mrna.EHP00_197	PF08449.18	Partial	None
+gene-EHP00_198	rna-mrna.EHP00_198	PF01398.27,PF13012.12	Partial	None
+gene-EHP00_199	rna-mrna.EHP00_199	PF00318.26,PF00318.26	Partial	None
+gene-EHP00_200	rna-mrna.EHP00_200		None	None
+gene-EHP00_2097	rna-mrna.EHP00_2097	PF22941.2,PF25299.2	Complete	None
+gene-EHP00_201	rna-mrna.EHP00_201	PF17014.11	Partial	None
+gene-EHP00_202	rna-mrna.EHP00_202	PF00270.36,PF00271.38,PF04851.22	Partial	None
+gene-EHP00_203	rna-mrna.EHP00_203	PF01529.26	Partial	None
+gene-EHP00_204	rna-mrna.EHP00_204	PF01428.24	Partial	None
+gene-EHP00_205	rna-mrna.EHP00_205	PF04056.21	Partial	None
+gene-EHP00_206	rna-mrna.EHP00_206	PF00102.33,PF22784.2	Partial	None
+gene-EHP00_207	rna-mrna.EHP00_207	PF17781.8,PF17781.8	Partial	None
+gene-EHP00_208	rna-mrna.EHP00_208	PF01764.32,PF05057.22	Complete	None
+gene-EHP00_209	rna-mrna.EHP00_209	PF01764.32	Complete	None
+gene-EHP00_2373	rna-mrna.EHP00_2373		None	None
+gene-EHP00_210	rna-mrna.EHP00_210		None	None
+gene-EHP00_211	rna-mrna.EHP00_211	PF01777.26	Partial	None
+gene-EHP00_212	rna-mrna.EHP00_212	PF01096.24,PF07500.20	Complete	None
+gene-EHP00_213	rna-mrna.EHP00_213	PF04137.21	Partial	None
+gene-EHP00_214	rna-mrna.EHP00_214		None	None
+gene-EHP00_215	rna-mrna.EHP00_215		None	None
+gene-EHP00_216	rna-mrna.EHP00_216	PF00125.31	Partial	None
+gene-EHP00_217	rna-mrna.EHP00_217		None	None
+gene-EHP00_218	rna-mrna.EHP00_218	PF01743.27,PF12627.13	Complete	None
+gene-EHP00_219	rna-mrna.EHP00_219	PF00009.34,PF00025.28,PF00071.29,PF01926.30,PF04670.19,PF08477.20	Partial	None
+gene-EHP00_220	rna-mrna.EHP00_220		None	None
+gene-EHP00_221	rna-mrna.EHP00_221	PF00046.36,PF05920.18	Partial	None
+gene-EHP00_222	rna-mrna.EHP00_222	PF01256.23	Partial	None
+gene-EHP00_223	rna-mrna.EHP00_223	PF03465.21,PF26356.1	Complete	None
+gene-EHP00_224	rna-mrna.EHP00_224	PF00850.25	Partial	None
+gene-EHP00_225	rna-mrna.EHP00_225		None	None
+gene-EHP00_227	rna-mrna.EHP00_227	PF00097.32,PF12678.14,PF12861.14,PF13639.13,PF13923.13,PF17123.12	Complete	None
+gene-EHP00_228	rna-mrna.EHP00_228	PF00097.32,PF13639.13,PF13923.13,PF17123.12	Complete	None
+gene-EHP00_229	rna-mrna.EHP00_229	PF00179.32	Partial	None
+gene-EHP00_230	rna-mrna.EHP00_230	PF00366.27,PF16205.11	Partial	None
+gene-EHP00_231	rna-mrna.EHP00_231	PF01764.32	Partial	None
+gene-EHP00_232	rna-mrna.EHP00_232	PF00578.28,PF08534.17	Partial	None
+gene-EHP00_233	rna-mrna.EHP00_233		None	None
+gene-EHP00_234	rna-mrna.EHP00_234	PF01142.24	Partial	None
+gene-EHP00_235	rna-mrna.EHP00_235	PF00009.34,PF00025.28,PF00071.29,PF01926.30,PF04670.19,PF08477.20	Partial	None
+gene-EHP00_236	rna-mrna.EHP00_236	PF00149.34	Partial	None
+gene-EHP00_237	rna-mrna.EHP00_237	PF00176.30,PF00270.36,PF00271.38,PF04851.22,PF13625.12,PF16203.12	Complete	None
+gene-EHP00_238	rna-mrna.EHP00_238		None	None
+gene-EHP00_239	rna-mrna.EHP00_239		None	None
+gene-EHP00_240	rna-mrna.EHP00_240		None	None
+gene-EHP00_241	rna-mrna.EHP00_241		None	None
+gene-EHP00_242	rna-mrna.EHP00_242	PF01331.26,PF03919.22	Complete	None
+gene-EHP00_243	rna-mrna.EHP00_243	PF00176.30,PF00271.38,PF04851.22	Complete	None
+gene-EHP00_244	rna-mrna.EHP00_244	PF00136.27,PF03104.26,PF03175.19,PF14260.12	Complete	None
+gene-EHP00_245	rna-mrna.EHP00_245	PF00125.31	Partial	None
+gene-EHP00_246	rna-mrna.EHP00_246		None	None
+gene-EHP00_247	rna-mrna.EHP00_247		None	None
+gene-EHP00_248	rna-mrna.EHP00_248	PF00118.30	Partial	None
+gene-EHP00_249	rna-mrna.EHP00_249		None	None
+gene-EHP00_250	rna-mrna.EHP00_250	PF04097.21	Partial	None
+gene-EHP00_251	rna-mrna.EHP00_251	PF04104.20,PF26466.1	Complete	None
+gene-EHP00_252	rna-mrna.EHP00_252		None	None
+gene-EHP00_2110	rna-mrna.EHP00_2110		None	None
+gene-EHP00_253	rna-mrna.EHP00_253		None	None
+gene-EHP00_254	rna-mrna.EHP00_254	PF00106.32,PF13561.13	Partial	None
+gene-EHP00_255	rna-mrna.EHP00_255	PF01148.26	Partial	None
+gene-EHP00_256	rna-mrna.EHP00_256	PF01351.26	Partial	None
+gene-EHP00_257	rna-mrna.EHP00_257		None	None
+gene-EHP00_258	rna-mrna.EHP00_258		None	None
+gene-EHP00_259	rna-mrna.EHP00_259	PF01909.30,PF04926.21,PF04928.23,PF20750.4	Complete	None
+gene-EHP00_2744	rna-mrna.EHP00_2744	PF01433.27,PF11838.15,PF17900.7	Complete	None
+gene-EHP00_471	rna-mrna.EHP00_471		None	None
+gene-EHP00_470	rna-mrna.EHP00_470		None	None
+gene-EHP00_2134	rna-mrna.EHP00_2134		None	None
+gene-EHP00_468	rna-mrna.EHP00_468		None	None
+gene-EHP00_2375	rna-mrna.EHP00_2375	PF23098.2	Partial	None
+gene-EHP00_472	rna-mrna.EHP00_472		None	None
+gene-EHP00_473	rna-mrna.EHP00_473		None	None
+gene-EHP00_474	rna-mrna.EHP00_474	PF00307.37	Partial	None
+gene-EHP00_475	rna-mrna.EHP00_475		None	None
+gene-EHP00_476	rna-mrna.EHP00_476		None	None
+gene-EHP00_477	rna-mrna.EHP00_477		None	None
+gene-EHP00_478	rna-mrna.EHP00_478		None	None
+gene-EHP00_479	rna-mrna.EHP00_479		None	None
+gene-EHP00_480	rna-mrna.EHP00_480		None	None
+gene-EHP00_481	rna-mrna.EHP00_481	PF02383.24	Partial	None
+gene-EHP00_482	rna-mrna.EHP00_482		None	None
+gene-EHP00_483	rna-mrna.EHP00_483	PF01798.24	Partial	None
+gene-EHP00_484	rna-mrna.EHP00_484	PF01103.30	Partial	None
+gene-EHP00_485	rna-mrna.EHP00_485	PF01926.30,PF08153.18	Complete	None
+gene-EHP00_486	rna-mrna.EHP00_486	PF00091.32,PF03953.23	Complete	None
+gene-EHP00_2040	rna-mrna.EHP00_2040	PF00096.33,PF00096.33,PF00096.33,PF00096.33	Complete	None
+gene-EHP00_1976	rna-mrna.EHP00_1976		None	None
+gene-EHP00_2378	rna-mrna.EHP00_2378		None	None
+gene-EHP00_2379	rna-mrna.EHP00_2379	PF00169.36	Partial	None
+gene-EHP00_2380	rna-mrna.EHP00_2380		None	None
+gene-EHP00_2381	rna-mrna.EHP00_2381		None	None
+gene-EHP00_2014	rna-mrna.EHP00_2014		None	None
+gene-EHP00_2382	rna-mrna.EHP00_2382	PF03095.21	Partial	None
+gene-EHP00_2383	rna-mrna.EHP00_2383		None	None
+gene-EHP00_1944	rna-mrna.EHP00_1944		None	None
+gene-EHP00_1943	rna-mrna.EHP00_1943	PF00268.28	Partial	None
+gene-EHP00_1942	rna-mrna.EHP00_1942		None	None
+gene-EHP00_1180	rna-mrna.EHP00_1180	PF01498.25,PF13358.13	Partial	None
+gene-EHP00_1605	rna-mrna.EHP00_1605		None	None
+gene-EHP00_1606	rna-mrna.EHP00_1606		None	None
+gene-EHP00_1607	rna-mrna.EHP00_1607	PF00046.36	Partial	None
+gene-EHP00_1608	rna-mrna.EHP00_1608	PF01167.25	Partial	None
+gene-EHP00_1609	rna-mrna.EHP00_1609		None	None
+gene-EHP00_1610	rna-mrna.EHP00_1610		None	None
+gene-EHP00_1611	rna-mrna.EHP00_1611		None	None
+gene-EHP00_1612	rna-mrna.EHP00_1612		None	None
+gene-EHP00_1613	rna-mrna.EHP00_1613		None	None
+gene-EHP00_1614	rna-mrna.EHP00_1614	PF01282.26	Partial	None
+gene-EHP00_1615	rna-mrna.EHP00_1615		None	None
+gene-EHP00_1616	rna-mrna.EHP00_1616	PF00179.32	Partial	None
+gene-EHP00_1617	rna-mrna.EHP00_1617		None	None
+gene-EHP00_1619	rna-mrna.EHP00_1619	PF13499.13	Partial	None
+gene-EHP00_1620	rna-mrna.EHP00_1620	PF03962.22,PF18517.7	Complete	None
+gene-EHP00_1621	rna-mrna.EHP00_1621		None	None
+gene-EHP00_1623	rna-mrna.EHP00_1623	PF00069.32,PF01163.29,PF03109.23,PF07714.24	Partial	None
+gene-EHP00_1982	rna-mrna.EHP00_1982	PF13358.13,PF13384.13	Partial	None
+gene-EHP00_2385	rna-mrna.EHP00_2385		None	None
+gene-EHP00_1648	rna-mrna.EHP00_1648		None	None
+gene-EHP00_1647	rna-mrna.EHP00_1647	PF00227.32	Partial	None
+gene-EHP00_1646	rna-mrna.EHP00_1646	PF00692.25	Partial	None
+gene-EHP00_1645	rna-mrna.EHP00_1645		None	None
+gene-EHP00_1644	rna-mrna.EHP00_1644	PF01210.30,PF07479.20	Partial	None
+gene-EHP00_1643	rna-mrna.EHP00_1643	PF00069.32,PF03109.23,PF07714.24,PF17667.8	Partial	None
+gene-EHP00_1642	rna-mrna.EHP00_1642	PF02732.22	Complete	None
+gene-EHP00_1641	rna-mrna.EHP00_1641	PF01015.24	Partial	None
+gene-EHP00_2386	rna-mrna.EHP00_2386		None	None
+gene-EHP00_2387	rna-mrna.EHP00_2387		None	None
+gene-EHP00_2388	rna-mrna.EHP00_2388		None	None
+gene-EHP00_2132	rna-mrna.EHP00_2132		None	None
+gene-EHP00_1787	rna-mrna.EHP00_1787		None	None
+gene-EHP00_1786	rna-mrna.EHP00_1786	PF26087.1,PF26087.1	Complete	None
+gene-EHP00_1785	rna-mrna.EHP00_1785	PF13848.13	Partial	None
+gene-EHP00_1784	rna-mrna.EHP00_1784		None	None
+gene-EHP00_1783	rna-mrna.EHP00_1783		None	None
+gene-EHP00_1782	rna-mrna.EHP00_1782		None	None
+gene-EHP00_1781	rna-mrna.EHP00_1781		None	None
+gene-EHP00_2071	rna-mrna.EHP00_2071		None	None
+gene-EHP00_1977	rna-mrna.EHP00_1977	PF00270.36,PF00271.38	Complete	None
+gene-EHP00_2389	rna-mrna.EHP00_2389		None	None
+gene-EHP00_1940	rna-mrna.EHP00_1940		None	None
+gene-EHP00_1661	rna-mrna.EHP00_1661	PF01201.28	Partial	None
+gene-EHP00_1662	rna-mrna.EHP00_1662		None	None
+gene-EHP00_1663	rna-mrna.EHP00_1663		None	None
+gene-EHP00_1664	rna-mrna.EHP00_1664		None	None
+gene-EHP00_1665	rna-mrna.EHP00_1665		None	None
+gene-EHP00_1666	rna-mrna.EHP00_1666		None	None
+gene-EHP00_1667	rna-mrna.EHP00_1667		None	None
+gene-EHP00_1668	rna-mrna.EHP00_1668	PF00097.32,PF13445.13,PF13639.13	Complete	None
+gene-EHP00_1669	rna-mrna.EHP00_1669	PF12171.15,PF12874.14,PF12874.14	Complete	None
+gene-EHP00_1670	rna-mrna.EHP00_1670		None	None
+gene-EHP00_1671	rna-mrna.EHP00_1671		None	None
+gene-EHP00_1672	rna-mrna.EHP00_1672		None	None
+gene-EHP00_1673	rna-mrna.EHP00_1673		None	None
+gene-EHP00_1674	rna-mrna.EHP00_1674		None	None
+gene-EHP00_1675	rna-mrna.EHP00_1675		None	None
+gene-EHP00_1676	rna-mrna.EHP00_1676		None	None
+gene-EHP00_1677	rna-mrna.EHP00_1677		None	None
+gene-EHP00_1947	rna-mrna.EHP00_1947	PF01191.25,PF03871.21	Complete	None
+gene-EHP00_1948	rna-mrna.EHP00_1948		None	None
+gene-EHP00_2032	rna-mrna.EHP00_2032	PF00227.32	Partial	None
+gene-EHP00_2393	rna-mrna.EHP00_2393		None	None
+gene-EHP00_1896	rna-mrna.EHP00_1896		None	None
+gene-EHP00_1895	rna-mrna.EHP00_1895		None	None
+gene-EHP00_1894	rna-mrna.EHP00_1894		None	None
+gene-EHP00_1893	rna-mrna.EHP00_1893		None	None
+gene-EHP00_2394	rna-mrna.EHP00_2394		None	None
+gene-EHP00_2042	rna-mrna.EHP00_2042		None	None
+gene-EHP00_2395	rna-mrna.EHP00_2395		None	None
+gene-EHP00_2396	rna-mrna.EHP00_2396		None	None
+gene-EHP00_2397	rna-mrna.EHP00_2397		None	None
+gene-EHP00_2398	rna-mrna.EHP00_2398		None	None
+gene-EHP00_1363	rna-mrna.EHP00_1363		None	None
+gene-EHP00_1362	rna-mrna.EHP00_1362	PF01247.25	Partial	None
+gene-EHP00_1361	rna-mrna.EHP00_1361		None	None
+gene-EHP00_1360	rna-mrna.EHP00_1360	PF05557.19	Partial	None
+gene-EHP00_1359	rna-mrna.EHP00_1359	PF05843.21,PF05843.21	Partial	None
+gene-EHP00_1358	rna-mrna.EHP00_1358		None	None
+gene-EHP00_1357	rna-mrna.EHP00_1357		None	None
+gene-EHP00_1356	rna-mrna.EHP00_1356	PF00443.36,PF13423.13	Partial	None
+gene-EHP00_1355	rna-mrna.EHP00_1355		None	None
+gene-EHP00_1354	rna-mrna.EHP00_1354	PF03332.20,PF08282.19	Partial	None
+gene-EHP00_1353	rna-mrna.EHP00_1353		None	None
+gene-EHP00_1352	rna-mrna.EHP00_1352	PF04719.21	Partial	None
+gene-EHP00_1351	rna-mrna.EHP00_1351		None	None
+gene-EHP00_1350	rna-mrna.EHP00_1350	PF00493.30,PF17207.10,PF17855.8	Complete	None
+gene-EHP00_2402	rna-mrna.EHP00_2402	PF00621.26	Partial	None
+gene-EHP00_2745	rna-mrna.EHP00_2745	PF08801.18	Partial	None
+gene-EHP00_2746	rna-mrna.EHP00_2746	PF00046.36,PF05920.18	Complete	None
+gene-EHP00_1561	rna-mrna.EHP00_1561	PF00046.36,PF05920.18	Complete	None
+gene-EHP00_1560	rna-mrna.EHP00_1560		None	None
+gene-EHP00_1559	rna-mrna.EHP00_1559	PF08801.18	Partial	None
+gene-EHP00_1558	rna-mrna.EHP00_1558	PF04950.19	Partial	None
+gene-EHP00_1557	rna-mrna.EHP00_1557		None	None
+gene-EHP00_1556	rna-mrna.EHP00_1556		None	None
+gene-EHP00_1555	rna-mrna.EHP00_1555	PF00579.32	Partial	None
+gene-EHP00_1554	rna-mrna.EHP00_1554		None	None
+gene-EHP00_1553	rna-mrna.EHP00_1553	PF01163.29	Partial	None
+gene-EHP00_1552	rna-mrna.EHP00_1552	PF01302.32	Partial	None
+gene-EHP00_1551	rna-mrna.EHP00_1551		None	None
+gene-EHP00_1550	rna-mrna.EHP00_1550		None	None
+gene-EHP00_1549	rna-mrna.EHP00_1549		None	None
+gene-EHP00_1548	rna-mrna.EHP00_1548		None	None
+gene-EHP00_1547	rna-mrna.EHP00_1547		None	None
+gene-EHP00_1546	rna-mrna.EHP00_1546		None	None
+gene-EHP00_1545	rna-mrna.EHP00_1545		None	None
+gene-EHP00_1544	rna-mrna.EHP00_1544		None	None
+gene-EHP00_2403	rna-mrna.EHP00_2403		None	None
+gene-EHP00_2404	rna-mrna.EHP00_2404		None	None
+gene-EHP00_2405	rna-mrna.EHP00_2405	PF03366.23,PF03366.23	Partial	None
+gene-EHP00_1717	rna-mrna.EHP00_1717		None	None
+gene-EHP00_1716	rna-mrna.EHP00_1716		None	None
+gene-EHP00_1715	rna-mrna.EHP00_1715	PF00705.24,PF02747.21	Partial	None
+gene-EHP00_1714	rna-mrna.EHP00_1714		None	None
+gene-EHP00_1713	rna-mrna.EHP00_1713	PF17024.11	Partial	None
+gene-EHP00_1712	rna-mrna.EHP00_1712	PF01472.27,PF01509.24,PF08068.18,PF16198.11	Complete	None
+gene-EHP00_1711	rna-mrna.EHP00_1711		None	None
+gene-EHP00_1710	rna-mrna.EHP00_1710		None	None
+gene-EHP00_1450	rna-mrna.EHP00_1450		None	None
+gene-EHP00_1449	rna-mrna.EHP00_1449		None	None
+gene-EHP00_1448	rna-mrna.EHP00_1448	PF02902.26	Partial	None
+gene-EHP00_1447	rna-mrna.EHP00_1447		None	None
+gene-EHP00_1446	rna-mrna.EHP00_1446		None	None
+gene-EHP00_1445	rna-mrna.EHP00_1445	PF01459.29	Partial	None
+gene-EHP00_1444	rna-mrna.EHP00_1444	PF08783.18,PF13696.12	Complete	None
+gene-EHP00_1443	rna-mrna.EHP00_1443		None	None
+gene-EHP00_1442	rna-mrna.EHP00_1442		None	None
+gene-EHP00_1441	rna-mrna.EHP00_1441		None	None
+gene-EHP00_1440	rna-mrna.EHP00_1440		None	None
+gene-EHP00_1439	rna-mrna.EHP00_1439	PF01926.30,PF02421.25,PF06858.21,PF08155.17,PF17835.7	Complete	None
+gene-EHP00_1438	rna-mrna.EHP00_1438		None	None
+gene-EHP00_1437	rna-mrna.EHP00_1437		None	None
+gene-EHP00_1436	rna-mrna.EHP00_1436	PF00493.30,PF01078.28,PF07728.21,PF17207.10,PF17855.8,PF18263.8	Complete	None
+gene-EHP00_1435	rna-mrna.EHP00_1435		None	None
+gene-EHP00_1434	rna-mrna.EHP00_1434		None	None
+gene-EHP00_1433	rna-mrna.EHP00_1433		None	None
+gene-EHP00_2009	rna-mrna.EHP00_2009	PF00620.33	Partial	None
+gene-EHP00_2406	rna-mrna.EHP00_2406		None	None
+gene-EHP00_2407	rna-mrna.EHP00_2407		None	None
+gene-EHP00_2008	rna-mrna.EHP00_2008		None	None
+gene-EHP00_2007	rna-mrna.EHP00_2007	PF01092.25	Partial	None
+gene-EHP00_1109	rna-mrna.EHP00_1109	PF00653.28	Partial	None
+gene-EHP00_1593	rna-mrna.EHP00_1593		None	None
+gene-EHP00_1592	rna-mrna.EHP00_1592		None	None
+gene-EHP00_1591	rna-mrna.EHP00_1591	PF00009.34,PF03143.24	Complete	None
+gene-EHP00_1590	rna-mrna.EHP00_1590	PF01283.25	Partial	None
+gene-EHP00_1589	rna-mrna.EHP00_1589	PF00013.36,PF29529.1	Complete	None
+gene-EHP00_1588	rna-mrna.EHP00_1588	PF10382.15	Partial	None
+gene-EHP00_1587	rna-mrna.EHP00_1587		None	None
+gene-EHP00_1586	rna-mrna.EHP00_1586		None	None
+gene-EHP00_1585	rna-mrna.EHP00_1585		None	None
+gene-EHP00_1584	rna-mrna.EHP00_1584		None	None
+gene-EHP00_1583	rna-mrna.EHP00_1583	PF01498.25,PF13384.13,PF13518.13	Partial	None
+gene-EHP00_1582	rna-mrna.EHP00_1582		None	None
+gene-EHP00_2509	rna-mrna.EHP00_2509		None	None
+gene-EHP00_1883	rna-mrna.EHP00_1883		None	None
+gene-EHP00_2510	rna-mrna.EHP00_2510		None	None
+gene-EHP00_1884	rna-mrna.EHP00_1884	PF12762.14	Partial	None
+gene-EHP00_1885	rna-mrna.EHP00_1885		None	None
+gene-EHP00_2511	rna-mrna.EHP00_2511		None	None
+gene-EHP00_1969	rna-mrna.EHP00_1969	PF08238.19	Partial	None
+gene-EHP00_2534	rna-mrna.EHP00_2534		None	None
+gene-EHP00_2535	rna-mrna.EHP00_2535		None	None
+gene-EHP00_2536	rna-mrna.EHP00_2536		None	None
+gene-EHP00_2537	rna-mrna.EHP00_2537		None	None
+gene-EHP00_2578	rna-mrna.EHP00_2578		None	None
+gene-EHP00_2540	rna-mrna.EHP00_2540	PF06978.17,PF06978.17	Partial	None
+gene-EHP00_2542	rna-mrna.EHP00_2542		None	None
+gene-EHP00_2541	rna-mrna.EHP00_2541		None	None
+gene-EHP00_2543	rna-mrna.EHP00_2543		None	None
+gene-EHP00_2544	rna-mrna.EHP00_2544		None	None
+gene-EHP00_654	rna-mrna.EHP00_654		None	None
+gene-EHP00_2545	rna-mrna.EHP00_2545		None	None
+gene-EHP00_2546	rna-mrna.EHP00_2546		None	None
+gene-EHP00_2547	rna-mrna.EHP00_2547	PF17020.11	Partial	None
+gene-EHP00_2548	rna-mrna.EHP00_2548	PF00085.27,PF13848.13	Complete	None
+gene-EHP00_2549	rna-mrna.EHP00_2549		None	None
+gene-EHP00_2550	rna-mrna.EHP00_2550		None	None
+gene-EHP00_2551	rna-mrna.EHP00_2551	PF08553.17	Partial	None
+gene-EHP00_2552	rna-mrna.EHP00_2552	PF03878.21	Partial	None
+gene-EHP00_2553	rna-mrna.EHP00_2553		None	None
+gene-EHP00_2408	rna-mrna.EHP00_2408		None	None
+gene-EHP00_2554	rna-mrna.EHP00_2554	PF00565.24	Partial	None
+gene-EHP00_2556	rna-mrna.EHP00_2556	PF00565.24	Partial	None
+gene-EHP00_2555	rna-mrna.EHP00_2555		None	None
+gene-EHP00_2557	rna-mrna.EHP00_2557	PF03800.21	Partial	None
+gene-EHP00_2558	rna-mrna.EHP00_2558	PF08149.17	Complete	None
+gene-EHP00_2559	rna-mrna.EHP00_2559		None	None
+gene-EHP00_2560	rna-mrna.EHP00_2560	PF00752.24,PF00867.24	Complete	None
+gene-EHP00_2561	rna-mrna.EHP00_2561	PF00004.36,PF00004.36,PF13173.13,PF17862.8	Complete	None
+gene-EHP00_2563	rna-mrna.EHP00_2563	PF00044.31,PF02800.27	Partial	None
+gene-EHP00_2562	rna-mrna.EHP00_2562		None	None
+gene-EHP00_2565	rna-mrna.EHP00_2565		None	None
+gene-EHP00_2564	rna-mrna.EHP00_2564		None	None
+gene-EHP00_2566	rna-mrna.EHP00_2566	PF01853.26,PF11717.15,PF17772.8	Partial	None
+gene-EHP00_2568	rna-mrna.EHP00_2568	PF00787.30	Partial	None
+gene-EHP00_2567	rna-mrna.EHP00_2567		None	None
+gene-EHP00_2569	rna-mrna.EHP00_2569		None	None
+gene-EHP00_2570	rna-mrna.EHP00_2570		None	None
+gene-EHP00_2409	rna-mrna.EHP00_2409		None	None
+gene-EHP00_1949	rna-mrna.EHP00_1949	PF00400.39,PF09070.17	Complete	None
+gene-EHP00_2410	rna-mrna.EHP00_2410	PF00856.34	Complete	None
+gene-EHP00_1934	rna-mrna.EHP00_1934		None	None
+gene-EHP00_1176	rna-mrna.EHP00_1176		None	None
+gene-EHP00_1177	rna-mrna.EHP00_1177		None	None
+gene-EHP00_1178	rna-mrna.EHP00_1178		None	None
+gene-EHP00_2412	rna-mrna.EHP00_2412	PF00400.39,PF00400.39	Complete	None
+gene-EHP00_2572	rna-mrna.EHP00_2572	PF01498.25,PF13358.13	Partial	None
+gene-EHP00_2573	rna-mrna.EHP00_2573		None	None
+gene-EHP00_2574	rna-mrna.EHP00_2574		None	None
+gene-EHP00_2576	rna-mrna.EHP00_2576		None	None
+gene-EHP00_2575	rna-mrna.EHP00_2575		None	None
+gene-EHP00_2577	rna-mrna.EHP00_2577		None	None
+gene-EHP00_1186	rna-mrna.EHP00_1186		None	None
+gene-EHP00_1187	rna-mrna.EHP00_1187		None	None
+gene-EHP00_1188	rna-mrna.EHP00_1188		None	None
+gene-EHP00_1189	rna-mrna.EHP00_1189		None	None
+gene-EHP00_1190	rna-mrna.EHP00_1190		None	None
+gene-EHP00_1191	rna-mrna.EHP00_1191		None	None
+gene-EHP00_1192	rna-mrna.EHP00_1192		None	None
+gene-EHP00_1193	rna-mrna.EHP00_1193		None	None
+gene-EHP00_1194	rna-mrna.EHP00_1194		None	None
+gene-EHP00_1195	rna-mrna.EHP00_1195		None	None
+gene-EHP00_1196	rna-mrna.EHP00_1196		None	None
+gene-EHP00_1197	rna-mrna.EHP00_1197	PF01496.25,PF01496.25	Partial	None
+gene-EHP00_1198	rna-mrna.EHP00_1198		None	None
+gene-EHP00_1199	rna-mrna.EHP00_1199		None	None
+gene-EHP00_1200	rna-mrna.EHP00_1200		None	None
+gene-EHP00_1201	rna-mrna.EHP00_1201	PF00004.36,PF07728.21,PF16450.12,PF17862.8	Complete	None
+gene-EHP00_1202	rna-mrna.EHP00_1202		None	None
+gene-EHP00_2413	rna-mrna.EHP00_2413		None	None
+gene-EHP00_2581	rna-mrna.EHP00_2581		None	None
+gene-EHP00_2414	rna-mrna.EHP00_2414		None	None
+gene-EHP00_1660	rna-mrna.EHP00_1660		None	None
+gene-EHP00_1659	rna-mrna.EHP00_1659		None	None
+gene-EHP00_1658	rna-mrna.EHP00_1658		None	None
+gene-EHP00_1657	rna-mrna.EHP00_1657		None	None
+gene-EHP00_1656	rna-mrna.EHP00_1656	PF00012.27	Partial	None
+gene-EHP00_1655	rna-mrna.EHP00_1655		None	None
+gene-EHP00_1654	rna-mrna.EHP00_1654		None	None
+gene-EHP00_1653	rna-mrna.EHP00_1653		None	None
+gene-EHP00_1652	rna-mrna.EHP00_1652		None	None
+gene-EHP00_1651	rna-mrna.EHP00_1651	PF02580.23	Partial	None
+gene-EHP00_1650	rna-mrna.EHP00_1650	PF02186.22	Partial	None
+gene-EHP00_1649	rna-mrna.EHP00_1649	PF04511.21	Partial	None
+gene-EHP00_731	rna-mrna.EHP00_731	PF03439.19,PF23042.3,PF23290.2	Complete	None
+gene-EHP00_730	rna-mrna.EHP00_730		None	None
+gene-EHP00_729	rna-mrna.EHP00_729	PF04427.24	Partial	None
+gene-EHP00_728	rna-mrna.EHP00_728	PF00735.25,PF00735.25	Partial	None
+gene-EHP00_727	rna-mrna.EHP00_727		None	None
+gene-EHP00_726	rna-mrna.EHP00_726		None	None
+gene-EHP00_725	rna-mrna.EHP00_725	PF01399.34,PF22241.3	Complete	None
+gene-EHP00_724	rna-mrna.EHP00_724		None	None
+gene-EHP00_723	rna-mrna.EHP00_723	PF00179.32	Partial	None
+gene-EHP00_2415	rna-mrna.EHP00_2415		None	None
+gene-EHP00_2416	rna-mrna.EHP00_2416	PF02200.23	Partial	None
+gene-EHP00_2418	rna-mrna.EHP00_2418	PF00575.30	Partial	None
+gene-EHP00_2419	rna-mrna.EHP00_2419	PF00400.39,PF00400.39,PF00400.39,PF00400.39,PF00400.39,PF04494.21,PF12894.14	Complete	None
+gene-EHP00_2020	rna-mrna.EHP00_2020	PF00855.24	Partial	None
+gene-EHP00_1228	rna-mrna.EHP00_1228	PF00806.26,PF00806.26,PF00806.26,PF00806.26,PF00806.26,PF00806.26,PF00806.26,PF00806.26	Complete	None
+gene-EHP00_1227	rna-mrna.EHP00_1227		None	None
+gene-EHP00_1226	rna-mrna.EHP00_1226	PF00565.24	Partial	None
+gene-EHP00_1225	rna-mrna.EHP00_1225	PF00249.38,PF00249.38,PF13921.13,PF13921.13	Complete	None
+gene-EHP00_1224	rna-mrna.EHP00_1224	PF00566.26	Partial	None
+gene-EHP00_1223	rna-mrna.EHP00_1223		None	None
+gene-EHP00_1222	rna-mrna.EHP00_1222		None	None
+gene-EHP00_1221	rna-mrna.EHP00_1221		None	None
+gene-EHP00_1220	rna-mrna.EHP00_1220	PF00227.32	Partial	None
+gene-EHP00_1219	rna-mrna.EHP00_1219	PF00076.29	Partial	None
+gene-EHP00_1218	rna-mrna.EHP00_1218		None	None
+gene-EHP00_1217	rna-mrna.EHP00_1217		None	None
+gene-EHP00_1216	rna-mrna.EHP00_1216	PF00133.29,PF09334.18,PF09334.18,PF19303.6	Complete	None
+gene-EHP00_1215	rna-mrna.EHP00_1215	PF00293.35	Partial	None
+gene-EHP00_1214	rna-mrna.EHP00_1214	PF10032.15	Partial	None
+gene-EHP00_1213	rna-mrna.EHP00_1213		None	None
+gene-EHP00_1212	rna-mrna.EHP00_1212		None	None
+gene-EHP00_1211	rna-mrna.EHP00_1211		None	None
+gene-EHP00_1210	rna-mrna.EHP00_1210		None	None
+gene-EHP00_1209	rna-mrna.EHP00_1209	PF00675.26,PF05193.27,PF22456.2	Complete	None
+gene-EHP00_1208	rna-mrna.EHP00_1208		None	None
+gene-EHP00_1207	rna-mrna.EHP00_1207		None	None
+gene-EHP00_1206	rna-mrna.EHP00_1206		None	None
+gene-EHP00_1205	rna-mrna.EHP00_1205	PF01090.26	Partial	None
+gene-EHP00_2583	rna-mrna.EHP00_2583		None	None
+gene-EHP00_2584	rna-mrna.EHP00_2584		None	None
+gene-EHP00_2586	rna-mrna.EHP00_2586		None	None
+gene-EHP00_2587	rna-mrna.EHP00_2587		None	None
+gene-EHP00_2588	rna-mrna.EHP00_2588		None	None
+gene-EHP00_2589	rna-mrna.EHP00_2589	PF00307.37	Partial	None
+gene-EHP00_2590	rna-mrna.EHP00_2590		None	None
+gene-EHP00_2591	rna-mrna.EHP00_2591		None	None
+gene-EHP00_2420	rna-mrna.EHP00_2420	PF23098.2	Partial	None
+gene-EHP00_469	rna-mrna.EHP00_469	PF00137.27	Partial	None
+gene-EHP00_2123	rna-mrna.EHP00_2123		None	None
+gene-EHP00_2421	rna-mrna.EHP00_2421		None	None
+gene-EHP00_467	rna-mrna.EHP00_467		None	None
+gene-EHP00_466	rna-mrna.EHP00_466	PF03153.19	Partial	None
+gene-EHP00_465	rna-mrna.EHP00_465	PF00752.24,PF00867.24	Partial	None
+gene-EHP00_464	rna-mrna.EHP00_464		None	None
+gene-EHP00_463	rna-mrna.EHP00_463		None	None
+gene-EHP00_462	rna-mrna.EHP00_462		None	None
+gene-EHP00_461	rna-mrna.EHP00_461	PF01248.32	Partial	None
+gene-EHP00_460	rna-mrna.EHP00_460	PF00454.34	Complete	None
+gene-EHP00_459	rna-mrna.EHP00_459	PF00004.36,PF00931.29,PF13401.13,PF24883.3	Partial	None
+gene-EHP00_458	rna-mrna.EHP00_458	PF04750.20	Partial	None
+gene-EHP00_457	rna-mrna.EHP00_457		None	None
+gene-EHP00_456	rna-mrna.EHP00_456	PF15963.12	Partial	None
+gene-EHP00_455	rna-mrna.EHP00_455	PF00244.27	Partial	None
+gene-EHP00_454	rna-mrna.EHP00_454	PF00924.25	Complete	None
+gene-EHP00_453	rna-mrna.EHP00_453	PF00188.33	Partial	None
+gene-EHP00_2422	rna-mrna.EHP00_2422		None	None
+gene-EHP00_452	rna-mrna.EHP00_452	PF00069.32,PF06293.21,PF07714.24,PF12330.15	Partial	None
+gene-EHP00_2423	rna-mrna.EHP00_2423		None	None
+gene-EHP00_451	rna-mrna.EHP00_451		None	None
+gene-EHP00_450	rna-mrna.EHP00_450	PF00327.26	Complete	None
+gene-EHP00_449	rna-mrna.EHP00_449		None	None
+gene-EHP00_448	rna-mrna.EHP00_448	PF00096.33,PF00096.33	Complete	None
+gene-EHP00_2424	rna-mrna.EHP00_2424		None	None
+gene-EHP00_2425	rna-mrna.EHP00_2425		None	None
+gene-EHP00_447	rna-mrna.EHP00_447	PF00899.28,PF00899.28,PF10585.15,PF10585.15	Complete	None
+gene-EHP00_446	rna-mrna.EHP00_446	PF08241.19,PF13649.13	Partial	None
+gene-EHP00_445	rna-mrna.EHP00_445		None	None
+gene-EHP00_2592	rna-mrna.EHP00_2592	PF00160.27	Partial	None
+gene-EHP00_444	rna-mrna.EHP00_444		None	None
+gene-EHP00_443	rna-mrna.EHP00_443	PF00063.28	Partial	None
+gene-EHP00_2426	rna-mrna.EHP00_2426		None	None
+gene-EHP00_442	rna-mrna.EHP00_442		None	None
+gene-EHP00_441	rna-mrna.EHP00_441	PF00046.36	Partial	None
+gene-EHP00_440	rna-mrna.EHP00_440	PF00152.26	Partial	None
+gene-EHP00_439	rna-mrna.EHP00_439	PF17010.11	Partial	None
+gene-EHP00_438	rna-mrna.EHP00_438		None	None
+gene-EHP00_437	rna-mrna.EHP00_437		None	None
+gene-EHP00_436	rna-mrna.EHP00_436		None	None
+gene-EHP00_435	rna-mrna.EHP00_435	PF12330.15	Partial	None
+gene-EHP00_434	rna-mrna.EHP00_434	PF00995.29	Partial	None
+gene-EHP00_2099	rna-mrna.EHP00_2099	PF00069.32,PF07714.24,PF17667.8	Partial	None
+gene-EHP00_2100	rna-mrna.EHP00_2100	PF00297.29	Partial	None
+gene-EHP00_2427	rna-mrna.EHP00_2427		None	None
+gene-EHP00_431	rna-mrna.EHP00_431		None	None
+gene-EHP00_430	rna-mrna.EHP00_430		None	None
+gene-EHP00_2593	rna-mrna.EHP00_2593		None	None
+gene-EHP00_2594	rna-mrna.EHP00_2594		None	None
+gene-EHP00_1988	rna-mrna.EHP00_1988		None	None
+gene-EHP00_2428	rna-mrna.EHP00_2428	PF09359.16	Partial	None
+gene-EHP00_1507	rna-mrna.EHP00_1507		None	None
+gene-EHP00_1508	rna-mrna.EHP00_1508		None	None
+gene-EHP00_1509	rna-mrna.EHP00_1509		None	None
+gene-EHP00_1510	rna-mrna.EHP00_1510	PF00118.30	Partial	None
+gene-EHP00_1511	rna-mrna.EHP00_1511	PF00046.36	Partial	None
+gene-EHP00_1512	rna-mrna.EHP00_1512	PF00982.28	Partial	None
+gene-EHP00_1513	rna-mrna.EHP00_1513	PF00046.36	Complete	None
+gene-EHP00_1514	rna-mrna.EHP00_1514		None	None
+gene-EHP00_2429	rna-mrna.EHP00_2429	PF00448.29,PF02492.26,PF02881.25,PF02978.27	Complete	None
+gene-EHP00_1515	rna-mrna.EHP00_1515		None	None
+gene-EHP00_1516	rna-mrna.EHP00_1516	PF00063.28,PF00063.28	Partial	None
+gene-EHP00_2430	rna-mrna.EHP00_2430		None	None
+gene-EHP00_2431	rna-mrna.EHP00_2431		None	None
+gene-EHP00_2048	rna-mrna.EHP00_2048	PF09802.15	Partial	None
+gene-EHP00_2432	rna-mrna.EHP00_2432		None	None
+gene-EHP00_2433	rna-mrna.EHP00_2433		None	None
+gene-EHP00_764	rna-mrna.EHP00_764	PF00270.36,PF08148.18,PF22527.3	Complete	None
+gene-EHP00_765	rna-mrna.EHP00_765		None	None
+gene-EHP00_766	rna-mrna.EHP00_766	PF01912.25	Partial	None
+gene-EHP00_767	rna-mrna.EHP00_767		None	None
+gene-EHP00_768	rna-mrna.EHP00_768		None	None
+gene-EHP00_769	rna-mrna.EHP00_769		None	None
+gene-EHP00_770	rna-mrna.EHP00_770		None	None
+gene-EHP00_771	rna-mrna.EHP00_771		None	None
+gene-EHP00_772	rna-mrna.EHP00_772		None	None
+gene-EHP00_773	rna-mrna.EHP00_773		None	None
+gene-EHP00_774	rna-mrna.EHP00_774		None	None
+gene-EHP00_775	rna-mrna.EHP00_775		None	None
+gene-EHP00_776	rna-mrna.EHP00_776		None	None
+gene-EHP00_2723	rna-mrna.EHP00_2723	PF00400.39	Complete	None
+gene-EHP00_2724	rna-mrna.EHP00_2724		None	None
+gene-EHP00_2725	rna-mrna.EHP00_2725	PF00240.30,PF11976.15	Partial	None
+gene-EHP00_2726	rna-mrna.EHP00_2726	PF17003.13	Partial	None
+gene-EHP00_2727	rna-mrna.EHP00_2727		None	None
+gene-EHP00_1958	rna-mrna.EHP00_1958	PF02383.24	Partial	None
+gene-EHP00_2436	rna-mrna.EHP00_2436		None	None
+gene-EHP00_2437	rna-mrna.EHP00_2437		None	None
+gene-EHP00_2038	rna-mrna.EHP00_2038	PF01529.26	Partial	None
+gene-EHP00_2438	rna-mrna.EHP00_2438		None	None
+gene-EHP00_2021	rna-mrna.EHP00_2021		None	None
+gene-EHP00_1835	rna-mrna.EHP00_1835	PF03484.22,PF17759.7,PF18262.8	Complete	None
+gene-EHP00_1834	rna-mrna.EHP00_1834		None	None
+gene-EHP00_1833	rna-mrna.EHP00_1833		None	None
+gene-EHP00_1832	rna-mrna.EHP00_1832		None	None
+gene-EHP00_1831	rna-mrna.EHP00_1831		None	None
+gene-EHP00_1830	rna-mrna.EHP00_1830		None	None
+gene-EHP00_2137	rna-mrna.EHP00_2137	PF03124.21	Partial	None
+gene-EHP00_2441	rna-mrna.EHP00_2441		None	None
+gene-EHP00_2442	rna-mrna.EHP00_2442		None	None
+gene-EHP00_2108	rna-mrna.EHP00_2108		None	None
+gene-EHP00_2443	rna-mrna.EHP00_2443		None	None
+gene-EHP00_2016	rna-mrna.EHP00_2016		None	None
+gene-EHP00_2444	rna-mrna.EHP00_2444	PF00432.28	Partial	None
+gene-EHP00_1930	rna-mrna.EHP00_1930		None	None
+gene-EHP00_2447	rna-mrna.EHP00_2447	PF00557.30	Partial	None
+gene-EHP00_2448	rna-mrna.EHP00_2448	PF00557.30	Partial	None
+gene-EHP00_1378	rna-mrna.EHP00_1378	PF00152.26,PF01336.32,PF01409.26	Partial	None
+gene-EHP00_2135	rna-mrna.EHP00_2135	PF01490.25	Partial	None
+gene-EHP00_1377	rna-mrna.EHP00_1377		None	None
+gene-EHP00_1376	rna-mrna.EHP00_1376	PF01992.22	Partial	None
+gene-EHP00_1375	rna-mrna.EHP00_1375	PF04939.18	Partial	None
+gene-EHP00_1374	rna-mrna.EHP00_1374	PF01529.26	Partial	None
+gene-EHP00_1373	rna-mrna.EHP00_1373		None	None
+gene-EHP00_1372	rna-mrna.EHP00_1372		None	None
+gene-EHP00_1371	rna-mrna.EHP00_1371		None	None
+gene-EHP00_1370	rna-mrna.EHP00_1370	PF01096.24,PF02150.22	Complete	None
+gene-EHP00_1369	rna-mrna.EHP00_1369		None	None
+gene-EHP00_1368	rna-mrna.EHP00_1368	PF13358.13	Partial	None
+gene-EHP00_1367	rna-mrna.EHP00_1367		None	None
+gene-EHP00_2450	rna-mrna.EHP00_2450		None	None
+gene-EHP00_1366	rna-mrna.EHP00_1366		None	None
+gene-EHP00_1365	rna-mrna.EHP00_1365	PF12762.14	Partial	None
+gene-EHP00_1364	rna-mrna.EHP00_1364		None	None
+gene-EHP00_2451	rna-mrna.EHP00_2451		None	None
+gene-EHP00_1887	rna-mrna.EHP00_1887		None	None
+gene-EHP00_2452	rna-mrna.EHP00_2452		None	None
+gene-EHP00_2453	rna-mrna.EHP00_2453		None	None
+gene-EHP00_2455	rna-mrna.EHP00_2455		None	None
+gene-EHP00_2006	rna-mrna.EHP00_2006		None	None
+gene-EHP00_2013	rna-mrna.EHP00_2013		None	None
+gene-EHP00_1397	rna-mrna.EHP00_1397	PF00069.32	Partial	None
+gene-EHP00_2105	rna-mrna.EHP00_2105	PF00083.31	Partial	None
+gene-EHP00_1395	rna-mrna.EHP00_1395		None	None
+gene-EHP00_1394	rna-mrna.EHP00_1394		None	None
+gene-EHP00_1393	rna-mrna.EHP00_1393	PF00692.25	Partial	None
+gene-EHP00_1392	rna-mrna.EHP00_1392	PF04034.19,PF04068.21	Complete	None
+gene-EHP00_1391	rna-mrna.EHP00_1391		None	None
+gene-EHP00_1390	rna-mrna.EHP00_1390	PF03715.19	Partial	None
+gene-EHP00_1389	rna-mrna.EHP00_1389		None	None
+gene-EHP00_1388	rna-mrna.EHP00_1388	PF23195.2	Partial	None
+gene-EHP00_1387	rna-mrna.EHP00_1387		None	None
+gene-EHP00_1386	rna-mrna.EHP00_1386		None	None
+gene-EHP00_1385	rna-mrna.EHP00_1385	PF01490.25,PF03222.20	Partial	None
+gene-EHP00_1384	rna-mrna.EHP00_1384		None	None
+gene-EHP00_1383	rna-mrna.EHP00_1383		None	None
+gene-EHP00_1382	rna-mrna.EHP00_1382		None	None
+gene-EHP00_1381	rna-mrna.EHP00_1381		None	None
+gene-EHP00_1380	rna-mrna.EHP00_1380		None	None
+gene-EHP00_1379	rna-mrna.EHP00_1379	PF00270.36,PF00271.38,PF04851.22	Complete	None
+gene-EHP00_1604	rna-mrna.EHP00_1604	PF00009.34,PF00025.28,PF00071.29,PF01926.30,PF04670.19,PF08477.20	Partial	None
+gene-EHP00_1603	rna-mrna.EHP00_1603		None	None
+gene-EHP00_1602	rna-mrna.EHP00_1602		None	None
+gene-EHP00_1601	rna-mrna.EHP00_1601	PF21262.4	Partial	None
+gene-EHP00_1600	rna-mrna.EHP00_1600	PF00189.26	Partial	None
+gene-EHP00_1599	rna-mrna.EHP00_1599		None	None
+gene-EHP00_1598	rna-mrna.EHP00_1598		None	None
+gene-EHP00_2119	rna-mrna.EHP00_2119		None	None
+gene-EHP00_1597	rna-mrna.EHP00_1597	PF00439.31,PF00439.31,PF17035.11	Complete	None
+gene-EHP00_1596	rna-mrna.EHP00_1596		None	None
+gene-EHP00_1595	rna-mrna.EHP00_1595		None	None
+gene-EHP00_1594	rna-mrna.EHP00_1594		None	None
+gene-EHP00_2457	rna-mrna.EHP00_2457		None	None
+gene-EHP00_2710	rna-mrna.EHP00_2710	PF05148.22,PF08241.19	Partial	None
+gene-EHP00_2711	rna-mrna.EHP00_2711		None	None
+gene-EHP00_2712	rna-mrna.EHP00_2712	PF00632.31	Partial	None
+gene-EHP00_2713	rna-mrna.EHP00_2713	PF00625.28	Partial	None
+gene-EHP00_2714	rna-mrna.EHP00_2714	PF16531.11	Partial	None
+gene-EHP00_972	rna-mrna.EHP00_972	PF00924.25	Complete	None
+gene-EHP00_971	rna-mrna.EHP00_971		None	None
+gene-EHP00_970	rna-mrna.EHP00_970		None	None
+gene-EHP00_969	rna-mrna.EHP00_969	PF02463.26,PF06470.19	Complete	None
+gene-EHP00_968	rna-mrna.EHP00_968		None	None
+gene-EHP00_967	rna-mrna.EHP00_967	PF00082.28	Partial	None
+gene-EHP00_966	rna-mrna.EHP00_966		None	None
+gene-EHP00_965	rna-mrna.EHP00_965	PF01139.23	Partial	None
+gene-EHP00_964	rna-mrna.EHP00_964		None	None
+gene-EHP00_963	rna-mrna.EHP00_963		None	None
+gene-EHP00_962	rna-mrna.EHP00_962		None	None
+gene-EHP00_961	rna-mrna.EHP00_961	PF00004.36,PF00004.36,PF17862.8,PF17862.8	Complete	None
+gene-EHP00_960	rna-mrna.EHP00_960	PF03836.22	Complete	None
+gene-EHP00_959	rna-mrna.EHP00_959	PF00168.37,PF00168.37,PF00168.37,PF25669.2,PF25669.2	Complete	None
+gene-EHP00_958	rna-mrna.EHP00_958		None	None
+gene-EHP00_957	rna-mrna.EHP00_957	PF03009.24	Partial	None
+gene-EHP00_956	rna-mrna.EHP00_956	PF00400.39,PF00400.39,PF00400.39,PF00400.39,PF00400.39	Complete	None
+gene-EHP00_2000	rna-mrna.EHP00_2000		None	None
+gene-EHP00_2458	rna-mrna.EHP00_2458		None	None
+gene-EHP00_2459	rna-mrna.EHP00_2459		None	None
+gene-EHP00_2118	rna-mrna.EHP00_2118	PF00069.32,PF00130.29,PF07714.24,PF14531.13	Complete	None
+gene-EHP00_1305	rna-mrna.EHP00_1305		None	None
+gene-EHP00_1304	rna-mrna.EHP00_1304	PF02291.22,PF07524.20	Partial	None
+gene-EHP00_1303	rna-mrna.EHP00_1303		None	None
+gene-EHP00_1302	rna-mrna.EHP00_1302	PF04410.21	Partial	None
+gene-EHP00_1301	rna-mrna.EHP00_1301		None	None
+gene-EHP00_2461	rna-mrna.EHP00_2461	PF03435.25	Partial	None
+gene-EHP00_2715	rna-mrna.EHP00_2715		None	None
+gene-EHP00_1300	rna-mrna.EHP00_1300		None	None
+gene-EHP00_1299	rna-mrna.EHP00_1299		None	None
+gene-EHP00_1298	rna-mrna.EHP00_1298	PF00226.37	Complete	None
+gene-EHP00_1297	rna-mrna.EHP00_1297		None	None
+gene-EHP00_1296	rna-mrna.EHP00_1296		None	None
+gene-EHP00_1295	rna-mrna.EHP00_1295		None	None
+gene-EHP00_1294	rna-mrna.EHP00_1294		None	None
+gene-EHP00_1293	rna-mrna.EHP00_1293	PF00177.28	Partial	None
+gene-EHP00_1292	rna-mrna.EHP00_1292		None	None
+gene-EHP00_1291	rna-mrna.EHP00_1291		None	None
+gene-EHP00_1290	rna-mrna.EHP00_1290		None	None
+gene-EHP00_1289	rna-mrna.EHP00_1289		None	None
+gene-EHP00_1288	rna-mrna.EHP00_1288		None	None
+gene-EHP00_1287	rna-mrna.EHP00_1287		None	None
+gene-EHP00_1286	rna-mrna.EHP00_1286		None	None
+gene-EHP00_1285	rna-mrna.EHP00_1285		None	None
+gene-EHP00_2716	rna-mrna.EHP00_2716		None	None
+gene-EHP00_2462	rna-mrna.EHP00_2462		None	None
+gene-EHP00_2463	rna-mrna.EHP00_2463		None	None
+gene-EHP00_2717	rna-mrna.EHP00_2717	PF04515.19	Partial	None
+gene-EHP00_2718	rna-mrna.EHP00_2718		None	None
+gene-EHP00_2719	rna-mrna.EHP00_2719		None	None
+gene-EHP00_2695	rna-mrna.EHP00_2695	PF00270.36,PF08148.18,PF22527.3	Complete	None
+gene-EHP00_2696	rna-mrna.EHP00_2696		None	None
+gene-EHP00_2697	rna-mrna.EHP00_2697	PF01912.25	Partial	None
+gene-EHP00_2698	rna-mrna.EHP00_2698		None	None
+gene-EHP00_2699	rna-mrna.EHP00_2699		None	None
+gene-EHP00_2700	rna-mrna.EHP00_2700		None	None
+gene-EHP00_2701	rna-mrna.EHP00_2701		None	None
+gene-EHP00_2702	rna-mrna.EHP00_2702		None	None
+gene-EHP00_2703	rna-mrna.EHP00_2703		None	None
+gene-EHP00_2704	rna-mrna.EHP00_2704		None	None
+gene-EHP00_2705	rna-mrna.EHP00_2705		None	None
+gene-EHP00_777	rna-mrna.EHP00_777		None	None
+gene-EHP00_778	rna-mrna.EHP00_778		None	None
+gene-EHP00_779	rna-mrna.EHP00_779	PF17016.11	Partial	None
+gene-EHP00_780	rna-mrna.EHP00_780		None	None
+gene-EHP00_781	rna-mrna.EHP00_781		None	None
+gene-EHP00_782	rna-mrna.EHP00_782		None	None
+gene-EHP00_783	rna-mrna.EHP00_783		None	None
+gene-EHP00_784	rna-mrna.EHP00_784		None	None
+gene-EHP00_785	rna-mrna.EHP00_785		None	None
+gene-EHP00_786	rna-mrna.EHP00_786		None	None
+gene-EHP00_787	rna-mrna.EHP00_787		None	None
+gene-EHP00_788	rna-mrna.EHP00_788		None	None
+gene-EHP00_789	rna-mrna.EHP00_789		None	None
+gene-EHP00_790	rna-mrna.EHP00_790		None	None
+gene-EHP00_791	rna-mrna.EHP00_791		None	None
+gene-EHP00_792	rna-mrna.EHP00_792		None	None
+gene-EHP00_793	rna-mrna.EHP00_793		None	None
+gene-EHP00_794	rna-mrna.EHP00_794		None	None
+gene-EHP00_795	rna-mrna.EHP00_795		None	None
+gene-EHP00_796	rna-mrna.EHP00_796		None	None
+gene-EHP00_797	rna-mrna.EHP00_797		None	None
+gene-EHP00_798	rna-mrna.EHP00_798		None	None
+gene-EHP00_799	rna-mrna.EHP00_799		None	None
+gene-EHP00_800	rna-mrna.EHP00_800	PF14780.12	Partial	None
+gene-EHP00_801	rna-mrna.EHP00_801	PF00076.29	Complete	None
+gene-EHP00_802	rna-mrna.EHP00_802		None	None
+gene-EHP00_803	rna-mrna.EHP00_803	PF17022.11	Partial	None
+gene-EHP00_2133	rna-mrna.EHP00_2133		None	None
+gene-EHP00_2706	rna-mrna.EHP00_2706	PF00400.39	Partial	None
+gene-EHP00_2470	rna-mrna.EHP00_2470		None	None
+gene-EHP00_2471	rna-mrna.EHP00_2471		None	None
+gene-EHP00_2707	rna-mrna.EHP00_2707		None	None
+gene-EHP00_2708	rna-mrna.EHP00_2708		None	None
+gene-EHP00_2050	rna-mrna.EHP00_2050	PF00560.40,PF00560.40,PF00560.40,PF00560.40,PF00560.40,PF00560.40,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF23598.2,PF23598.2	Complete	None
+gene-EHP00_2685	rna-mrna.EHP00_2685		None	None
+gene-EHP00_2091	rna-mrna.EHP00_2091	PF00560.40,PF00560.40,PF00560.40,PF00560.40,PF00560.40,PF00560.40,PF00560.40,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF23598.2,PF23598.2,PF23598.2	Complete	None
+gene-EHP00_2686	rna-mrna.EHP00_2686		None	None
+gene-EHP00_2687	rna-mrna.EHP00_2687	PF00560.40,PF00560.40,PF12799.14,PF13855.13,PF13855.13,PF23598.2	Complete	None
+gene-EHP00_2688	rna-mrna.EHP00_2688		None	None
+gene-EHP00_2689	rna-mrna.EHP00_2689	PF00560.40,PF00560.40,PF00560.40,PF00560.40,PF00560.40,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF23598.2,PF23598.2,PF23598.2,PF23598.2	Complete	None
+gene-EHP00_1920	rna-mrna.EHP00_1920	PF00560.40,PF00560.40,PF00560.40,PF00560.40,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF23598.2,PF23598.2,PF23598.2	Complete	None
+gene-EHP00_2690	rna-mrna.EHP00_2690	PF00560.40,PF00560.40,PF00560.40,PF00560.40,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF12799.14,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF13855.13,PF23598.2,PF23598.2,PF23598.2	Complete	None
+gene-EHP00_1921	rna-mrna.EHP00_1921		None	None
+gene-EHP00_2691	rna-mrna.EHP00_2691		None	None
+gene-EHP00_2692	rna-mrna.EHP00_2692	PF00560.40,PF00560.40,PF12799.14,PF12799.14,PF13855.13,PF13855.13,PF23598.2	Complete	None
+gene-EHP00_2680	rna-mrna.EHP00_2680		None	None
+gene-EHP00_2472	rna-mrna.EHP00_2472		None	None
+gene-EHP00_2473	rna-mrna.EHP00_2473		None	None
+gene-EHP00_2474	rna-mrna.EHP00_2474		None	None
+gene-EHP00_2475	rna-mrna.EHP00_2475	PF01981.22	Partial	None
+gene-EHP00_2092	rna-mrna.EHP00_2092	PF13358.13	Partial	None
+gene-EHP00_2681	rna-mrna.EHP00_2681		None	None
+gene-EHP00_1987	rna-mrna.EHP00_1987	PF01866.23,PF01866.23	Partial	None
+gene-EHP00_2476	rna-mrna.EHP00_2476		None	None
+gene-EHP00_1494	rna-mrna.EHP00_1494		None	None
+gene-EHP00_1493	rna-mrna.EHP00_1493	PF00225.30,PF16796.12	Partial	None
+gene-EHP00_1492	rna-mrna.EHP00_1492	PF00383.30,PF14437.13	Partial	None
+gene-EHP00_1491	rna-mrna.EHP00_1491		None	None
+gene-EHP00_1490	rna-mrna.EHP00_1490	PF17012.11,PF17012.11	Partial	None
+gene-EHP00_1489	rna-mrna.EHP00_1489	PF06470.19,PF13476.13	Complete	None
+gene-EHP00_1488	rna-mrna.EHP00_1488	PF06470.19,PF13555.13	Complete	None
+gene-EHP00_1487	rna-mrna.EHP00_1487		None	None
+gene-EHP00_1486	rna-mrna.EHP00_1486		None	None
+gene-EHP00_1485	rna-mrna.EHP00_1485		None	None
+gene-EHP00_1484	rna-mrna.EHP00_1484		None	None
+gene-EHP00_1483	rna-mrna.EHP00_1483		None	None
+gene-EHP00_1482	rna-mrna.EHP00_1482		None	None
+gene-EHP00_1481	rna-mrna.EHP00_1481	PF00025.28,PF00071.29,PF01926.30,PF04670.19,PF08477.20,PF09439.17	Partial	None
+gene-EHP00_1480	rna-mrna.EHP00_1480		None	None
+gene-EHP00_429	rna-mrna.EHP00_429		None	None
+gene-EHP00_2041	rna-mrna.EHP00_2041		None	None
+gene-EHP00_1955	rna-mrna.EHP00_1955		None	None
+gene-EHP00_1954	rna-mrna.EHP00_1954		None	None
+gene-EHP00_1950	rna-mrna.EHP00_1950	PF02656.21,PF09359.16	Complete	None
+gene-EHP00_2477	rna-mrna.EHP00_2477		None	None
+gene-EHP00_2682	rna-mrna.EHP00_2682	PF00501.35	Partial	None
+gene-EHP00_2683	rna-mrna.EHP00_2683	PF00501.35	Partial	None
+gene-EHP00_2074	rna-mrna.EHP00_2074	PF00250.25	Partial	None
+gene-EHP00_1937	rna-mrna.EHP00_1937		None	None
+gene-EHP00_1938	rna-mrna.EHP00_1938		None	None
+gene-EHP00_1706	rna-mrna.EHP00_1706		None	None
+gene-EHP00_1707	rna-mrna.EHP00_1707		None	None
+gene-EHP00_2478	rna-mrna.EHP00_2478	PF01189.24,PF01728.26	Partial	None
+gene-EHP00_1708	rna-mrna.EHP00_1708		None	None
+gene-EHP00_1709	rna-mrna.EHP00_1709		None	None
+gene-EHP00_2479	rna-mrna.EHP00_2479	PF22086.2	Partial	None
+gene-EHP00_2480	rna-mrna.EHP00_2480		None	None
+gene-EHP00_2481	rna-mrna.EHP00_2481		None	None
+gene-EHP00_1974	rna-mrna.EHP00_1974		None	None
+gene-EHP00_2482	rna-mrna.EHP00_2482		None	None
+gene-EHP00_1929	rna-mrna.EHP00_1929		None	None
+gene-EHP00_1928	rna-mrna.EHP00_1928		None	None
+gene-EHP00_2668	rna-mrna.EHP00_2668		None	None
+gene-EHP00_2483	rna-mrna.EHP00_2483		None	None
+gene-EHP00_2484	rna-mrna.EHP00_2484		None	None
+gene-EHP00_977	rna-mrna.EHP00_977	PF05148.22,PF08241.19	Partial	None
+gene-EHP00_976	rna-mrna.EHP00_976		None	None
+gene-EHP00_975	rna-mrna.EHP00_975	PF00632.31	Partial	None
+gene-EHP00_974	rna-mrna.EHP00_974	PF00625.28	Partial	None
+gene-EHP00_2669	rna-mrna.EHP00_2669	PF16531.11	Partial	None
+gene-EHP00_2670	rna-mrna.EHP00_2670		None	None
+gene-EHP00_2671	rna-mrna.EHP00_2671	PF00924.25	Partial	None
+gene-EHP00_2672	rna-mrna.EHP00_2672		None	None
+gene-EHP00_2673	rna-mrna.EHP00_2673	PF04130.19	Partial	None
+gene-EHP00_2674	rna-mrna.EHP00_2674	PF00924.25	Complete	None
+gene-EHP00_2675	rna-mrna.EHP00_2675		None	None
+gene-EHP00_973	rna-mrna.EHP00_973	PF16531.11	Partial	None
+gene-EHP00_2676	rna-mrna.EHP00_2676	PF00625.28	Partial	None
+gene-EHP00_2677	rna-mrna.EHP00_2677		None	None
+gene-EHP00_2654	rna-mrna.EHP00_2654		None	None
+gene-EHP00_2655	rna-mrna.EHP00_2655	PF02906.20	Partial	None
+gene-EHP00_1815	rna-mrna.EHP00_1815	PF03256.23	Partial	None
+gene-EHP00_1814	rna-mrna.EHP00_1814	PF05002.21	Partial	None
+gene-EHP00_2656	rna-mrna.EHP00_2656	PF00046.36,PF05920.18	Complete	None
+gene-EHP00_2657	rna-mrna.EHP00_2657	PF00046.36,PF05920.18	Complete	None
+gene-EHP00_2658	rna-mrna.EHP00_2658		None	None
+gene-EHP00_2659	rna-mrna.EHP00_2659	PF08801.18	Partial	None
+gene-EHP00_2660	rna-mrna.EHP00_2660	PF08801.18	Partial	None
+gene-EHP00_2661	rna-mrna.EHP00_2661		None	None
+gene-EHP00_2662	rna-mrna.EHP00_2662	PF00046.36,PF05920.18	Complete	None
+gene-EHP00_1813	rna-mrna.EHP00_1813	PF00046.36,PF05920.18	Complete	None
+gene-EHP00_2663	rna-mrna.EHP00_2663	PF05002.21	Partial	None
+gene-EHP00_2664	rna-mrna.EHP00_2664	PF03256.23	Partial	None
+gene-EHP00_1816	rna-mrna.EHP00_1816	PF02906.20	Partial	None
+gene-EHP00_1817	rna-mrna.EHP00_1817		None	None
+gene-EHP00_1818	rna-mrna.EHP00_1818		None	None
+gene-EHP00_1819	rna-mrna.EHP00_1819		None	None
+gene-EHP00_1820	rna-mrna.EHP00_1820	PF00118.30	Partial	None
+gene-EHP00_1821	rna-mrna.EHP00_1821		None	None
+gene-EHP00_2665	rna-mrna.EHP00_2665	PF01909.30,PF04926.21,PF04928.23,PF20750.4	Complete	None
+gene-EHP00_1843	rna-mrna.EHP00_1843	PF01433.27,PF11838.15,PF17900.7	Partial	None
+gene-EHP00_1842	rna-mrna.EHP00_1842		None	None
+gene-EHP00_1841	rna-mrna.EHP00_1841		None	None
+gene-EHP00_2485	rna-mrna.EHP00_2485		None	None
+gene-EHP00_2643	rna-mrna.EHP00_2643		None	None
+gene-EHP00_634	rna-mrna.EHP00_634		None	None
+gene-EHP00_633	rna-mrna.EHP00_633		None	None
+gene-EHP00_632	rna-mrna.EHP00_632	PF00149.34	Partial	None
+gene-EHP00_631	rna-mrna.EHP00_631		None	None
+gene-EHP00_630	rna-mrna.EHP00_630		None	None
+gene-EHP00_629	rna-mrna.EHP00_629		None	None
+gene-EHP00_628	rna-mrna.EHP00_628		None	None
+gene-EHP00_627	rna-mrna.EHP00_627		None	None
+gene-EHP00_626	rna-mrna.EHP00_626		None	None
+gene-EHP00_625	rna-mrna.EHP00_625	PF00004.36,PF00533.34,PF00910.29,PF03215.22,PF08519.18,PF12738.14	Complete	None
+gene-EHP00_624	rna-mrna.EHP00_624	PF03825.23,PF12832.14	Partial	None
+gene-EHP00_623	rna-mrna.EHP00_623		None	None
+gene-EHP00_2644	rna-mrna.EHP00_2644	PF04981.20,PF29994.1	Partial	None
+gene-EHP00_2645	rna-mrna.EHP00_2645	PF06068.20	Partial	None
+gene-EHP00_2646	rna-mrna.EHP00_2646		None	None
+gene-EHP00_2647	rna-mrna.EHP00_2647		None	None
+gene-EHP00_2648	rna-mrna.EHP00_2648	PF00069.32,PF03109.23,PF07387.18,PF07714.24	Partial	None
+gene-EHP00_2649	rna-mrna.EHP00_2649	PF01248.32	Partial	None
+gene-EHP00_2650	rna-mrna.EHP00_2650	PF01435.25,PF16491.11	Partial	None
+gene-EHP00_2651	rna-mrna.EHP00_2651		None	None
+gene-EHP00_2652	rna-mrna.EHP00_2652		None	None
+gene-EHP00_2488	rna-mrna.EHP00_2488		None	None
+gene-EHP00_2489	rna-mrna.EHP00_2489		None	None
+gene-EHP00_2640	rna-mrna.EHP00_2640		None	None
+gene-EHP00_2490	rna-mrna.EHP00_2490	PF00636.32	Partial	None
+gene-EHP00_2492	rna-mrna.EHP00_2492	PF00636.32	Partial	None
+gene-EHP00_2494	rna-mrna.EHP00_2494	PF00590.26	Partial	None
+gene-EHP00_2495	rna-mrna.EHP00_2495		None	None
+gene-EHP00_2496	rna-mrna.EHP00_2496		None	None
+gene-EHP00_1770	rna-mrna.EHP00_1770		None	None
+gene-EHP00_2497	rna-mrna.EHP00_2497		None	None
+gene-EHP00_1769	rna-mrna.EHP00_1769		None	None
+gene-EHP00_1768	rna-mrna.EHP00_1768	PF00009.34	Partial	None
+gene-EHP00_2498	rna-mrna.EHP00_2498		None	None
+gene-EHP00_2499	rna-mrna.EHP00_2499	PF00679.31,PF03764.25,PF14492.13	Complete	None
+gene-EHP00_2500	rna-mrna.EHP00_2500		None	None
+gene-EHP00_1767	rna-mrna.EHP00_1767		None	None
+gene-EHP00_1766	rna-mrna.EHP00_1766		None	None
+gene-EHP00_2501	rna-mrna.EHP00_2501		None	None
+gene-EHP00_2632	rna-mrna.EHP00_2632		None	None
+gene-EHP00_2504	rna-mrna.EHP00_2504		None	None
+gene-EHP00_2633	rna-mrna.EHP00_2633		None	None
+gene-EHP00_2017	rna-mrna.EHP00_2017		None	None
+gene-EHP00_1922	rna-mrna.EHP00_1922	PF01019.28,PF01019.28	Partial	None
+gene-EHP00_1923	rna-mrna.EHP00_1923		None	None
+gene-EHP00_2505	rna-mrna.EHP00_2505		None	None
+gene-EHP00_2506	rna-mrna.EHP00_2506		None	None
+gene-EHP00_2507	rna-mrna.EHP00_2507		None	None
+gene-EHP00_2634	rna-mrna.EHP00_2634		None	None
+gene-EHP00_2635	rna-mrna.EHP00_2635		None	None
+gene-EHP00_2636	rna-mrna.EHP00_2636	PF17146.11	Partial	None
+gene-EHP00_2637	rna-mrna.EHP00_2637	PF00808.30	Partial	None
+gene-EHP00_2638	rna-mrna.EHP00_2638	PF08238.19,PF08238.19,PF08238.19,PF08238.19,PF08238.19,PF08238.19,PF08238.19	Complete	None
+gene-EHP00_1581	rna-mrna.EHP00_1581		None	None
+gene-EHP00_2515	rna-mrna.EHP00_2515		None	None
+gene-EHP00_1580	rna-mrna.EHP00_1580		None	None
+gene-EHP00_1579	rna-mrna.EHP00_1579		None	None
+gene-EHP00_1578	rna-mrna.EHP00_1578		None	None
+gene-EHP00_1577	rna-mrna.EHP00_1577		None	None
+gene-EHP00_2629	rna-mrna.EHP00_2629		None	None
+gene-EHP00_2516	rna-mrna.EHP00_2516		None	None
+gene-EHP00_2630	rna-mrna.EHP00_2630		None	None
+gene-EHP00_2517	rna-mrna.EHP00_2517		None	None
+gene-EHP00_1576	rna-mrna.EHP00_1576		None	None
+gene-EHP00_1575	rna-mrna.EHP00_1575		None	None
+gene-EHP00_2131	rna-mrna.EHP00_2131		None	None
+gene-EHP00_1574	rna-mrna.EHP00_1574		None	None
+gene-EHP00_2626	rna-mrna.EHP00_2626		None	None
+gene-EHP00_352	rna-mrna.EHP00_352	PF15663.12	Partial	None
+gene-EHP00_351	rna-mrna.EHP00_351		None	None
+gene-EHP00_350	rna-mrna.EHP00_350		None	None
+gene-EHP00_349	rna-mrna.EHP00_349		None	None
+gene-EHP00_348	rna-mrna.EHP00_348	PF02224.25,PF13189.13	Partial	None
+gene-EHP00_347	rna-mrna.EHP00_347		None	None
+gene-EHP00_346	rna-mrna.EHP00_346	PF00735.25,PF00735.25	Partial	None
+gene-EHP00_345	rna-mrna.EHP00_345		None	None
+gene-EHP00_344	rna-mrna.EHP00_344	PF02319.27,PF08781.16	Partial	None
+gene-EHP00_343	rna-mrna.EHP00_343	PF00122.26,PF13246.13,PF16209.11,PF16212.12	Complete	None
+gene-EHP00_342	rna-mrna.EHP00_342		None	None
+gene-EHP00_2521	rna-mrna.EHP00_2521		None	None
+gene-EHP00_340	rna-mrna.EHP00_340	PF13181.13,PF13181.13,PF13181.13,PF13432.13	Complete	None
+gene-EHP00_2615	rna-mrna.EHP00_2615	PF03009.24	Partial	None
+gene-EHP00_2617	rna-mrna.EHP00_2617	PF00400.39,PF00400.39,PF00400.39,PF00400.39,PF00400.39	Complete	None
+gene-EHP00_2618	rna-mrna.EHP00_2618		None	None
+gene-EHP00_2532	rna-mrna.EHP00_2532	PF13358.13	Partial	None
+gene-EHP00_2522	rna-mrna.EHP00_2522		None	None
+gene-EHP00_2619	rna-mrna.EHP00_2619		None	None
+gene-EHP00_2523	rna-mrna.EHP00_2523		None	None
+gene-EHP00_2524	rna-mrna.EHP00_2524		None	None
+gene-EHP00_2525	rna-mrna.EHP00_2525		None	None
+gene-EHP00_2526	rna-mrna.EHP00_2526		None	None
+gene-EHP00_2527	rna-mrna.EHP00_2527	PF00069.32,PF07714.24,PF14531.13	Partial	None
+gene-EHP00_2620	rna-mrna.EHP00_2620		None	None
+gene-EHP00_2621	rna-mrna.EHP00_2621		None	None
+gene-EHP00_2622	rna-mrna.EHP00_2622	PF02291.22,PF07524.20	Partial	None
+gene-EHP00_2623	rna-mrna.EHP00_2623		None	None
+gene-EHP00_2624	rna-mrna.EHP00_2624		None	None
+gene-EHP00_2610	rna-mrna.EHP00_2610		None	None
+gene-EHP00_2611	rna-mrna.EHP00_2611	PF00560.40,PF00560.40,PF00560.40,PF12799.14,PF12799.14,PF13855.13,PF13855.13,PF13855.13,PF23598.2	Complete	None
+gene-EHP00_2612	rna-mrna.EHP00_2612		None	None
+gene-EHP00_2613	rna-mrna.EHP00_2613	PF00560.40,PF00560.40,PF12799.14,PF12799.14,PF13855.13,PF13855.13,PF23598.2	Complete	None
+gene-EHP00_2605	rna-mrna.EHP00_2605	PF00179.32	Partial	None
+gene-EHP00_1618	rna-mrna.EHP00_1618		None	None
+gene-EHP00_2606	rna-mrna.EHP00_2606	PF13499.13	Partial	None
+gene-EHP00_2607	rna-mrna.EHP00_2607	PF03962.22,PF18517.7	Complete	None
+gene-EHP00_1622	rna-mrna.EHP00_1622		None	None
+gene-EHP00_2608	rna-mrna.EHP00_2608	PF00069.32,PF01163.29,PF03109.23,PF07714.24	Partial	None
+gene-EHP00_1705	rna-mrna.EHP00_1705		None	None
+gene-EHP00_2529	rna-mrna.EHP00_2529		None	None
+gene-EHP00_2601	rna-mrna.EHP00_2601		None	None
+gene-EHP00_2602	rna-mrna.EHP00_2602	PF29842.1	Partial	None
+gene-EHP00_2603	rna-mrna.EHP00_2603	PF29841.1	Partial	None
+gene-EHP00_1282	rna-mrna.EHP00_1282	PF00590.26	Partial	None
+gene-EHP00_1630	rna-mrna.EHP00_1630	PF00636.32,PF00636.32	Complete	None
+gene-EHP00_2530	rna-mrna.EHP00_2530		None	None
+gene-EHP00_2599	rna-mrna.EHP00_2599		None	None
+gene-EHP00_1703	rna-mrna.EHP00_1703		None	None
+gene-EHP00_2596	rna-mrna.EHP00_2596		None	None
+gene-EHP00_2597	rna-mrna.EHP00_2597	PF00560.40,PF00560.40,PF12799.14,PF12799.14,PF13855.13,PF13855.13,PF13855.13,PF23598.2	Complete	None
+gene-EHP00_2531	rna-mrna.EHP00_2531		None	None
+gene-EHP00_1952	rna-mrna.EHP00_1952	PF01019.28,PF01019.28	Partial	None

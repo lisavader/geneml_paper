@@ -1,0 +1,30 @@
+# gffcompare v0.12.10 | Command line was:
+#gffcompare -r benchmarking_dataset/GCF_009017415.1/chromosomes_simplified.gff new_results/annevo/GCF_009017415.1.gff3 -T --no-exon-merge --strict-match -e 0
+#
+
+#= Summary for dataset: new_results/annevo/GCF_009017415.1.gff3 
+#     Query mRNAs :   13178 in   13178 loci  (10418 multi-exon transcripts)
+#            (0 multi-transcript loci, ~1.0 transcripts per locus)
+# Reference mRNAs :   13707 in   13707 loci  (10916 multi-exon)
+# Super-loci w/ reference transcripts:    12602
+#-----------------| Sensitivity | Precision  |
+        Base level:    96.6     |    97.0    |
+        Exon level:    78.0     |    79.2    |
+      Intron level:    82.3     |    82.7    |
+Intron chain level:    63.9     |    67.0    |
+  Transcript level:    62.7     |    65.2    |
+       Locus level:    62.7     |    65.2    |
+
+     Matching intron chains:    6975
+       Matching transcripts:    8593
+              Matching loci:    8593
+
+          Missed exons:    3240/42906	(  7.6%)
+           Novel exons:    2351/42230	(  5.6%)
+        Missed introns:    2697/29199	(  9.2%)
+         Novel introns:    2135/29052	(  7.3%)
+           Missed loci:    1005/13707	(  7.3%)
+            Novel loci:     244/13178	(  1.9%)
+
+ Total union super-loci across all input datasets: 12846 
+13178 out of 13178 consensus transcripts written in gffcmp.annotated.gtf (0 discarded as redundant)

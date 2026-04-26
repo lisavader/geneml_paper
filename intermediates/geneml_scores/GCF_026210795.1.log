@@ -1,0 +1,346 @@
+INFO     15/04 14:42:49   Running geneML version 1.1.1.dev1+gb98a07696
+INFO     15/04 14:42:49   Command line: benchmarking_dataset/GCF_026210795.1/chromosomes.fna -o geneml_scores/GCF_026210795.1.gff3 --model models/benchmarking_final.keras --context-length 800 --cores 8 --cpu-only
+INFO     15/04 14:42:49   Parameters:
+[paths]
+  inpath = benchmarking_dataset/GCF_026210795.1/chromosomes.fna
+  outpath = geneml_scores/GCF_026210795.1.gff3
+  basepath = geneml_scores/GCF_026210795.1
+  contigs_filter = None
+
+[model]
+  model_path = models/benchmarking_final.keras
+  context_length = 800
+
+[gene_calling]
+  strand = both
+  max_transcripts = 5
+  allow_opposite_strand_overlaps = True
+  gene_candidates = 5000
+
+[thresholds]
+  dynamic_scoring = True
+  min_gene_score = 0.5
+  min_exon_size = 1
+  max_exon_size = 30000
+  min_intron_size = 10
+  max_intron_size = 400
+  cds_start_min_score = 0.01
+  cds_end_min_score = 0.01
+  exon_start_min_score = 0.01
+  exon_end_min_score = 0.01
+
+[outputs]
+  output_segs = False
+  output_genes = None
+  output_proteins = None
+  gene_id_prefix = None
+
+[runtime]
+  num_cores = 8
+  cpu_only = True
+
+[logging]
+  debug = False
+  verbose = False
+
+[internal_limits]
+  single_recurse_max_num_ops = 100000
+  recurse_region_max_num_ops = 200000
+
+INFO     15/04 14:42:54   Processing contig NC_089450.1 of size 3735046
+INFO     15/04 14:42:54   NC_089450.1 1/5: Running model on forward strand
+INFO     15/04 14:42:54   Processing contig NC_089460.1 of size 2669031
+INFO     15/04 14:42:54   NC_089460.1 1/5: Running model on forward strand
+INFO     15/04 14:42:54   Processing contig NC_089455.1 of size 3464122
+INFO     15/04 14:42:54   NC_089455.1 1/5: Running model on forward strand
+INFO     15/04 14:42:54   Processing contig NC_089435.1 of size 5344717
+INFO     15/04 14:42:54   NC_089435.1 1/5: Running model on forward strand
+INFO     15/04 14:42:54   Processing contig NC_089440.1 of size 5132999
+INFO     15/04 14:42:54   NC_089440.1 1/5: Running model on forward strand
+INFO     15/04 14:42:54   Processing contig NC_089430.1 of size 6138810
+INFO     15/04 14:42:54   NC_089430.1 1/5: Running model on forward strand
+INFO     15/04 14:42:54   Processing contig NC_089445.1 of size 4496191
+INFO     15/04 14:42:54   NC_089445.1 1/5: Running model on forward strand
+INFO     15/04 14:42:54   Processing contig NC_089459.1 of size 3018234
+INFO     15/04 14:42:54   NC_089459.1 1/5: Running model on forward strand
+INFO     15/04 14:43:12   NC_089460.1 2/5: Running model on reverse strand
+INFO     15/04 14:43:15   NC_089459.1 2/5: Running model on reverse strand
+INFO     15/04 14:43:17   NC_089455.1 2/5: Running model on reverse strand
+INFO     15/04 14:43:19   NC_089450.1 2/5: Running model on reverse strand
+INFO     15/04 14:43:24   NC_089445.1 2/5: Running model on reverse strand
+INFO     15/04 14:43:29   NC_089440.1 2/5: Running model on reverse strand
+INFO     15/04 14:43:30   NC_089435.1 2/5: Running model on reverse strand
+INFO     15/04 14:43:31   NC_089460.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:43:34   NC_089459.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:43:35   NC_089430.1 2/5: Running model on reverse strand
+INFO     15/04 14:43:39   NC_089455.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:43:40   NC_089450.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:43:45   NC_089445.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:43:51   NC_089440.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:43:52   NC_089435.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:43:57   NC_089430.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:44:54   num_ops exceeded (112462, 13.0s) for NC_089455.1 forward strand 7243 7341 686003:0:0.0 691098:1:0.0
+INFO     15/04 14:44:55   NC_089460.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:45:03   NC_089445.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:45:03   num_ops exceeded (118015, 18.1s) for NC_089459.1 forward strand 24373 24546 2080050:0:0.0 2089632:2:0.0
+INFO     15/04 14:45:06   num_ops exceeded (168252, 9.6s) for NC_089460.1 reverse strand 1112 1222 75704:0:0.0 80637:0:0.7
+INFO     15/04 14:45:07   NC_089450.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:45:16   NC_089459.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:45:19   num_ops exceeded (130437, 7.9s) for NC_089435.1 forward strand 42577 42707 3950773:0:0.2 3955825:2:0.1
+INFO     15/04 14:45:21   num_ops exceeded (119738, 3.9s) for NC_089445.1 reverse strand 17867 17919 1472698:0:0.1 1473791:1:0.0
+INFO     15/04 14:45:21   NC_089440.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:45:22   num_ops exceeded (109997, 11.2s) for NC_089430.1 forward strand 30961 31057 2666107:0:0.9 2670649:3:0.1
+INFO     15/04 14:45:27   num_ops exceeded (102057, 0.9s) for NC_089460.1 reverse strand 28880 28928 2583999:0:0.0 2585340:0:0.0
+INFO     15/04 14:45:29   NC_089455.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:45:30   num_ops exceeded (104859, 2.6s) for NC_089460.1 reverse strand 29490 29525 2632852:0:0.0 2633685:1:0.0
+INFO     15/04 14:45:32   NC_089460.1 5/5: Selecting best gene calls
+INFO     15/04 14:45:33   Finished processing contig NC_089460.1 in 159.49 seconds, 16734.70 bp/s
+INFO     15/04 14:45:33   Processing contig NC_089454.1 of size 3466018
+INFO     15/04 14:45:33   NC_089454.1 1/5: Running model on forward strand
+INFO     15/04 14:45:36   NC_089435.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:45:44   NC_089454.1 2/5: Running model on reverse strand
+INFO     15/04 14:45:49   num_ops exceeded (104744, 40.5s) for NC_089450.1 reverse strand 3254 3416 229705:0:0.8 242685:2:0.0
+INFO     15/04 14:45:51   NC_089430.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:45:51   NC_089445.1 5/5: Selecting best gene calls
+INFO     15/04 14:45:52   Finished processing contig NC_089445.1 in 178.48 seconds, 25192.21 bp/s
+INFO     15/04 14:45:52   Processing contig NC_089449.1 of size 3780412
+INFO     15/04 14:45:52   NC_089449.1 1/5: Running model on forward strand
+INFO     15/04 14:45:55   NC_089454.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:45:55   num_ops exceeded (149871, 25.8s) for NC_089440.1 reverse strand 14632 14760 1360232:0:0.0 1368589:1:0.0
+INFO     15/04 14:45:56   num_ops exceeded (190912, 4.6s) for NC_089450.1 reverse strand 12089 12199 1008837:0:0.7 1012553:0:0.0
+INFO     15/04 14:45:57   num_ops exceeded (115136, 14.6s) for NC_089435.1 reverse strand 17120 17258 1359533:0:0.1 1365842:1:0.0
+INFO     15/04 14:45:59   num_ops exceeded (161529, 24.6s) for NC_089459.1 reverse strand 12328 12447 1083318:0:0.8 1089673:1:0.1
+INFO     15/04 14:46:00   num_ops exceeded (112072, 2.4s) for NC_089454.1 forward strand 3862 3990 295410:0:0.3 299654:3:0.0
+INFO     15/04 14:46:03   num_ops exceeded (100724, 6.1s) for NC_089440.1 reverse strand 15954 16019 1452822:0:0.1 1455073:1:0.0
+INFO     15/04 14:46:03   NC_089449.1 2/5: Running model on reverse strand
+INFO     15/04 14:46:07   NC_089455.1 5/5: Selecting best gene calls
+INFO     15/04 14:46:07   num_ops exceeded (105282, 2.3s) for NC_089450.1 reverse strand 25740 25834 2310271:0:0.6 2313560:3:0.0
+INFO     15/04 14:46:08   Finished processing contig NC_089455.1 in 194.41 seconds, 17818.23 bp/s
+INFO     15/04 14:46:08   Processing contig NC_089444.1 of size 4919323
+INFO     15/04 14:46:08   NC_089444.1 1/5: Running model on forward strand
+INFO     15/04 14:46:15   NC_089449.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:46:16   num_ops exceeded (127198, 2.3s) for NC_089440.1 reverse strand 33435 33516 2884467:0:0.7 2887146:2:0.0
+INFO     15/04 14:46:16   NC_089459.1 5/5: Selecting best gene calls
+INFO     15/04 14:46:17   Finished processing contig NC_089459.1 in 203.47 seconds, 14833.94 bp/s
+INFO     15/04 14:46:17   Processing contig NC_089439.1 of size 5223174
+INFO     15/04 14:46:17   NC_089439.1 1/5: Running model on forward strand
+INFO     15/04 14:46:21   num_ops exceeded (127934, 15.4s) for NC_089430.1 reverse strand 24060 24184 2338900:0:0.1 2345005:1:0.1
+INFO     15/04 14:46:21   NC_089450.1 5/5: Selecting best gene calls
+INFO     15/04 14:46:22   Finished processing contig NC_089450.1 in 209.08 seconds, 17864.24 bp/s
+INFO     15/04 14:46:22   Processing contig NC_089434.1 of size 5728094
+INFO     15/04 14:46:22   NC_089434.1 1/5: Running model on forward strand
+INFO     15/04 14:46:24   NC_089454.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:46:24   num_ops exceeded (145010, 2.3s) for NC_089435.1 reverse strand 58962 59017 5212639:0:0.6 5214077:0:0.0
+INFO     15/04 14:46:26   NC_089444.1 2/5: Running model on reverse strand
+INFO     15/04 14:46:29   NC_089435.1 5/5: Selecting best gene calls
+INFO     15/04 14:46:30   Finished processing contig NC_089435.1 in 216.57 seconds, 24678.72 bp/s
+INFO     15/04 14:46:30   Processing contig NC_089429.1 of size 7995222
+INFO     15/04 14:46:30   NC_089429.1 1/5: Running model on forward strand
+INFO     15/04 14:46:35   NC_089440.1 5/5: Selecting best gene calls
+INFO     15/04 14:46:36   Finished processing contig NC_089440.1 in 222.30 seconds, 23090.50 bp/s
+INFO     15/04 14:46:36   Processing contig NC_089458.1 of size 3195985
+INFO     15/04 14:46:36   NC_089458.1 1/5: Running model on forward strand
+INFO     15/04 14:46:40   NC_089439.1 2/5: Running model on reverse strand
+INFO     15/04 14:46:51   NC_089444.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:46:51   NC_089434.1 2/5: Running model on reverse strand
+INFO     15/04 14:46:52   NC_089458.1 2/5: Running model on reverse strand
+INFO     15/04 14:47:02   num_ops exceeded (103901, 25.5s) for NC_089430.1 reverse strand 53172 53293 4851328:0:0.0 4859144:2:0.0
+INFO     15/04 14:47:02   NC_089449.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:47:06   NC_089439.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:47:06   NC_089458.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:47:07   NC_089429.1 2/5: Running model on reverse strand
+INFO     15/04 14:47:16   NC_089434.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:47:19   NC_089430.1 5/5: Selecting best gene calls
+INFO     15/04 14:47:19   Finished processing contig NC_089430.1 in 265.78 seconds, 23097.25 bp/s
+INFO     15/04 14:47:19   Processing contig NC_089453.1 of size 3600274
+INFO     15/04 14:47:19   NC_089453.1 1/5: Running model on forward strand
+INFO     15/04 14:47:19   num_ops exceeded (162674, 29.3s) for NC_089454.1 reverse strand 40351 40471 3356440:0:0.0 3366200:0:0.9
+INFO     15/04 14:47:22   NC_089454.1 5/5: Selecting best gene calls
+INFO     15/04 14:47:22   Finished processing contig NC_089454.1 in 109.69 seconds, 31598.52 bp/s
+INFO     15/04 14:47:22   Processing contig NC_089448.1 of size 3821099
+INFO     15/04 14:47:22   NC_089448.1 1/5: Running model on forward strand
+INFO     15/04 14:47:26   NC_089444.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:47:31   num_ops exceeded (102184, 2.9s) for NC_089449.1 reverse strand 28629 28682 2481457:0:0.6 2483231:0:0.0
+INFO     15/04 14:47:34   NC_089453.1 2/5: Running model on reverse strand
+INFO     15/04 14:47:34   num_ops exceeded (108880, 3.4s) for NC_089434.1 forward strand 27511 27606 2413993:0:0.5 2417587:2:0.1
+INFO     15/04 14:47:39   NC_089458.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:47:39   NC_089448.1 2/5: Running model on reverse strand
+INFO     15/04 14:47:39   NC_089429.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:47:46   num_ops exceeded (152544, 26.0s) for NC_089439.1 forward strand 21475 21630 1759861:0:0.4 1769064:2:0.0
+INFO     15/04 14:47:49   NC_089453.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:47:53   num_ops exceeded (154550, 5.5s) for NC_089458.1 reverse strand 19377 19465 1556065:0:0.0 1559037:2:0.0
+INFO     15/04 14:47:53   NC_089448.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:47:58   num_ops exceeded (139176, 20.6s) for NC_089449.1 reverse strand 38021 38148 3277969:0:0.9 3285063:2:0.0
+INFO     15/04 14:48:01   NC_089449.1 5/5: Selecting best gene calls
+INFO     15/04 14:48:02   Finished processing contig NC_089449.1 in 129.78 seconds, 29129.61 bp/s
+INFO     15/04 14:48:02   Processing contig NC_089443.1 of size 4941653
+INFO     15/04 14:48:02   NC_089443.1 1/5: Running model on forward strand
+INFO     15/04 14:48:03   num_ops exceeded (125719, 1.6s) for NC_089429.1 forward strand 16928 16981 1528086:0:0.8 1529644:0:0.0
+INFO     15/04 14:48:07   NC_089439.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:48:09   NC_089444.1 5/5: Selecting best gene calls
+INFO     15/04 14:48:09   Finished processing contig NC_089444.1 in 121.29 seconds, 40559.51 bp/s
+INFO     15/04 14:48:09   Processing contig NC_089438.1 of size 5258217
+INFO     15/04 14:48:09   NC_089438.1 1/5: Running model on forward strand
+INFO     15/04 14:48:10   NC_089458.1 5/5: Selecting best gene calls
+INFO     15/04 14:48:10   num_ops exceeded (100829, 11.8s) for NC_089448.1 forward strand 7318 7405 677161:0:0.1 681763:2:0.0
+INFO     15/04 14:48:10   Finished processing contig NC_089458.1 in 94.44 seconds, 33839.76 bp/s
+INFO     15/04 14:48:10   Processing contig NC_089433.1 of size 5829432
+INFO     15/04 14:48:10   NC_089433.1 1/5: Running model on forward strand
+INFO     15/04 14:48:18   NC_089443.1 2/5: Running model on reverse strand
+INFO     15/04 14:48:21   num_ops exceeded (115396, 2.3s) for NC_089429.1 forward strand 37902 37955 3362900:0:0.8 3364458:0:0.0
+INFO     15/04 14:48:26   NC_089453.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:48:27   num_ops exceeded (115654, 9.6s) for NC_089448.1 forward strand 16187 16258 1438379:0:0.0 1440598:1:0.0
+INFO     15/04 14:48:28   NC_089438.1 2/5: Running model on reverse strand
+INFO     15/04 14:48:29   num_ops exceeded (167266, 36.9s) for NC_089434.1 forward strand 67463 67637 5680686:0:0.2 5690273:1:0.0
+INFO     15/04 14:48:31   NC_089433.1 2/5: Running model on reverse strand
+INFO     15/04 14:48:35   NC_089443.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:48:35   NC_089434.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:48:39   num_ops exceeded (119687, 6.0s) for NC_089453.1 reverse strand 3284 3360 278442:0:0.0 279817:1:0.0
+INFO     15/04 14:48:44   num_ops exceeded (100023, 2.4s) for NC_089429.1 forward strand 59900 59969 5154948:0:0.1 5157377:1:0.0
+INFO     15/04 14:48:44   num_ops exceeded (132100, 2.7s) for NC_089448.1 forward strand 40136 40228 3679186:0:0.5 3682360:3:0.0
+INFO     15/04 14:48:44   NC_089438.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:48:47   NC_089448.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:48:48   NC_089433.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:48:50   num_ops exceeded (100930, 2.2s) for NC_089434.1 reverse strand 31123 31169 2623348:0:0.2 2624091:2:0.0
+INFO     15/04 14:49:02   NC_089439.1 5/5: Selecting best gene calls
+INFO     15/04 14:49:03   Finished processing contig NC_089439.1 in 165.75 seconds, 31511.63 bp/s
+INFO     15/04 14:49:03   Processing contig NC_089457.1 of size 3301072
+INFO     15/04 14:49:03   NC_089457.1 1/5: Running model on forward strand
+INFO     15/04 14:49:04   NC_089429.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:49:07   NC_089453.1 5/5: Selecting best gene calls
+INFO     15/04 14:49:07   num_ops exceeded (110880, 17.3s) for NC_089443.1 forward strand 20332 20463 1932028:0:0.4 1940586:0:0.0
+INFO     15/04 14:49:07   Finished processing contig NC_089453.1 in 108.10 seconds, 33304.89 bp/s
+INFO     15/04 14:49:07   Processing contig NC_089452.1 of size 3618924
+INFO     15/04 14:49:07   NC_089452.1 1/5: Running model on forward strand
+INFO     15/04 14:49:12   NC_089457.1 2/5: Running model on reverse strand
+INFO     15/04 14:49:16   num_ops exceeded (120838, 8.5s) for NC_089433.1 forward strand 34391 34530 2783046:0:0.1 2788014:2:0.0
+INFO     15/04 14:49:18   NC_089452.1 2/5: Running model on reverse strand
+INFO     15/04 14:49:21   NC_089434.1 5/5: Selecting best gene calls
+INFO     15/04 14:49:21   Finished processing contig NC_089434.1 in 179.09 seconds, 31984.48 bp/s
+INFO     15/04 14:49:22   Processing contig NC_089447.1 of size 4163738
+INFO     15/04 14:49:22   NC_089447.1 1/5: Running model on forward strand
+INFO     15/04 14:49:22   num_ops exceeded (116035, 9.0s) for NC_089438.1 forward strand 43219 43325 3925259:0:0.8 3930398:3:0.0
+INFO     15/04 14:49:22   NC_089457.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:49:26   num_ops exceeded (102504, 9.4s) for NC_089443.1 forward strand 37554 37682 3284396:0:0.0 3287616:3:0.0
+INFO     15/04 14:49:27   NC_089448.1 5/5: Selecting best gene calls
+INFO     15/04 14:49:27   Finished processing contig NC_089448.1 in 124.82 seconds, 30612.36 bp/s
+INFO     15/04 14:49:27   Processing contig NC_089442.1 of size 5022217
+INFO     15/04 14:49:27   NC_089442.1 1/5: Running model on forward strand
+INFO     15/04 14:49:27   num_ops exceeded (117791, 4.1s) for NC_089457.1 forward strand 2996 3094 205970:0:0.4 210148:2:0.0
+INFO     15/04 14:49:30   NC_089452.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:49:34   NC_089447.1 2/5: Running model on reverse strand
+INFO     15/04 14:49:35   num_ops exceeded (167118, 4.3s) for NC_089438.1 forward strand 56537 56628 5174321:0:0.0 5177857:1:0.0
+INFO     15/04 14:49:40   NC_089438.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:49:43   num_ops exceeded (110548, 3.5s) for NC_089457.1 forward strand 21199 21293 1720420:0:0.7 1724088:1:0.1
+INFO     15/04 14:49:43   NC_089442.1 2/5: Running model on reverse strand
+INFO     15/04 14:49:45   NC_089433.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:49:45   NC_089443.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:49:47   NC_089447.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:49:53   num_ops exceeded (104466, 3.8s) for NC_089433.1 reverse strand 7673 7711 713813:0:0.2 715237:2:0.1
+INFO     15/04 14:49:58   NC_089442.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:49:58   NC_089452.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:50:00   num_ops exceeded (171883, 3.5s) for NC_089429.1 reverse strand 70282 70350 5884777:0:0.0 5886502:3:0.0
+INFO     15/04 14:50:02   NC_089457.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:50:02   num_ops exceeded (140085, 3.3s) for NC_089452.1 reverse strand 593 688 43404:0:0.8 46949:1:0.1
+INFO     15/04 14:50:22   num_ops exceeded (108189, 22.9s) for NC_089443.1 reverse strand 22601 22704 1896163:0:0.1 1905759:2:0.1
+INFO     15/04 14:50:22   num_ops exceeded (149595, 10.0s) for NC_089457.1 reverse strand 10051 10154 888134:0:0.4 893674:1:0.0
+INFO     15/04 14:50:22   NC_089438.1 5/5: Selecting best gene calls
+INFO     15/04 14:50:22   NC_089447.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:50:22   Finished processing contig NC_089438.1 in 133.16 seconds, 39486.57 bp/s
+INFO     15/04 14:50:22   Processing contig NC_089437.1 of size 5261823
+INFO     15/04 14:50:22   NC_089437.1 1/5: Running model on forward strand
+INFO     15/04 14:50:25   NC_089429.1 5/5: Selecting best gene calls
+INFO     15/04 14:50:25   Finished processing contig NC_089429.1 in 235.51 seconds, 33948.96 bp/s
+INFO     15/04 14:50:26   Processing contig NC_089432.1 of size 5894816
+INFO     15/04 14:50:26   NC_089432.1 1/5: Running model on forward strand
+INFO     15/04 14:50:30   NC_089452.1 5/5: Selecting best gene calls
+INFO     15/04 14:50:30   Finished processing contig NC_089452.1 in 82.84 seconds, 43685.33 bp/s
+INFO     15/04 14:50:30   Processing contig NC_089456.1 of size 3440831
+INFO     15/04 14:50:30   NC_089456.1 1/5: Running model on forward strand
+INFO     15/04 14:50:38   NC_089433.1 5/5: Selecting best gene calls
+INFO     15/04 14:50:39   Finished processing contig NC_089433.1 in 148.30 seconds, 39308.65 bp/s
+INFO     15/04 14:50:39   Processing contig NC_089451.1 of size 3722333
+INFO     15/04 14:50:39   NC_089451.1 1/5: Running model on forward strand
+INFO     15/04 14:50:39   NC_089457.1 5/5: Selecting best gene calls
+INFO     15/04 14:50:40   Finished processing contig NC_089457.1 in 96.90 seconds, 34066.93 bp/s
+INFO     15/04 14:50:40   Processing contig NC_089446.1 of size 4292371
+INFO     15/04 14:50:40   NC_089446.1 1/5: Running model on forward strand
+INFO     15/04 14:50:41   NC_089437.1 2/5: Running model on reverse strand
+INFO     15/04 14:50:43   NC_089443.1 5/5: Selecting best gene calls
+INFO     15/04 14:50:43   Finished processing contig NC_089443.1 in 161.78 seconds, 30544.83 bp/s
+INFO     15/04 14:50:44   Processing contig NC_089441.1 of size 5085394
+INFO     15/04 14:50:44   NC_089441.1 1/5: Running model on forward strand
+INFO     15/04 14:50:45   NC_089456.1 2/5: Running model on reverse strand
+INFO     15/04 14:50:50   NC_089432.1 2/5: Running model on reverse strand
+INFO     15/04 14:50:57   NC_089451.1 2/5: Running model on reverse strand
+INFO     15/04 14:51:00   NC_089446.1 2/5: Running model on reverse strand
+INFO     15/04 14:51:01   NC_089456.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:51:07   NC_089437.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:51:07   NC_089441.1 2/5: Running model on reverse strand
+INFO     15/04 14:51:09   num_ops exceeded (108732, 37.7s) for NC_089447.1 reverse strand 14865 15067 1235051:0:0.8 1249092:1:0.0
+INFO     15/04 14:51:12   NC_089451.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:51:15   num_ops exceeded (118765, 24.0s) for NC_089442.1 forward strand 45850 45981 4054022:0:0.3 4063129:0:0.8
+INFO     15/04 14:51:15   NC_089432.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:51:17   NC_089446.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:51:20   num_ops exceeded (112819, 0.9s) for NC_089442.1 forward strand 56228 56274 4912148:0:0.8 4913826:0:0.0
+INFO     15/04 14:51:23   NC_089441.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:51:23   num_ops exceeded (165264, 4.9s) for NC_089456.1 forward strand 24624 24672 2071706:0:0.0 2072823:3:0.0
+INFO     15/04 14:51:24   num_ops exceeded (135386, 13.0s) for NC_089447.1 reverse strand 16907 16983 1426284:0:0.0 1430430:1:0.0
+INFO     15/04 14:51:24   NC_089442.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:51:27   num_ops exceeded (104934, 1.9s) for NC_089451.1 forward strand 20152 20208 1675924:0:0.0 1676720:2:0.0
+INFO     15/04 14:51:29   NC_089456.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:51:34   num_ops exceeded (116124, 6.3s) for NC_089442.1 reverse strand 9061 9179 753354:0:0.0 757821:0:0.1
+INFO     15/04 14:51:36   num_ops exceeded (149831, 3.9s) for NC_089446.1 forward strand 17184 17264 1500786:0:0.0 1503768:2:0.0
+INFO     15/04 14:51:39   num_ops exceeded (100172, 6.0s) for NC_089456.1 reverse strand 6633 6668 502202:0:0.3 503472:0:0.8
+INFO     15/04 14:51:43   num_ops exceeded (104344, 1.9s) for NC_089432.1 forward strand 46500 46611 4271029:0:0.5 4274020:2:0.1
+INFO     15/04 14:51:46   NC_089447.1 5/5: Selecting best gene calls
+INFO     15/04 14:51:46   Finished processing contig NC_089447.1 in 144.58 seconds, 28799.82 bp/s
+INFO     15/04 14:51:46   Processing contig NC_089436.1 of size 5296510
+INFO     15/04 14:51:46   NC_089436.1 1/5: Running model on forward strand
+INFO     15/04 14:51:47   NC_089451.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:51:51   NC_089441.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:51:54   num_ops exceeded (167739, 3.8s) for NC_089446.1 forward strand 21046 21119 1779609:0:0.0 1782309:2:0.0
+INFO     15/04 14:51:56   NC_089456.1 5/5: Selecting best gene calls
+INFO     15/04 14:51:56   Finished processing contig NC_089456.1 in 85.89 seconds, 40058.83 bp/s
+INFO     15/04 14:51:56   Processing contig NC_089431.1 of size 5914919
+INFO     15/04 14:51:56   NC_089431.1 1/5: Running model on forward strand
+INFO     15/04 14:51:58   NC_089432.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:52:02   NC_089436.1 2/5: Running model on reverse strand
+INFO     15/04 14:52:07   num_ops exceeded (100801, 1.4s) for NC_089432.1 reverse strand 10238 10290 951264:0:0.8 952768:0:0.0
+INFO     15/04 14:52:09   num_ops exceeded (103009, 24.7s) for NC_089442.1 reverse strand 12171 12321 940949:0:0.0 950670:1:0.0
+INFO     15/04 14:52:12   NC_089451.1 5/5: Selecting best gene calls
+INFO     15/04 14:52:13   Finished processing contig NC_089451.1 in 93.95 seconds, 39620.92 bp/s
+INFO     15/04 14:52:14   NC_089446.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:52:15   NC_089431.1 2/5: Running model on reverse strand
+INFO     15/04 14:52:18   NC_089436.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:52:20   NC_089437.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:52:32   NC_089431.1 3/5: Building gene calls on forward strand
+INFO     15/04 14:52:34   NC_089441.1 5/5: Selecting best gene calls
+INFO     15/04 14:52:34   Finished processing contig NC_089441.1 in 110.37 seconds, 46077.22 bp/s
+INFO     15/04 14:52:35   num_ops exceeded (113357, 3.3s) for NC_089437.1 reverse strand 15050 15171 1246872:0:0.1 1250259:2:0.0
+INFO     15/04 14:52:38   NC_089442.1 5/5: Selecting best gene calls
+INFO     15/04 14:52:38   Finished processing contig NC_089442.1 in 190.61 seconds, 26347.51 bp/s
+INFO     15/04 14:52:41   NC_089432.1 5/5: Selecting best gene calls
+INFO     15/04 14:52:41   Finished processing contig NC_089432.1 in 135.13 seconds, 43623.92 bp/s
+INFO     15/04 14:52:42   NC_089446.1 5/5: Selecting best gene calls
+INFO     15/04 14:52:42   Finished processing contig NC_089446.1 in 122.67 seconds, 34991.31 bp/s
+INFO     15/04 14:52:46   NC_089436.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:52:57   num_ops exceeded (137225, 2.9s) for NC_089437.1 reverse strand 32224 32387 2710917:0:0.3 2715788:2:0.2
+INFO     15/04 14:53:10   num_ops exceeded (176958, 2.9s) for NC_089436.1 reverse strand 33890 33975 3134770:0:0.3 3137634:0:0.0
+INFO     15/04 14:53:10   NC_089437.1 5/5: Selecting best gene calls
+INFO     15/04 14:53:11   Finished processing contig NC_089437.1 in 168.27 seconds, 31270.80 bp/s
+INFO     15/04 14:53:23   num_ops exceeded (104627, 22.6s) for NC_089431.1 forward strand 34025 34197 3044491:0:0.9 3058002:1:0.0
+INFO     15/04 14:53:26   NC_089436.1 5/5: Selecting best gene calls
+INFO     15/04 14:53:26   Finished processing contig NC_089436.1 in 99.81 seconds, 53065.51 bp/s
+INFO     15/04 14:53:46   num_ops exceeded (185468, 13.7s) for NC_089431.1 forward strand 61113 61292 5756242:0:0.8 5764413:2:0.0
+INFO     15/04 14:53:50   NC_089431.1 4/5: Building gene calls on reverse strand
+INFO     15/04 14:54:39   NC_089431.1 5/5: Selecting best gene calls
+INFO     15/04 14:54:40   Finished processing contig NC_089431.1 in 163.51 seconds, 36173.74 bp/s
+INFO     15/04 14:54:40   Finished processing all contigs
+INFO     15/04 14:54:40   Filtering gene calls by dynamic threshold
+INFO     15/04 14:54:41   Dynamic threshold calculated: 0.46 (based on 87052 gene loci)
+INFO     15/04 14:54:41   Total predicted transcripts: 59134
+INFO     15/04 14:54:41   Total predicted genes: 43933 (1.35 transcripts per gene)
+INFO     15/04 14:54:41   Average gene score: 0.752
+INFO     15/04 14:54:41   Writing gene predictions to geneml_scores/GCF_026210795.1.gff3
+INFO     15/04 14:54:43   Finished processing benchmarking_dataset/GCF_026210795.1/chromosomes.fna, 146.8MB, in 11.89 minutes

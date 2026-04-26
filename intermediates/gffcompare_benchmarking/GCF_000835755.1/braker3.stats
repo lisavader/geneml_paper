@@ -1,0 +1,30 @@
+# gffcompare v0.12.10 | Command line was:
+#gffcompare -r benchmarking_dataset/GCF_000835755.1/chromosomes_simplified.gff new_results/braker3/GCF_000835755.1.gff3 -T --no-exon-merge --strict-match -e 0
+#
+
+#= Summary for dataset: new_results/braker3/GCF_000835755.1.gff3 
+#     Query mRNAs :    7095 in    6363 loci  (6784 multi-exon transcripts)
+#            (665 multi-transcript loci, ~1.1 transcripts per locus)
+# Reference mRNAs :    6646 in    6646 loci  (6477 multi-exon)
+# Super-loci w/ reference transcripts:     6178
+#-----------------| Sensitivity | Precision  |
+        Base level:    96.9     |    97.6    |
+        Exon level:    86.7     |    90.5    |
+      Intron level:    89.3     |    94.5    |
+Intron chain level:    68.9     |    65.7    |
+  Transcript level:    66.0     |    61.8    |
+       Locus level:    66.0     |    68.9    |
+
+     Matching intron chains:    4460
+       Matching transcripts:    4386
+              Matching loci:    4386
+
+          Missed exons:    2810/42885	(  6.6%)
+           Novel exons:     582/41069	(  1.4%)
+        Missed introns:    2700/36239	(  7.5%)
+         Novel introns:     571/34237	(  1.7%)
+           Missed loci:     403/6646	(  6.1%)
+            Novel loci:     147/6363	(  2.3%)
+
+ Total union super-loci across all input datasets: 6325 
+7095 out of 7095 consensus transcripts written in gffcmp.annotated.gtf (0 discarded as redundant)
