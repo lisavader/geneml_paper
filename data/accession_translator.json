@@ -1,11 +1,11 @@
 {
-    "GCF_009017415.1" : "Aspergillus flavus",
-    "GCF_000143535.2" : "Botrytis cinerea",
-    "GCF_033473495.1" : "Cercospora beticola",
-    "GCF_000240135.3" : "Fusarium graminearum",
-    "GCF_000146045.2" : "Saccharomyces cerevisiae",
-    "GCF_000835755.1" : "Cryptococcus tetragattii",
-    "GCF_021901695.1" : "Puccinia striiformis",
-    "GCA_964035595.1" : "Somion occarium",
-    "GCF_026210795.1" : "Rhizophagus irregularis"
+    "GCF_009017415.1" : "A. flavus",
+    "GCF_000143535.2" : "B. cinerea",
+    "GCF_033473495.1" : "C. beticola",
+    "GCF_000240135.3" : "F. graminearum",
+    "GCF_000146045.2" : "S. cerevisiae",
+    "GCF_000835755.1" : "C. tetragattii",
+    "GCF_021901695.1" : "P. striiformis",
+    "GCA_964035595.1" : "S. occarium",
+    "GCF_026210795.1" : "R. irregularis"
 }
