@@ -31,6 +31,7 @@ def main():
     parser.add_argument("output", help="Output GFF3 file")
     parser.add_argument("--accession", default=None,
                         help="NCBI assembly accession for header (optional)")
+    parser.add_argument("--filter-mRNA", help="String to filter mRNA features (optional)")
     args = parser.parse_args()
 
     genes = {}                        # gene_id -> list of 9 columns
@@ -56,6 +57,8 @@ def main():
                     genes[gid] = cols
 
             elif ftype == "mRNA":
+                if args.filter_mRNA and args.filter_mRNA not in cols[8]:
+                    continue
                 mid    = attrs.get("ID", "")
                 parent = attrs.get("Parent", "").split(",")[0]
                 if mid:
