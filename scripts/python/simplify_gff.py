@@ -10,17 +10,26 @@ Usage:
 """
 
 import argparse
+import re
 from collections import defaultdict
 
 
-def parse_attributes(attr_string):
+def parse_attributes(attr_string, gtf=False):
     attrs = {}
-    for part in attr_string.strip().rstrip(";").split(";"):
-        part = part.strip()
-        if "=" in part:
-            key, _, value = part.partition("=")
+    if gtf:
+        for key, value in re.findall(r'(\S+)\s+"([^"]+)"', attr_string):
             attrs[key.strip()] = value.strip()
+    else:
+        for part in attr_string.strip().rstrip(";").split(";"):
+            part = part.strip()
+            if "=" in part:
+                key, _, value = part.partition("=")
+                attrs[key.strip()] = value.strip()
     return attrs
+
+
+def format_gff3_attributes(attrs):
+    return ";".join(f"{key}={value}" for key, value in attrs.items()) + ";"
 
 
 def main():
@@ -32,6 +41,8 @@ def main():
     parser.add_argument("--accession", default=None,
                         help="NCBI assembly accession for header (optional)")
     parser.add_argument("--filter-mRNA", help="String to filter mRNA features (optional)")
+    parser.add_argument("--gtf", action="store_true",
+                        help="Parse input as GTF instead of GFF3")
     args = parser.parse_args()
 
     genes = {}                        # gene_id -> list of 9 columns
@@ -49,29 +60,67 @@ def main():
             if len(cols) != 9:
                 continue
             ftype = cols[2]
-            attrs = parse_attributes(cols[8])
+            attrs = parse_attributes(cols[8], gtf=args.gtf)
 
             if ftype == "gene":
-                gid = attrs.get("ID", "")
+                gid = attrs.get("gene_id", "") if args.gtf else attrs.get("ID", "")
                 if gid:
-                    genes[gid] = cols
+                    if args.gtf:
+                        gene_cols = cols[:]
+                        gene_attrs = {"ID": gid}
+                        for key, value in attrs.items():
+                            if key != "gene_id":
+                                gene_attrs[key] = value
+                        gene_cols[8] = format_gff3_attributes(gene_attrs)
+                        genes[gid] = gene_cols
+                    else:
+                        genes[gid] = cols
 
-            elif ftype == "mRNA":
+            elif ftype == ("transcript" if args.gtf else "mRNA"):
                 if args.filter_mRNA and args.filter_mRNA not in cols[8]:
                     continue
-                mid    = attrs.get("ID", "")
-                parent = attrs.get("Parent", "").split(",")[0]
+                mid = attrs.get("transcript_id", "") if args.gtf else attrs.get("ID", "")
+                parent = (
+                    attrs.get("gene_id", "")
+                    if args.gtf
+                    else attrs.get("Parent", "")
+                ).split(",")[0]
                 if mid:
-                    mrnas[mid] = cols
+                    if args.gtf:
+                        mrna_cols = cols[:]
+                        mrna_cols[2] = "mRNA"
+                        mrna_attrs = {"ID": mid}
+                        if parent:
+                            mrna_attrs["Parent"] = parent
+                        for key, value in attrs.items():
+                            if key not in {"gene_id", "transcript_id"}:
+                                mrna_attrs[key] = value
+                        mrna_cols[8] = format_gff3_attributes(mrna_attrs)
+                        mrnas[mid] = mrna_cols
+                    else:
+                        mrnas[mid] = cols
                     if parent:
                         mrnas_by_gene[parent].append(mid)
                     else:
                         orphan_mrnas.append(mid)
 
             elif ftype == "CDS":
-                parent = attrs.get("Parent", "").split(",")[0]
+                parent = (
+                    attrs.get("transcript_id", "")
+                    if args.gtf
+                    else attrs.get("Parent", "")
+                ).split(",")[0]
                 if parent:
-                    cds_by_mrna[parent].append(cols)
+                    if args.gtf:
+                        cds_cols = cols[:]
+                        cds_attrs = {"Parent": parent}
+                        for key, value in attrs.items():
+                            if key != "Parent":
+                                cds_attrs[key] = value
+                        cds_cols[8] = format_gff3_attributes(cds_attrs)
+                        cds_by_mrna[parent].append(cds_cols)
+                    else:
+                        cds_by_mrna[parent].append(cols)
 
     def cds_extent(mrna_id):
         """Return (min_start, max_end) across all CDS of an mRNA, or None."""
