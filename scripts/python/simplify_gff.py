@@ -10,6 +10,7 @@ Usage:
 """
 
 import argparse
+import json
 import re
 from collections import defaultdict
 
@@ -43,7 +44,16 @@ def main():
     parser.add_argument("--filter-mRNA", help="String to filter mRNA features (optional)")
     parser.add_argument("--gtf", action="store_true",
                         help="Parse input as GTF instead of GFF3")
+    parser.add_argument("--contig-map", default=None,
+                        help="JSON file mapping old contig IDs to new contig IDs")
     args = parser.parse_args()
+
+    contig_map = {}
+    if args.contig_map:
+        with open(args.contig_map) as fh:
+            contig_map = json.load(fh)
+        if not isinstance(contig_map, dict):
+            raise SystemExit("--contig-map must be a JSON object mapping contig IDs")
 
     genes = {}                        # gene_id -> list of 9 columns
     mrnas = {}                        # mrna_id -> list of 9 columns
@@ -59,6 +69,11 @@ def main():
             cols = line.rstrip("\n").split("\t")
             if len(cols) != 9:
                 continue
+            if contig_map:
+                old_contig = cols[0]
+                if old_contig not in contig_map:
+                    raise SystemExit(f"Contig '{old_contig}' not found in mapping")
+                cols[0] = contig_map[old_contig]
             ftype = cols[2]
             attrs = parse_attributes(cols[8], gtf=args.gtf)
 
