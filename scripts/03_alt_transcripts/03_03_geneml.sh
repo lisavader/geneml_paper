@@ -1,4 +1,6 @@
 #!/bin/bash
 
 # Run geneML
-geneml isoseq_data/Genome-sequence.fasta/PH-1_YL1.fasta -o isoseq_data/PH-1_YL1_geneml.gff3 -c8
+for genome in alt_transcript_data/*/*.fna; do
+    geneml $genome -o $(dirname $genome)/geneml.gff3 -c8;
+done

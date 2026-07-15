@@ -1,0 +1,30 @@
+# gffcompare v0.12.10 | Command line was:
+#gffcompare -r alt_transcript_data/F_graminearum/simplified_annotation.gff3 alt_transcript_data/F_graminearum/augustus.gff3 -T --no-exon-merge --strict-match -e 0
+#
+
+#= Summary for dataset: alt_transcript_data/F_graminearum/augustus.gff3 
+#     Query mRNAs :   18980 in   11516 loci  (16044 multi-exon transcripts)
+#            (3612 multi-transcript loci, ~1.6 transcripts per locus)
+# Reference mRNAs :   28555 in   18120 loci  (17484 multi-exon)
+# Super-loci w/ reference transcripts:    11447
+#-----------------| Sensitivity | Precision  |
+        Base level:    89.6     |    97.6    |
+        Exon level:    54.8     |    69.4    |
+      Intron level:    74.7     |    71.5    |
+Intron chain level:    43.8     |    47.7    |
+  Transcript level:    32.5     |    48.9    |
+       Locus level:    50.5     |    77.9    |
+
+     Matching intron chains:    7661
+       Matching transcripts:    9284
+              Matching loci:    9153
+
+          Missed exons:    9490/53874	( 17.6%)
+           Novel exons:    2505/42533	(  5.9%)
+        Missed introns:    4437/26350	( 16.8%)
+         Novel introns:    4361/27524	( 15.8%)
+           Missed loci:    5897/18120	( 32.5%)
+            Novel loci:      48/11516	(  0.4%)
+
+ Total union super-loci across all input datasets: 11495 
+18980 out of 18980 consensus transcripts written in gffcmp.annotated.gtf (0 discarded as redundant)
