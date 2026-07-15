@@ -208,10 +208,14 @@ def main():
         return min(starts), max(ends)
 
     def cds_signature(mrna_id):
-        """(start, end, strand) of the CDS extent for duplicate detection."""
         cds = adjusted_cds_rows(mrna_id)
-        strand = cds[0][6] if cds else "."
-        return (min(int(c[3]) for c in cds), max(int(c[4]) for c in cds), strand)
+        if not cds:
+            return None
+
+        return (
+            cds[0][6],  # strand
+            tuple((int(c[3]), int(c[4])) for c in cds)
+        )
 
     def write_mrna_block(out, mrna_id, seen_signatures):
         """Write mRNA + CDS lines, trimmed to CDS extent. Returns True if written."""
