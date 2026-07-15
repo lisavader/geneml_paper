@@ -58,6 +58,8 @@ def main():
     genes = {}                        # gene_id -> list of 9 columns
     mrnas = {}                        # mrna_id -> list of 9 columns
     cds_by_mrna = defaultdict(list)   # mrna_id -> [cols, ...]
+    start_codons_by_mrna = defaultdict(list) # mrna_id -> [cols, ...]
+    stop_codons_by_mrna = defaultdict(list)   # mrna_id -> [cols, ...]
     mrnas_by_gene = defaultdict(list) # gene_id -> [mrna_id, ...]
     orphan_mrnas = []                 # mrna_ids with no gene parent
 
@@ -137,9 +139,68 @@ def main():
                     else:
                         cds_by_mrna[parent].append(cols)
 
-    def cds_extent(mrna_id):
-        """Return (min_start, max_end) across all CDS of an mRNA, or None."""
+            elif ftype == "start_codon":
+                parent = (
+                    attrs.get("transcript_id", "")
+                    if args.gtf
+                    else attrs.get("Parent", "")
+                ).split(",")[0]
+                if parent:
+                    start_codons_by_mrna[parent].append(cols)
+
+            elif ftype == "stop_codon":
+                parent = (
+                    attrs.get("transcript_id", "")
+                    if args.gtf
+                    else attrs.get("Parent", "")
+                ).split(",")[0]
+                if parent:
+                    stop_codons_by_mrna[parent].append(cols)
+
+    def adjusted_cds_rows(mrna_id):
+        """Return CDS rows in original GFF order with start/stop codons merged into the ends."""
         cds = cds_by_mrna.get(mrna_id, [])
+        if not cds:
+            return []
+
+        strand = cds[0][6]
+
+        # Preserve original GFF order
+        merged = [row[:] for row in cds]
+
+        # Identify transcript first/last CDS without reordering
+        if strand == "-":
+            first = max(merged, key=lambda c: int(c[4]))  # highest genomic end
+            last  = min(merged, key=lambda c: int(c[3]))  # lowest genomic start
+        else:
+            first = min(merged, key=lambda c: int(c[3]))  # lowest genomic start
+            last  = max(merged, key=lambda c: int(c[4]))  # highest genomic end
+
+        # Merge start codon into first CDS
+        if start_codons_by_mrna.get(mrna_id):
+            start_start = min(int(c[3]) for c in start_codons_by_mrna[mrna_id])
+            start_end = max(int(c[4]) for c in start_codons_by_mrna[mrna_id])
+
+            if strand == "-":
+                first[4] = str(max(int(first[4]), start_end))
+            else:
+                first[3] = str(min(int(first[3]), start_start))
+
+        # Merge stop codon into last CDS
+        if stop_codons_by_mrna.get(mrna_id):
+            stop_start = min(int(c[3]) for c in stop_codons_by_mrna[mrna_id])
+            stop_end = max(int(c[4]) for c in stop_codons_by_mrna[mrna_id])
+
+            if strand == "-":
+                last[3] = str(min(int(last[3]), stop_start))
+            else:
+                last[4] = str(max(int(last[4]), stop_end))
+
+        return merged
+
+    def cds_extent(mrna_id):
+        """Return (min_start, max_end) across merged CDS rows of an mRNA, or None."""
+        cds = adjusted_cds_rows(mrna_id)
         if not cds:
             return None
         starts = [int(c[3]) for c in cds]
@@ -148,7 +209,7 @@ def main():
 
     def cds_signature(mrna_id):
         """(start, end, strand) of the CDS extent for duplicate detection."""
-        cds = cds_by_mrna.get(mrna_id, [])
+        cds = adjusted_cds_rows(mrna_id)
         strand = cds[0][6] if cds else "."
         return (min(int(c[3]) for c in cds), max(int(c[4]) for c in cds), strand)
 
@@ -166,7 +227,7 @@ def main():
         mrna_cols[3] = str(extent[0])
         mrna_cols[4] = str(extent[1])
         out.write("\t".join(mrna_cols) + "\n")
-        for cds_cols in cds_by_mrna[mrna_id]:
+        for cds_cols in adjusted_cds_rows(mrna_id):
             out.write("\t".join(cds_cols) + "\n")
         return True
 
