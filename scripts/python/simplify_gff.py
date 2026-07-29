@@ -46,6 +46,8 @@ def main():
                         help="Parse input as GTF instead of GFF3")
     parser.add_argument("--contig-map", default=None,
                         help="JSON file mapping old contig IDs to new contig IDs")
+    parser.add_argument("--split-gene-ids", action="store_true",
+                        help="Split gene_id values on '.' and use first part only (for GTF)")
     args = parser.parse_args()
 
     contig_map = {}
@@ -82,6 +84,8 @@ def main():
             if ftype == "gene":
                 gid = attrs.get("gene_id", "") if args.gtf else attrs.get("ID", "")
                 if gid:
+                    if args.split_gene_ids:
+                        gid = gid.split(".")[0]
                     if args.gtf:
                         gene_cols = cols[:]
                         gene_attrs = {"ID": gid}
@@ -108,6 +112,8 @@ def main():
                         mrna_cols[2] = "mRNA"
                         mrna_attrs = {"ID": mid}
                         if parent:
+                            if args.split_gene_ids:
+                                parent = parent.split(".")[0]
                             mrna_attrs["Parent"] = parent
                         for key, value in attrs.items():
                             if key not in {"gene_id", "transcript_id"}:
