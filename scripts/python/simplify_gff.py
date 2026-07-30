@@ -48,6 +48,8 @@ def main():
                         help="JSON file mapping old contig IDs to new contig IDs")
     parser.add_argument("--split-gene-ids", action="store_true",
                         help="Split gene_id values on '.' and use first part only (for GTF)")
+    parser.add_argument("--write-transcript-counts",
+                        help="File to write the number of transcripts per locus (optional)")
     args = parser.parse_args()
 
     contig_map = {}
@@ -64,6 +66,8 @@ def main():
     stop_codons_by_mrna = defaultdict(list)   # mrna_id -> [cols, ...]
     mrnas_by_gene = defaultdict(list) # gene_id -> [mrna_id, ...]
     orphan_mrnas = []                 # mrna_ids with no gene parent
+
+    transcript_counts = defaultdict(int)  # transcript_number -> count of loci with that many transcripts
 
     # ---- Parse -------------------------------------------------------
     with open(args.input) as fh:
@@ -101,31 +105,33 @@ def main():
                 if args.filter_mRNA and args.filter_mRNA not in cols[8]:
                     continue
                 mid = attrs.get("transcript_id", "") if args.gtf else attrs.get("ID", "")
-                parent = (
-                    attrs.get("gene_id", "")
-                    if args.gtf
-                    else attrs.get("Parent", "")
-                ).split(",")[0]
+                parent = attrs.get("Parent")
+                if not parent:
+                    parent = attrs.get("gene_id")
+                parent = parent.split(",")[0] if parent else None
+
                 if mid:
+                    mrna_cols = cols[:]
+
                     if args.gtf:
-                        mrna_cols = cols[:]
                         mrna_cols[2] = "mRNA"
                         mrna_attrs = {"ID": mid}
-                        if parent:
-                            if args.split_gene_ids:
-                                parent = parent.split(".")[0]
-                            mrna_attrs["Parent"] = parent
                         for key, value in attrs.items():
                             if key not in {"gene_id", "transcript_id"}:
                                 mrna_attrs[key] = value
-                        mrna_cols[8] = format_gff3_attributes(mrna_attrs)
-                        mrnas[mid] = mrna_cols
                     else:
-                        mrnas[mid] = cols
+                        mrna_attrs = attrs
+
                     if parent:
+                        if args.split_gene_ids:
+                            parent = parent.split(".")[0]
+                        mrna_attrs["Parent"] = parent
                         mrnas_by_gene[parent].append(mid)
                     else:
                         orphan_mrnas.append(mid)
+
+                    mrna_cols[8] = format_gff3_attributes(mrna_attrs)
+                    mrnas[mid] = mrna_cols
 
             elif ftype == "CDS":
                 parent = (
@@ -265,13 +271,27 @@ def main():
                 gene_cols[4] = str(max(e[1] for e in extents))
                 out.write("\t".join(gene_cols) + "\n")
 
+            unique_mrna_count = 0
             for mrna_id in mrna_ids:
-                write_mrna_block(out, mrna_id, seen_signatures)
+                written = write_mrna_block(out, mrna_id, seen_signatures)
+                if args.write_transcript_counts and written:
+                    unique_mrna_count += 1
+
+            if args.write_transcript_counts and unique_mrna_count > 0:
+                transcript_counts[unique_mrna_count] += 1
 
         # Orphan mRNAs (no gene parent)
         for mrna_id in orphan_mrnas:
-            write_mrna_block(out, mrna_id, seen_signatures)
+            written = write_mrna_block(out, mrna_id, seen_signatures)
+            if args.write_transcript_counts and written:
+                transcript_counts[1] += 1
 
+    # Write transcript counts per locus if requested
+    if args.write_transcript_counts:
+        with open(args.write_transcript_counts, "w") as out:
+            out.write("Transcripts_per_locus\tCount\n")
+            for transcript_count, locus_count in sorted(transcript_counts.items()):
+                out.write(f"{transcript_count}\t{locus_count}\n")
 
 if __name__ == "__main__":
     main()
